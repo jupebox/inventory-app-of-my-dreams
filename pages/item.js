@@ -1,5 +1,5 @@
 import Product from "../components/product";
-import { getProduct } from "../services/inventoryService";
+import { getProduct, getSet } from "../services/inventoryService";
 import Link from "next/link";
 
 const Item = product => (
@@ -21,8 +21,8 @@ const Item = product => (
 );
 
 Item.getInitialProps = function({ query }) {
-  const { design } = query;
-  return getProduct(design);
+  const { id } = query;
+  return getProduct(id) || getSet(id);
 };
 
 export default Item;

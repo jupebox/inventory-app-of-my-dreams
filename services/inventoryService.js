@@ -1,6 +1,6 @@
 const products = [
   {
-    design: "kirby_adventure_vv",
+    id: "kirby_adventure_vv",
     type: "design",
     medium: "print",
     title: "Vegetable Valley",
@@ -13,7 +13,7 @@ const products = [
     children: [1]
   },
   {
-    design: "kirby_adventure_ii",
+    id: "kirby_adventure_ii",
     type: "design",
     medium: "print",
     title: "Ice Cream Island",
@@ -26,7 +26,7 @@ const products = [
     children: [2]
   },
   {
-    design: "kirby_adventure_bb",
+    id: "kirby_adventure_bb",
     type: "design",
     medium: "print",
     title: "Butter Building",
@@ -39,7 +39,7 @@ const products = [
     children: [3]
   },
   {
-    design: "kirby_adventure_gg",
+    id: "kirby_adventure_gg",
     type: "design",
     medium: "print",
     title: "Grape Garden",
@@ -52,7 +52,7 @@ const products = [
     children: [4]
   },
   {
-    design: "kirby_adventure_yy",
+    id: "kirby_adventure_yy",
     type: "design",
     medium: "print",
     title: "Yogurt Yard",
@@ -65,7 +65,7 @@ const products = [
     children: [5]
   },
   {
-    design: "kirby_adventure_oo",
+    id: "kirby_adventure_oo",
     type: "design",
     medium: "print",
     title: "Orange Ocean",
@@ -78,7 +78,7 @@ const products = [
     children: [6]
   },
   {
-    design: "kirby_adventure_rr",
+    id: "kirby_adventure_rr",
     type: "design",
     medium: "print",
     title: "Rainbow Resort",
@@ -91,7 +91,7 @@ const products = [
     children: [7]
   },
   {
-    design: "kirby_adventure_fod",
+    id: "kirby_adventure_fod",
     type: "design",
     medium: "print",
     title: "Fountain of Dreams",
@@ -104,7 +104,7 @@ const products = [
     children: [8, 9, 10, 11, 12, 13]
   },
   {
-    design: "smash_ladies_villager",
+    id: "smash_ladies_villager",
     type: "design",
     medium: "print",
     title: "Smash - Villager",
@@ -117,7 +117,7 @@ const products = [
     children: [14, 15]
   },
   {
-    design: "smash_ladies_wii_fit",
+    id: "smash_ladies_wii_fit",
     type: "design",
     medium: "print",
     title: "Smash - Wii Fit Trainer",
@@ -130,7 +130,7 @@ const products = [
     children: [16, 17]
   },
   {
-    design: "smash_ladies_zelda",
+    id: "smash_ladies_zelda",
     type: "design",
     medium: "print",
     title: "Smash - Princess Zelda",
@@ -143,7 +143,7 @@ const products = [
     children: [18, 19]
   },
   {
-    design: "smash_ladies_sheik",
+    id: "smash_ladies_sheik",
     type: "design",
     medium: "print",
     title: "Smash - Sheik",
@@ -156,7 +156,7 @@ const products = [
     children: [20, 21]
   },
   {
-    design: "smash_ladies_palutena",
+    id: "smash_ladies_palutena",
     type: "design",
     medium: "print",
     title: "Smash - Palutena",
@@ -169,7 +169,7 @@ const products = [
     children: [22, 23]
   },
   {
-    design: "smash_ladies_samus",
+    id: "smash_ladies_samus",
     type: "design",
     medium: "print",
     title: "Smash - Samus",
@@ -182,7 +182,7 @@ const products = [
     children: [24, 25]
   },
   {
-    design: "smash_ladies_jigglypuff",
+    id: "smash_ladies_jigglypuff",
     type: "design",
     medium: "print",
     title: "Smash - Jigglypuff",
@@ -195,7 +195,7 @@ const products = [
     children: [26, 27]
   },
   {
-    design: "smash_ladies_wendy",
+    id: "smash_ladies_wendy",
     type: "design",
     medium: "print",
     title: "Smash - Wendy Koopa",
@@ -208,7 +208,7 @@ const products = [
     children: [28, 29]
   },
   {
-    design: "smash_ladies_peach",
+    id: "smash_ladies_peach",
     type: "design",
     medium: "print",
     title: "Smash - Princess Peach",
@@ -221,7 +221,7 @@ const products = [
     children: [30, 31]
   },
   {
-    design: "smash_ladies_rosalina",
+    id: "smash_ladies_rosalina",
     type: "design",
     medium: "print",
     title: "Smash - Princess Rosalina",
@@ -234,7 +234,7 @@ const products = [
     children: [32, 33]
   },
   {
-    design: "smash_ladies_bayonetta",
+    id: "smash_ladies_bayonetta",
     type: "design",
     medium: "print",
     title: "Smash - Bayonetta",
@@ -247,7 +247,7 @@ const products = [
     children: [34, 35]
   },
   {
-    design: "smash_ladies_corrin",
+    id: "smash_ladies_corrin",
     type: "design",
     medium: "print",
     title: "Smash - Corrin",
@@ -260,7 +260,7 @@ const products = [
     children: [36, 37]
   },
   {
-    design: "smash_ladies_lucina",
+    id: "smash_ladies_lucina",
     type: "design",
     medium: "print",
     title: "Smash - Lucina",
@@ -273,7 +273,7 @@ const products = [
     children: [38, 39]
   },
   {
-    design: "smash_ladies_robin",
+    id: "smash_ladies_robin",
     type: "design",
     medium: "print",
     title: "Smash - Robin",
@@ -286,7 +286,7 @@ const products = [
     children: [40, 41]
   },
   {
-    design: "kirby_parasol",
+    id: "kirby_parasol",
     type: "design",
     medium: "print",
     title: "Kirby - Paraluna",
@@ -299,7 +299,7 @@ const products = [
     children: [42, 43, 44, 45, 46]
   },
   {
-    design: "kirby_wispy_woods",
+    id: "kirby_wispy_woods",
     type: "design",
     medium: "print",
     title: "Kirby - Wispy Woods",
@@ -312,7 +312,7 @@ const products = [
     children: [47, 48]
   },
   {
-    design: "kirby_crystal_shards",
+    id: "kirby_crystal_shards",
     type: "design",
     medium: "print",
     title: "Kirby - Crystal Shards Powers",
@@ -325,7 +325,7 @@ const products = [
     children: [49, 50]
   },
   {
-    design: "mario_rosalina",
+    id: "mario_rosalina",
     type: "design",
     medium: "print",
     title: "Mario - Casual Rosalina",
@@ -338,7 +338,7 @@ const products = [
     children: [51]
   },
   {
-    design: "mario_geno",
+    id: "mario_geno",
     type: "design",
     medium: "print",
     title: "Mario - Geno",
@@ -350,7 +350,7 @@ const products = [
     children: [52, 53]
   },
   {
-    design: "mario_birds",
+    id: "mario_birds",
     type: "design",
     medium: "print",
     title: "Mario - Birdwatching",
@@ -362,7 +362,7 @@ const products = [
     children: [54, 55, 56]
   },
   {
-    design: "mario_paper_battle",
+    id: "mario_paper_battle",
     type: "design",
     medium: "print",
     title: "Paper Mario - Boss Rush",
@@ -374,7 +374,7 @@ const products = [
     children: [57, 58, 59]
   },
   {
-    design: "mario_paper_luigi",
+    id: "mario_paper_luigi",
     type: "design",
     medium: "print",
     title: "Paper Mario - Luigi Parade",
@@ -386,7 +386,7 @@ const products = [
     children: [60, 61, 62]
   },
   {
-    design: "mario_paper_peach",
+    id: "mario_paper_peach",
     type: "design",
     medium: "print",
     title: "Paper Mario - A Piece of Cake",
@@ -398,7 +398,7 @@ const products = [
     children: [63, 64]
   },
   {
-    design: "pokemon_sweets_cakepops",
+    id: "pokemon_sweets_cakepops",
     type: "design",
     medium: "print",
     title: "Pokemon Sweets - Pokeball Cakepops",
@@ -410,7 +410,7 @@ const products = [
     children: [67, 68]
   },
   {
-    design: "pokemon_sweets_pumpkaboo",
+    id: "pokemon_sweets_pumpkaboo",
     type: "design",
     medium: "print",
     title: "Pokemon Sweets - Pumpkaboo Cupcakes",
@@ -422,7 +422,7 @@ const products = [
     children: [65, 66]
   },
   {
-    design: "pokemon_sweets_slurpuff",
+    id: "pokemon_sweets_slurpuff",
     type: "design",
     medium: "print",
     title: "Pokemon Sweets - Slurpuff Parfait",
@@ -434,7 +434,7 @@ const products = [
     children: [69, 70]
   },
   {
-    design: "pokemon_sweets_vulpix",
+    id: "pokemon_sweets_vulpix",
     type: "design",
     medium: "print",
     title: "Pokemon Sweets - Vulpix Cake",
@@ -446,7 +446,7 @@ const products = [
     children: [71, 72]
   },
   {
-    design: "pokemon_sweets_raichu",
+    id: "pokemon_sweets_raichu",
     type: "design",
     medium: "print",
     title: "Pokemon Sweets - Alolan Raichu Pancakes",
@@ -458,7 +458,7 @@ const products = [
     children: [73, 74]
   },
   {
-    design: "pokemon_sweets_bellossom",
+    id: "pokemon_sweets_bellossom",
     type: "design",
     medium: "print",
     title: "Pokemon Sweets - Bellossom Fruit Tart",
@@ -470,7 +470,7 @@ const products = [
     children: [75, 76, 77]
   },
   {
-    design: "pokemon_sweets_macarons",
+    id: "pokemon_sweets_macarons",
     type: "design",
     medium: "print",
     title: "Pokemon Sweets - Macarons",
@@ -482,7 +482,7 @@ const products = [
     children: [78]
   },
   {
-    design: "pokemon_lilly",
+    id: "pokemon_lilly",
     type: "design",
     medium: "print",
     title: "Pokemon - Lilly & Nebby",
@@ -494,7 +494,7 @@ const products = [
     children: [79, 80, 81]
   },
   {
-    design: "pokemon_snap",
+    id: "pokemon_snap",
     type: "design",
     medium: "print",
     title: "Pokemon Snap - Wonderful!",
@@ -506,7 +506,7 @@ const products = [
     children: [82, 83, 84, 85, 86]
   },
   {
-    design: "banjo_kazooie",
+    id: "banjo_kazooie",
     type: "design",
     medium: "print",
     title: "Banjo-Kazooie",
@@ -518,7 +518,7 @@ const products = [
     children: [87, 88]
   },
   {
-    design: "zelda_malon",
+    id: "zelda_malon",
     type: "design",
     medium: "print",
     title: "Zelda Songs - Epona's Song",
@@ -530,7 +530,7 @@ const products = [
     children: [89, 90, 91]
   },
   {
-    design: "zelda_saria",
+    id: "zelda_saria",
     type: "design",
     medium: "print",
     title: "Zelda Songs - Saria's Song",
@@ -542,7 +542,7 @@ const products = [
     children: [92, 93, 94]
   },
   {
-    design: "ice_climbers",
+    id: "ice_climbers",
     type: "design",
     medium: "print",
     title: "Ice Climbers - Northern Lights",
@@ -554,7 +554,7 @@ const products = [
     children: [95, 96, 97, 98, 99]
   },
   {
-    design: "harvest_moon",
+    id: "harvest_moon",
     type: "design",
     medium: "print",
     title: "Harvest Moon - Bountiful",
@@ -566,7 +566,7 @@ const products = [
     children: [100, 101]
   },
   {
-    design: "kingdom_hearts_beach",
+    id: "kingdom_hearts_beach",
     type: "design",
     medium: "print",
     title: "Kingdom Hearts - Ice Cream",
@@ -578,7 +578,7 @@ const products = [
     children: [102, 103]
   },
   {
-    design: "pokemon_alphabet_gen1",
+    id: "pokemon_alphabet_gen1",
     type: "design",
     medium: "print",
     title: "Pokebet - Gen 1",
@@ -590,7 +590,7 @@ const products = [
     children: [104]
   },
   {
-    design: "pokemon_alphabet_gen2",
+    id: "pokemon_alphabet_gen2",
     type: "design",
     medium: "print",
     title: "Pokebet - Gen 2",
@@ -602,7 +602,7 @@ const products = [
     children: [105, 106]
   },
   {
-    design: "deltarune_cake",
+    id: "deltarune_cake",
     type: "design",
     medium: "print",
     title: "Deltarune - Never Enough Cake",
@@ -614,7 +614,7 @@ const products = [
     children: [107, 108, 109, 110]
   },
   {
-    design: "undertale_frisk_flowey",
+    id: "undertale_frisk_flowey",
     type: "design",
     medium: "print",
     title: "Undertale - Frisk & Flowey",
@@ -626,7 +626,7 @@ const products = [
     children: [111, 112, 113, 114]
   },
   {
-    design: "undertale_cavestory",
+    id: "undertale_cavestory",
     type: "design",
     medium: "print",
     title: "Undertale & CaveStory - Let's Go Together",
@@ -638,7 +638,7 @@ const products = [
     children: [115, 116, 117, 118]
   },
   {
-    design: "cavestory_quote",
+    id: "cavestory_quote",
     type: "design",
     medium: "print",
     title: "CaveStory - Pipe Dreams",
@@ -650,7 +650,7 @@ const products = [
     children: [119]
   },
   {
-    design: "pokemon_alphabet_gen1_a",
+    id: "pokemon_alphabet_gen1_a",
     type: "design",
     medium: "print",
     title: "Pokebet - Arbok",
@@ -663,7 +663,7 @@ const products = [
     children: [333, 334]
   },
   {
-    design: "pokemon_alphabet_gen1_b",
+    id: "pokemon_alphabet_gen1_b",
     type: "design",
     medium: "print",
     title: "Pokebet - Beedrill",
@@ -676,7 +676,7 @@ const products = [
     children: [335, 336]
   },
   {
-    design: "pokemon_alphabet_gen1_c",
+    id: "pokemon_alphabet_gen1_c",
     type: "design",
     medium: "print",
     title: "Pokebet - Charizard",
@@ -689,7 +689,7 @@ const products = [
     children: [337, 338]
   },
   {
-    design: "pokemon_alphabet_gen1_d",
+    id: "pokemon_alphabet_gen1_d",
     type: "design",
     medium: "print",
     title: "Pokebet - Doduo",
@@ -702,7 +702,7 @@ const products = [
     children: [339, 340]
   },
   {
-    design: "pokemon_alphabet_gen1_e",
+    id: "pokemon_alphabet_gen1_e",
     type: "design",
     medium: "print",
     title: "Pokebet - Eevee",
@@ -715,7 +715,7 @@ const products = [
     children: [341, 342]
   },
   {
-    design: "pokemon_alphabet_gen1_f",
+    id: "pokemon_alphabet_gen1_f",
     type: "design",
     medium: "print",
     title: "Pokebet - Farfetch'd",
@@ -728,7 +728,7 @@ const products = [
     children: [343, 344]
   },
   {
-    design: "pokemon_alphabet_gen1_g",
+    id: "pokemon_alphabet_gen1_g",
     type: "design",
     medium: "print",
     title: "Pokebet - Geodude",
@@ -741,7 +741,7 @@ const products = [
     children: [345, 346]
   },
   {
-    design: "pokemon_alphabet_gen1_h",
+    id: "pokemon_alphabet_gen1_h",
     type: "design",
     medium: "print",
     title: "Pokebet - Haunter",
@@ -754,7 +754,7 @@ const products = [
     children: [347, 348]
   },
   {
-    design: "pokemon_alphabet_gen1_i",
+    id: "pokemon_alphabet_gen1_i",
     type: "design",
     medium: "print",
     title: "Pokebet - Ivysaur",
@@ -767,7 +767,7 @@ const products = [
     children: [349, 350]
   },
   {
-    design: "pokemon_alphabet_gen1_j",
+    id: "pokemon_alphabet_gen1_j",
     type: "design",
     medium: "print",
     title: "Pokebet - Jigglypuff",
@@ -780,7 +780,7 @@ const products = [
     children: [351, 352]
   },
   {
-    design: "pokemon_alphabet_gen1_k",
+    id: "pokemon_alphabet_gen1_k",
     type: "design",
     medium: "print",
     title: "Pokebet - Krabby",
@@ -793,7 +793,7 @@ const products = [
     children: [353, 354]
   },
   {
-    design: "pokemon_alphabet_gen1_l",
+    id: "pokemon_alphabet_gen1_l",
     type: "design",
     medium: "print",
     title: "Pokebet - Lapras",
@@ -806,7 +806,7 @@ const products = [
     children: [355, 356]
   },
   {
-    design: "pokemon_alphabet_gen1_m",
+    id: "pokemon_alphabet_gen1_m",
     type: "design",
     medium: "print",
     title: "Pokebet - Meowth",
@@ -819,7 +819,7 @@ const products = [
     children: [357, 358]
   },
   {
-    design: "pokemon_alphabet_gen1_n",
+    id: "pokemon_alphabet_gen1_n",
     type: "design",
     medium: "print",
     title: "Pokebet - Nidoran",
@@ -832,7 +832,7 @@ const products = [
     children: [359, 360]
   },
   {
-    design: "pokemon_alphabet_gen1_o",
+    id: "pokemon_alphabet_gen1_o",
     type: "design",
     medium: "print",
     title: "Pokebet - Oddish",
@@ -845,7 +845,7 @@ const products = [
     children: [361, 362]
   },
   {
-    design: "pokemon_alphabet_gen1_p",
+    id: "pokemon_alphabet_gen1_p",
     type: "design",
     medium: "print",
     title: "Pokebet - Pidgeot",
@@ -858,7 +858,7 @@ const products = [
     children: [363, 364]
   },
   {
-    design: "pokemon_alphabet_gen1_q",
+    id: "pokemon_alphabet_gen1_q",
     type: "design",
     medium: "print",
     title: "Pokebet - Quick Attack (Rattata)",
@@ -871,7 +871,7 @@ const products = [
     children: [365, 366]
   },
   {
-    design: "pokemon_alphabet_gen1_r",
+    id: "pokemon_alphabet_gen1_r",
     type: "design",
     medium: "print",
     title: "Pokebet - Rapidash",
@@ -884,7 +884,7 @@ const products = [
     children: [367, 368]
   },
   {
-    design: "pokemon_alphabet_gen1_s",
+    id: "pokemon_alphabet_gen1_s",
     type: "design",
     medium: "print",
     title: "Pokebet - Squirtle",
@@ -897,7 +897,7 @@ const products = [
     children: [369, 370]
   },
   {
-    design: "pokemon_alphabet_gen1_t",
+    id: "pokemon_alphabet_gen1_t",
     type: "design",
     medium: "print",
     title: "Pokebet - Tentacruel",
@@ -910,7 +910,7 @@ const products = [
     children: [371, 372]
   },
   {
-    design: "pokemon_alphabet_gen1_u",
+    id: "pokemon_alphabet_gen1_u",
     type: "design",
     medium: "print",
     title: "Pokebet - Under the Truck (Mew)",
@@ -923,7 +923,7 @@ const products = [
     children: [373, 374]
   },
   {
-    design: "pokemon_alphabet_gen1_v",
+    id: "pokemon_alphabet_gen1_v",
     type: "design",
     medium: "print",
     title: "Pokebet - Vulpix",
@@ -936,7 +936,7 @@ const products = [
     children: [375, 376]
   },
   {
-    design: "pokemon_alphabet_gen1_w",
+    id: "pokemon_alphabet_gen1_w",
     type: "design",
     medium: "print",
     title: "Pokebet - Weezing",
@@ -949,7 +949,7 @@ const products = [
     children: [377, 378]
   },
   {
-    design: "pokemon_alphabet_gen1_x",
+    id: "pokemon_alphabet_gen1_x",
     type: "design",
     medium: "print",
     title: "Pokebet - ...Slowpoke (X)",
@@ -962,7 +962,7 @@ const products = [
     children: [379, 380]
   },
   {
-    design: "pokemon_alphabet_gen1_y",
+    id: "pokemon_alphabet_gen1_y",
     type: "design",
     medium: "print",
     title: "Pokebet - Yellow Version (Pikachu)",
@@ -975,7 +975,7 @@ const products = [
     children: [381, 382]
   },
   {
-    design: "pokemon_alphabet_gen1_z",
+    id: "pokemon_alphabet_gen1_z",
     type: "design",
     medium: "print",
     title: "Pokebet - Zubat",
@@ -988,7 +988,7 @@ const products = [
     children: [383, 384]
   },
   {
-    design: "pokemon_alphabet_gen2_a",
+    id: "pokemon_alphabet_gen2_a",
     type: "design",
     medium: "print",
     title: "Pokebet - Ampharos",
@@ -1001,7 +1001,7 @@ const products = [
     children: [385, 386]
   },
   {
-    design: "pokemon_alphabet_gen2_b",
+    id: "pokemon_alphabet_gen2_b",
     type: "design",
     medium: "print",
     title: "Pokebet - Bellossom",
@@ -1014,7 +1014,7 @@ const products = [
     children: [387, 388]
   },
   {
-    design: "pokemon_alphabet_gen2_c",
+    id: "pokemon_alphabet_gen2_c",
     type: "design",
     medium: "print",
     title: "Pokebet - Chikorita",
@@ -1027,7 +1027,7 @@ const products = [
     children: [389, 390]
   },
   {
-    design: "pokemon_alphabet_gen2_d",
+    id: "pokemon_alphabet_gen2_d",
     type: "design",
     medium: "print",
     title: "Pokebet - Delibird",
@@ -1040,7 +1040,7 @@ const products = [
     children: [391, 392]
   },
   {
-    design: "pokemon_alphabet_gen2_e",
+    id: "pokemon_alphabet_gen2_e",
     type: "design",
     medium: "print",
     title: "Pokebet - Espeon",
@@ -1053,7 +1053,7 @@ const products = [
     children: [393, 394]
   },
   {
-    design: "pokemon_alphabet_gen2_f",
+    id: "pokemon_alphabet_gen2_f",
     type: "design",
     medium: "print",
     title: "Pokebet - Feraligatr",
@@ -1066,7 +1066,7 @@ const products = [
     children: [395, 396]
   },
   {
-    design: "pokemon_alphabet_gen2_g",
+    id: "pokemon_alphabet_gen2_g",
     type: "design",
     medium: "print",
     title: "Pokebet - Girafarig",
@@ -1079,7 +1079,7 @@ const products = [
     children: [397, 398]
   },
   {
-    design: "pokemon_alphabet_gen2_h",
+    id: "pokemon_alphabet_gen2_h",
     type: "design",
     medium: "print",
     title: "Pokebet - Houndoom",
@@ -1092,7 +1092,7 @@ const products = [
     children: [399, 400]
   },
   {
-    design: "pokemon_alphabet_gen2_i",
+    id: "pokemon_alphabet_gen2_i",
     type: "design",
     medium: "print",
     title: "Pokebet - Igglybuff",
@@ -1105,7 +1105,7 @@ const products = [
     children: [401, 402]
   },
   {
-    design: "pokemon_alphabet_gen2_j",
+    id: "pokemon_alphabet_gen2_j",
     type: "design",
     medium: "print",
     title: "Pokebet - Jumpluff",
@@ -1118,7 +1118,7 @@ const products = [
     children: [403, 404]
   },
   {
-    design: "pokemon_alphabet_gen2_k",
+    id: "pokemon_alphabet_gen2_k",
     type: "design",
     medium: "print",
     title: "Pokebet - Kingdra",
@@ -1131,7 +1131,7 @@ const products = [
     children: [405, 406]
   },
   {
-    design: "pokemon_alphabet_gen2_l",
+    id: "pokemon_alphabet_gen2_l",
     type: "design",
     medium: "print",
     title: "Pokebet - Larvitar",
@@ -1144,7 +1144,7 @@ const products = [
     children: [407, 408]
   },
   {
-    design: "pokemon_alphabet_gen2_m",
+    id: "pokemon_alphabet_gen2_m",
     type: "design",
     medium: "print",
     title: "Pokebet - Marill",
@@ -1157,7 +1157,7 @@ const products = [
     children: [409, 410]
   },
   {
-    design: "pokemon_alphabet_gen2_n",
+    id: "pokemon_alphabet_gen2_n",
     type: "design",
     medium: "print",
     title: "Pokebet - Noctowl",
@@ -1170,7 +1170,7 @@ const products = [
     children: [411, 412]
   },
   {
-    design: "pokemon_alphabet_gen2_o",
+    id: "pokemon_alphabet_gen2_o",
     type: "design",
     medium: "print",
     title: "Pokebet - Octillery",
@@ -1183,7 +1183,7 @@ const products = [
     children: [413, 414]
   },
   {
-    design: "pokemon_alphabet_gen2_p",
+    id: "pokemon_alphabet_gen2_p",
     type: "design",
     medium: "print",
     title: "Pokebet - Phanpy",
@@ -1196,7 +1196,7 @@ const products = [
     children: [415, 416]
   },
   {
-    design: "pokemon_alphabet_gen2_q",
+    id: "pokemon_alphabet_gen2_q",
     type: "design",
     medium: "print",
     title: "Pokebet - Quilava",
@@ -1209,7 +1209,7 @@ const products = [
     children: [417, 418]
   },
   {
-    design: "pokemon_alphabet_gen2_r",
+    id: "pokemon_alphabet_gen2_r",
     type: "design",
     medium: "print",
     title: "Pokebet - Red Gyarados",
@@ -1222,7 +1222,7 @@ const products = [
     children: [419, 420]
   },
   {
-    design: "pokemon_alphabet_gen2_s",
+    id: "pokemon_alphabet_gen2_s",
     type: "design",
     medium: "print",
     title: "Pokebet - Sneasel",
@@ -1235,7 +1235,7 @@ const products = [
     children: [421, 422]
   },
   {
-    design: "pokemon_alphabet_gen2_t",
+    id: "pokemon_alphabet_gen2_t",
     type: "design",
     medium: "print",
     title: "Pokebet - Togetic",
@@ -1248,7 +1248,7 @@ const products = [
     children: [423, 424]
   },
   {
-    design: "pokemon_alphabet_gen2_u",
+    id: "pokemon_alphabet_gen2_u",
     type: "design",
     medium: "print",
     title: "Pokebet - Umbreon",
@@ -1261,7 +1261,7 @@ const products = [
     children: [425, 426]
   },
   {
-    design: "pokemon_alphabet_gen2_u_v1",
+    id: "pokemon_alphabet_gen2_u_v1",
     type: "design",
     medium: "print",
     title: "Pokebet - Umbreon",
@@ -1274,7 +1274,7 @@ const products = [
     children: [427, 428]
   },
   {
-    design: "pokemon_alphabet_gen2_v",
+    id: "pokemon_alphabet_gen2_v",
     type: "design",
     medium: "print",
     title: "Pokebet - Vegatation...? (Sudowoodo)",
@@ -1287,7 +1287,7 @@ const products = [
     children: [429, 430]
   },
   {
-    design: "pokemon_alphabet_gen2_w",
+    id: "pokemon_alphabet_gen2_w",
     type: "design",
     medium: "print",
     title: "Pokebet - Wooper",
@@ -1300,7 +1300,7 @@ const products = [
     children: [431, 432]
   },
   {
-    design: "pokemon_alphabet_gen2_x",
+    id: "pokemon_alphabet_gen2_x",
     type: "design",
     medium: "print",
     title: "Pokebet - Xatu",
@@ -1313,7 +1313,7 @@ const products = [
     children: [433, 434]
   },
   {
-    design: "pokemon_alphabet_gen2_y",
+    id: "pokemon_alphabet_gen2_y",
     type: "design",
     medium: "print",
     title: "Pokebet - Yanma",
@@ -1326,7 +1326,7 @@ const products = [
     children: [435, 436]
   },
   {
-    design: "pokemon_alphabet_gen2_z",
+    id: "pokemon_alphabet_gen2_z",
     type: "design",
     medium: "print",
     title: "Pokebet - Zzz... (Baby Pokemon)",
@@ -1339,7 +1339,7 @@ const products = [
     children: [437, 438]
   },
   {
-    design: "gravity_falls_dipper",
+    id: "gravity_falls_dipper",
     type: "design",
     medium: "print",
     title: "Gravity Falls - Dipper as Link",
@@ -1351,7 +1351,7 @@ const products = [
     children: [120, 121, 122]
   },
   {
-    design: "gravity_falls_mabel",
+    id: "gravity_falls_mabel",
     type: "design",
     medium: "print",
     title: "Gravity Falls - Mabel as Link",
@@ -1363,7 +1363,7 @@ const products = [
     children: [123, 124, 125]
   },
   {
-    design: "gravity_falls_bill",
+    id: "gravity_falls_bill",
     type: "design",
     medium: "print",
     title: "Gravity Falls - M'Geddon",
@@ -1375,7 +1375,7 @@ const products = [
     children: [126, 128, 130, 131]
   },
   {
-    design: "gravity_falls_bill_v1",
+    id: "gravity_falls_bill_v1",
     type: "design",
     medium: "print",
     title: "Gravity Falls - M'Geddon (old version)",
@@ -1387,7 +1387,7 @@ const products = [
     children: [127, 129]
   },
   {
-    design: "shera_shitpost_catra",
+    id: "shera_shitpost_catra",
     type: "design",
     medium: "print",
     title: "She-Ra - Hey Adora ;P",
@@ -1399,7 +1399,7 @@ const products = [
     children: [132]
   },
   {
-    design: "shera_shitpost_adora",
+    id: "shera_shitpost_adora",
     type: "design",
     medium: "print",
     title: "She-Ra - Hey Catra. :)",
@@ -1411,7 +1411,7 @@ const products = [
     children: [133]
   },
   {
-    design: "sherlock_scarf",
+    id: "sherlock_scarf",
     type: "design",
     medium: "print",
     title: "Sherlock - Sharing is Caring",
@@ -1423,7 +1423,7 @@ const products = [
     children: [134, 135]
   },
   {
-    design: "sherlock_wedding",
+    id: "sherlock_wedding",
     type: "design",
     medium: "print",
     title: "Sherlock - Wedding",
@@ -1435,7 +1435,7 @@ const products = [
     children: [136, 137]
   },
   {
-    design: "steven_universe_catfingers",
+    id: "steven_universe_catfingers",
     type: "design",
     medium: "print",
     title: "Steven Universe - Neko Atsume Fingers",
@@ -1447,7 +1447,7 @@ const products = [
     children: [138]
   },
   {
-    design: "madoka_magica_quote",
+    id: "madoka_magica_quote",
     type: "design",
     medium: "print",
     title: "Madoka Magica - Don't Lose Hope",
@@ -1459,7 +1459,7 @@ const products = [
     children: [139, 140, 141]
   },
   {
-    design: "inuyasha_sesshoumaru_group",
+    id: "inuyasha_sesshoumaru_group",
     type: "design",
     medium: "print",
     title: "Inuyasha - Sesshoumaru's Party",
@@ -1471,7 +1471,7 @@ const products = [
     children: [142, 143, 144]
   },
   {
-    design: "dennou_coil_circle_of_children",
+    id: "dennou_coil_circle_of_children",
     type: "design",
     medium: "print",
     title: "Dennou Coil - A Circle of Children",
@@ -1483,7 +1483,7 @@ const products = [
     children: [145, 146, 147, 148, 149]
   },
   {
-    design: "natsume_yuujinchou_return_name",
+    id: "natsume_yuujinchou_return_name",
     type: "design",
     medium: "print",
     title: "Natsume Yuujinchou - Returning Your Name",
@@ -1495,7 +1495,7 @@ const products = [
     children: [150, 151, 152]
   },
   {
-    design: "ghibli_arrietty",
+    id: "ghibli_arrietty",
     type: "design",
     medium: "print",
     title: "Ghibli Movies - Arrietty",
@@ -1507,7 +1507,7 @@ const products = [
     children: [153, 154, 155]
   },
   {
-    design: "ghibli_cat_returns",
+    id: "ghibli_cat_returns",
     type: "design",
     medium: "print",
     title: "Ghibli Movies - The Cat Returns",
@@ -1519,7 +1519,7 @@ const products = [
     children: [156]
   },
   {
-    design: "nichijou_skyfall",
+    id: "nichijou_skyfall",
     type: "design",
     medium: "print",
     title: "Nichijou - Zzz (Falling for You)",
@@ -1531,7 +1531,7 @@ const products = [
     children: [157, 158, 159]
   },
   {
-    design: "magical_girls_amu",
+    id: "magical_girls_amu",
     type: "design",
     medium: "print",
     title: "Magical Girls - Amu Hinamori",
@@ -1543,7 +1543,7 @@ const products = [
     children: [160]
   },
   {
-    design: "magical_girls_sakura",
+    id: "magical_girls_sakura",
     type: "design",
     medium: "print",
     title: "Magical Girls - Sakura Kinomoto",
@@ -1555,7 +1555,7 @@ const products = [
     children: [161]
   },
   {
-    design: "magical_girls_ahiru",
+    id: "magical_girls_ahiru",
     type: "design",
     medium: "print",
     title: "Magical Girls - Ahiru",
@@ -1567,7 +1567,7 @@ const products = [
     children: [162]
   },
   {
-    design: "magical_girls_rue",
+    id: "magical_girls_rue",
     type: "design",
     medium: "print",
     title: "Magical Girls - Rue",
@@ -1579,7 +1579,7 @@ const products = [
     children: [163]
   },
   {
-    design: "magical_girls_maya",
+    id: "magical_girls_maya",
     type: "design",
     medium: "print",
     title: "Magical Girls - Maya Fey",
@@ -1591,7 +1591,7 @@ const products = [
     children: [164]
   },
   {
-    design: "magical_girls_akko",
+    id: "magical_girls_akko",
     type: "design",
     medium: "print",
     title: "Magical Girls - Akko Kagari",
@@ -1603,7 +1603,7 @@ const products = [
     children: [165]
   },
   {
-    design: "magical_girls_kagome",
+    id: "magical_girls_kagome",
     type: "design",
     medium: "print",
     title: "Magical Girls - Kagome Higurashi",
@@ -1615,7 +1615,7 @@ const products = [
     children: [166]
   },
   {
-    design: "magical_girls_full_moon",
+    id: "magical_girls_full_moon",
     type: "design",
     medium: "print",
     title: "Magical Girls - Mitsuki Koyama",
@@ -1627,7 +1627,7 @@ const products = [
     children: [167]
   },
   {
-    design: "cardcaptor_sakura_cashcaptors",
+    id: "cardcaptor_sakura_cashcaptors",
     type: "design",
     medium: "print",
     title: "Cardcaptor Sakura - Cashcaptors",
@@ -1639,7 +1639,7 @@ const products = [
     children: [168, 169, 170]
   },
   {
-    design: "hunter_x_pokemon_gon",
+    id: "hunter_x_pokemon_gon",
     type: "design",
     medium: "print",
     title: "Hunter x Pokemon - Gon",
@@ -1651,7 +1651,7 @@ const products = [
     children: [171, 172]
   },
   {
-    design: "hunter_x_pokemon_killua",
+    id: "hunter_x_pokemon_killua",
     type: "design",
     medium: "print",
     title: "Hunter x Pokemon - Killua",
@@ -1663,7 +1663,7 @@ const products = [
     children: [173, 174]
   },
   {
-    design: "hunter_x_pokemon_alluka",
+    id: "hunter_x_pokemon_alluka",
     type: "design",
     medium: "print",
     title: "Hunter x Pokemon - Alluka",
@@ -1675,7 +1675,7 @@ const products = [
     children: [175, 176]
   },
   {
-    design: "hunter_x_pokemon_leorio",
+    id: "hunter_x_pokemon_leorio",
     type: "design",
     medium: "print",
     title: "Hunter x Pokemon - Leorio",
@@ -1687,7 +1687,7 @@ const products = [
     children: [177, 178]
   },
   {
-    design: "hunter_x_pokemon_kurapika",
+    id: "hunter_x_pokemon_kurapika",
     type: "design",
     medium: "print",
     title: "Hunter x Pokemon - Kurapika",
@@ -1699,7 +1699,7 @@ const products = [
     children: [179, 180]
   },
   {
-    design: "cats_and_tea_rain",
+    id: "cats_and_tea_rain",
     type: "design",
     medium: "print",
     title: "Cats & Tea - Rainy Afternoon",
@@ -1711,7 +1711,7 @@ const products = [
     children: [181, 182, 183, 184, 185]
   },
   {
-    design: "cats_and_tea_fire",
+    id: "cats_and_tea_fire",
     type: "design",
     medium: "print",
     title: "Cats & Tea - By the Fire",
@@ -1723,7 +1723,7 @@ const products = [
     children: [186, 188, 190]
   },
   {
-    design: "cats_and_tea_fire_v1",
+    id: "cats_and_tea_fire_v1",
     type: "design",
     medium: "print",
     title: "Cats & Tea - By the Fire (dark version)",
@@ -1735,7 +1735,7 @@ const products = [
     children: [187, 189, 191]
   },
   {
-    design: "cats_and_tea_cafe",
+    id: "cats_and_tea_cafe",
     type: "design",
     medium: "print",
     title: "Cats & Tea - Cafe",
@@ -1747,7 +1747,7 @@ const products = [
     children: [192, 193, 194]
   },
   {
-    design: "cats_and_tea_sadness",
+    id: "cats_and_tea_sadness",
     type: "design",
     medium: "print",
     title: "Cats & Tea - It's Going to be Okay",
@@ -1759,7 +1759,7 @@ const products = [
     children: [195, 196]
   },
   {
-    design: "bees_beelines",
+    id: "bees_beelines",
     type: "design",
     medium: "print",
     title: "Bees - Beelines",
@@ -1771,7 +1771,7 @@ const products = [
     children: [197]
   },
   {
-    design: "bees_dance",
+    id: "bees_dance",
     type: "design",
     medium: "print",
     title: "Bees - Dance",
@@ -1783,7 +1783,7 @@ const products = [
     children: [198]
   },
   {
-    design: "bees_felt",
+    id: "bees_felt",
     type: "design",
     medium: "print",
     title: "Bees - Felt",
@@ -1795,7 +1795,7 @@ const products = [
     children: [199]
   },
   {
-    design: "bees_fruit",
+    id: "bees_fruit",
     type: "design",
     medium: "print",
     title: "Bees - Fruit",
@@ -1807,7 +1807,7 @@ const products = [
     children: [200]
   },
   {
-    design: "bees_ribbon",
+    id: "bees_ribbon",
     type: "design",
     medium: "print",
     title: "Bees - Ribbon",
@@ -1819,7 +1819,7 @@ const products = [
     children: [201]
   },
   {
-    design: "tea_makes_me_happy",
+    id: "tea_makes_me_happy",
     type: "design",
     medium: "print",
     title: "Tea Makes Me Happy",
@@ -1831,7 +1831,7 @@ const products = [
     children: [202, 203]
   },
   {
-    design: "all_you_need_is_cake",
+    id: "all_you_need_is_cake",
     type: "design",
     medium: "print",
     title: "All You Need is Cake",
@@ -1843,7 +1843,7 @@ const products = [
     children: [204, 205]
   },
   {
-    design: "mushishi_light_river",
+    id: "mushishi_light_river",
     type: "design",
     medium: "print",
     title: "Mushishi - Light River",
@@ -1855,7 +1855,7 @@ const products = [
     children: [206, 207]
   },
   {
-    design: "princess_tutu_healing_touch",
+    id: "princess_tutu_healing_touch",
     type: "design",
     medium: "print",
     title: "Princess Tutu - Healing Touch",
@@ -1867,7 +1867,7 @@ const products = [
     children: [208, 209, 210]
   },
   {
-    design: "heck_bird",
+    id: "heck_bird",
     type: "design",
     medium: "print",
     title: "Heck! (Bird)",
@@ -1879,7 +1879,7 @@ const products = [
     children: [211]
   },
   {
-    design: "loaf_cat",
+    id: "loaf_cat",
     type: "design",
     medium: "print",
     title: "Toasty Loaf (Cat)",
@@ -1891,7 +1891,7 @@ const products = [
     children: [212, 213]
   },
   {
-    design: "harvest_moon_bookmark",
+    id: "harvest_moon_bookmark",
     type: "design",
     medium: "bookmark",
     title: "Harvest Moon - Bountiful (Bookmark)",
@@ -1902,7 +1902,7 @@ const products = [
     children: [214, 215, 216]
   },
   {
-    design: "bomberman_bookmark",
+    id: "bomberman_bookmark",
     type: "design",
     medium: "bookmark",
     title: "Bomberman 64 (Bookmark)",
@@ -1913,7 +1913,7 @@ const products = [
     children: [217]
   },
   {
-    design: "yoshi_bookmark",
+    id: "yoshi_bookmark",
     type: "design",
     medium: "bookmark",
     title: "Yoshi's Story (Bookmark)",
@@ -1924,7 +1924,7 @@ const products = [
     children: [218, 219]
   },
   {
-    design: "kirby_bookmark",
+    id: "kirby_bookmark",
     type: "design",
     medium: "bookmark",
     title: "Kirby Crystal Shards (Bookmark)",
@@ -1935,7 +1935,7 @@ const products = [
     children: [220]
   },
   {
-    design: "monkey_island_bookmark",
+    id: "monkey_island_bookmark",
     type: "design",
     medium: "bookmark",
     title: "The Curse of Monkey Island (Bookmark)",
@@ -1946,7 +1946,7 @@ const products = [
     children: [221]
   },
   {
-    design: "cat_cafe_stickers",
+    id: "cat_cafe_stickers",
     type: "design",
     medium: "stickers",
     title: "Cozy Cat Cafe (Stickers)",
@@ -1957,7 +1957,7 @@ const products = [
     children: [222, 223]
   },
   {
-    design: "pokemon_birds_stickers",
+    id: "pokemon_birds_stickers",
     type: "design",
     medium: "stickers",
     title: "Pokemon - Birds & Beans (Stickers)",
@@ -1968,7 +1968,7 @@ const products = [
     children: [224]
   },
   {
-    design: "zelda_emojis_stickers",
+    id: "zelda_emojis_stickers",
     type: "design",
     medium: "stickers",
     title: "Zelda - Wind Waker Emojis (Stickers)",
@@ -1979,7 +1979,7 @@ const products = [
     children: [225]
   },
   {
-    design: "zelda_phrases_stickers",
+    id: "zelda_phrases_stickers",
     type: "design",
     medium: "stickers",
     title: "Zelda - Phrases (Stickers)",
@@ -1990,7 +1990,7 @@ const products = [
     children: [226]
   },
   {
-    design: "bees_stickers",
+    id: "bees_stickers",
     type: "design",
     medium: "stickers",
     title: "Busy Bees (Stickers)",
@@ -2001,7 +2001,7 @@ const products = [
     children: [227, 228]
   },
   {
-    design: "kirby_stickers",
+    id: "kirby_stickers",
     type: "design",
     medium: "stickers",
     title: "Kirby (Stickers)",
@@ -2012,7 +2012,7 @@ const products = [
     children: [229, 230]
   },
   {
-    design: "zelda_rupees_stickers",
+    id: "zelda_rupees_stickers",
     type: "design",
     medium: "stickers",
     title: "Zelda - Rupees (Stickers)",
@@ -2023,7 +2023,7 @@ const products = [
     children: [231]
   },
   {
-    design: "zelda_fairies_stickers",
+    id: "zelda_fairies_stickers",
     type: "design",
     medium: "stickers",
     title: "Zelda - Fairies (Stickers)",
@@ -2034,7 +2034,7 @@ const products = [
     children: [232]
   },
   {
-    design: "zelda_spirit_stones_stickers",
+    id: "zelda_spirit_stones_stickers",
     type: "design",
     medium: "stickers",
     title: "Zelda - Spiritual Stones (Stickers)",
@@ -2045,7 +2045,7 @@ const products = [
     children: [233]
   },
   {
-    design: "zelda_items_stickers",
+    id: "zelda_items_stickers",
     type: "design",
     medium: "stickers",
     title: "Zelda - Power Up! (Stickers)",
@@ -2056,7 +2056,7 @@ const products = [
     children: [234]
   },
   {
-    design: "bees_accessories_stickers",
+    id: "bees_accessories_stickers",
     type: "design",
     medium: "stickers",
     title: "Busy Bees - Accessories Only (Stickers)",
@@ -2067,7 +2067,7 @@ const products = [
     children: [235]
   },
   {
-    design: "bees_stickers_v1",
+    id: "bees_stickers_v1",
     type: "design",
     medium: "stickers",
     title: "Busy Bees - Bees Only (Stickers)",
@@ -2078,7 +2078,7 @@ const products = [
     children: [236]
   },
   {
-    design: "single_sticker",
+    id: "single_sticker",
     type: "design",
     medium: "stickers",
     title: "Single Sticker",
@@ -2089,7 +2089,7 @@ const products = [
     children: [237, 238, 239]
   },
   {
-    design: "bee_lines_zine",
+    id: "bee_lines_zine",
     type: "design",
     medium: "booklet",
     title: "Bee Lines (Zine)",
@@ -2097,7 +2097,7 @@ const products = [
     children: [240]
   },
   {
-    design: "sweets_zine",
+    id: "sweets_zine",
     type: "design",
     medium: "booklet",
     title: "Pokemon - Sweets (Zine)",
@@ -2105,7 +2105,7 @@ const products = [
     children: [241]
   },
   {
-    design: "tayce_t_zine",
+    id: "tayce_t_zine",
     type: "design",
     medium: "booklet",
     title: "Paper Mario - Tayce T (Comic)",
@@ -2113,7 +2113,7 @@ const products = [
     children: [242]
   },
   {
-    design: "bee_stationery",
+    id: "bee_stationery",
     type: "design",
     medium: "stationery",
     title: "Bees - Stationery",
@@ -2125,7 +2125,7 @@ const products = [
     children: [243, 244, 245, 246, 247]
   },
   {
-    design: "undertale_button_frisk",
+    id: "undertale_button_frisk",
     type: "design",
     medium: "button",
     title: "Undertale - Frisk",
@@ -2134,7 +2134,7 @@ const products = [
     children: [248]
   },
   {
-    design: "undertale_button_chara",
+    id: "undertale_button_chara",
     type: "design",
     medium: "button",
     title: "Undertale - Chara",
@@ -2143,7 +2143,7 @@ const products = [
     children: [249]
   },
   {
-    design: "undertale_button_flowey",
+    id: "undertale_button_flowey",
     type: "design",
     medium: "button",
     title: "Undertale - Flowey",
@@ -2152,7 +2152,7 @@ const products = [
     children: [250]
   },
   {
-    design: "undertale_button_asriel",
+    id: "undertale_button_asriel",
     type: "design",
     medium: "button",
     title: "Undertale - Asriel",
@@ -2161,7 +2161,7 @@ const products = [
     children: [251]
   },
   {
-    design: "undertale_button_toriel",
+    id: "undertale_button_toriel",
     type: "design",
     medium: "button",
     title: "Undertale - Toriel",
@@ -2170,7 +2170,7 @@ const products = [
     children: [252]
   },
   {
-    design: "undertale_button_asgore",
+    id: "undertale_button_asgore",
     type: "design",
     medium: "button",
     title: "Undertale - Asgore",
@@ -2179,7 +2179,7 @@ const products = [
     children: [253]
   },
   {
-    design: "undertale_button_papyrus",
+    id: "undertale_button_papyrus",
     type: "design",
     medium: "button",
     title: "Undertale - Papyrus",
@@ -2188,7 +2188,7 @@ const products = [
     children: [254]
   },
   {
-    design: "undertale_button_sans",
+    id: "undertale_button_sans",
     type: "design",
     medium: "button",
     title: "Undertale - Sans",
@@ -2197,7 +2197,7 @@ const products = [
     children: [255]
   },
   {
-    design: "undertale_button_undyne",
+    id: "undertale_button_undyne",
     type: "design",
     medium: "button",
     title: "Undertale - Undyne",
@@ -2206,7 +2206,7 @@ const products = [
     children: [256]
   },
   {
-    design: "undertale_button_alphys",
+    id: "undertale_button_alphys",
     type: "design",
     medium: "button",
     title: "Undertale - Alphys",
@@ -2215,7 +2215,7 @@ const products = [
     children: [257]
   },
   {
-    design: "undertale_button_mettaton_humanoid",
+    id: "undertale_button_mettaton_humanoid",
     type: "design",
     medium: "button",
     title: "Undertale - Mettaton (Humanoid)",
@@ -2224,7 +2224,7 @@ const products = [
     children: [258]
   },
   {
-    design: "undertale_button_mettaton_box",
+    id: "undertale_button_mettaton_box",
     type: "design",
     medium: "button",
     title: "Undertale - Mettaton (Box)",
@@ -2233,7 +2233,7 @@ const products = [
     children: [259]
   },
   {
-    design: "undertale_button_muffet",
+    id: "undertale_button_muffet",
     type: "design",
     medium: "button",
     title: "Undertale - Muffet",
@@ -2242,7 +2242,7 @@ const products = [
     children: [260]
   },
   {
-    design: "undertale_button_bratty",
+    id: "undertale_button_bratty",
     type: "design",
     medium: "button",
     title: "Undertale - Bratty",
@@ -2251,7 +2251,7 @@ const products = [
     children: [261]
   },
   {
-    design: "undertale_button_catty",
+    id: "undertale_button_catty",
     type: "design",
     medium: "button",
     title: "Undertale - Catty",
@@ -2260,7 +2260,7 @@ const products = [
     children: [262]
   },
   {
-    design: "undertale_button_nice_cream",
+    id: "undertale_button_nice_cream",
     type: "design",
     medium: "button",
     title: "Undertale - Nice Cream Guy",
@@ -2269,7 +2269,7 @@ const products = [
     children: [263]
   },
   {
-    design: "undertale_button_burgerpants",
+    id: "undertale_button_burgerpants",
     type: "design",
     medium: "button",
     title: "Undertale - Burgerpants",
@@ -2278,7 +2278,7 @@ const products = [
     children: [264]
   },
   {
-    design: "undertale_button_temmie",
+    id: "undertale_button_temmie",
     type: "design",
     medium: "button",
     title: "Undertale - Temmie",
@@ -2287,7 +2287,7 @@ const products = [
     children: [265]
   },
   {
-    design: "undertale_button_grillby",
+    id: "undertale_button_grillby",
     type: "design",
     medium: "button",
     title: "Undertale - Grillby",
@@ -2296,7 +2296,7 @@ const products = [
     children: [266]
   },
   {
-    design: "undertale_button_monster_kid",
+    id: "undertale_button_monster_kid",
     type: "design",
     medium: "button",
     title: "Undertale - Monster Kid",
@@ -2305,7 +2305,7 @@ const products = [
     children: [267]
   },
   {
-    design: "undertale_button_napstablook",
+    id: "undertale_button_napstablook",
     type: "design",
     medium: "button",
     title: "Undertale - Napstablook",
@@ -2314,7 +2314,7 @@ const products = [
     children: [268]
   },
   {
-    design: "undertale_button_lesser_dog_head",
+    id: "undertale_button_lesser_dog_head",
     type: "design",
     medium: "button",
     title: "Undertale - Lesser Dog Head",
@@ -2323,7 +2323,7 @@ const products = [
     children: [269]
   },
   {
-    design: "undertale_button_lesser_dog_bent_neck",
+    id: "undertale_button_lesser_dog_bent_neck",
     type: "design",
     medium: "button",
     title: "Undertale - Lesser Dog Bent Neck",
@@ -2332,7 +2332,7 @@ const products = [
     children: [271]
   },
   {
-    design: "undertale_button_lesser_dog_straight_neck",
+    id: "undertale_button_lesser_dog_straight_neck",
     type: "design",
     medium: "button",
     title: "Undertale - Lesser Dog Straight Neck",
@@ -2341,7 +2341,7 @@ const products = [
     children: [270]
   },
   {
-    design: "undertale_button_lesser_dog_body",
+    id: "undertale_button_lesser_dog_body",
     type: "design",
     medium: "button",
     title: "Undertale - Lesser Dog Body",
@@ -2350,7 +2350,7 @@ const products = [
     children: [272]
   },
   {
-    design: "paper_mario_button_goombario",
+    id: "paper_mario_button_goombario",
     type: "design",
     medium: "button",
     title: "Paper Mario - Goombario",
@@ -2359,7 +2359,7 @@ const products = [
     children: [273]
   },
   {
-    design: "paper_mario_button_kooper",
+    id: "paper_mario_button_kooper",
     type: "design",
     medium: "button",
     title: "Paper Mario - Kooper",
@@ -2368,7 +2368,7 @@ const products = [
     children: [274]
   },
   {
-    design: "paper_mario_button_bombette",
+    id: "paper_mario_button_bombette",
     type: "design",
     medium: "button",
     title: "Paper Mario - Bombette",
@@ -2377,7 +2377,7 @@ const products = [
     children: [275]
   },
   {
-    design: "paper_mario_button_parakarry",
+    id: "paper_mario_button_parakarry",
     type: "design",
     medium: "button",
     title: "Paper Mario - Parakarry",
@@ -2386,7 +2386,7 @@ const products = [
     children: [276]
   },
   {
-    design: "paper_mario_button_bow",
+    id: "paper_mario_button_bow",
     type: "design",
     medium: "button",
     title: "Paper Mario - Lady Bow",
@@ -2395,7 +2395,7 @@ const products = [
     children: [277]
   },
   {
-    design: "paper_mario_button_watt",
+    id: "paper_mario_button_watt",
     type: "design",
     medium: "button",
     title: "Paper Mario - Watt",
@@ -2404,7 +2404,7 @@ const products = [
     children: [278]
   },
   {
-    design: "paper_mario_button_sushie",
+    id: "paper_mario_button_sushie",
     type: "design",
     medium: "button",
     title: "Paper Mario - Sushie",
@@ -2413,7 +2413,7 @@ const products = [
     children: [279]
   },
   {
-    design: "paper_mario_button_lakilester",
+    id: "paper_mario_button_lakilester",
     type: "design",
     medium: "button",
     title: "Paper Mario - Lakilester",
@@ -2422,7 +2422,7 @@ const products = [
     children: [280]
   },
   {
-    design: "paper_mario_button_peach",
+    id: "paper_mario_button_peach",
     type: "design",
     medium: "button",
     title: "Paper Mario - Peach & Twink",
@@ -2431,7 +2431,7 @@ const products = [
     children: [281]
   },
   {
-    design: "paper_mario_button_luigi",
+    id: "paper_mario_button_luigi",
     type: "design",
     medium: "button",
     title: "Paper Mario - Luigi",
@@ -2440,7 +2440,7 @@ const products = [
     children: [282]
   },
   {
-    design: "paper_mario_button_mario",
+    id: "paper_mario_button_mario",
     type: "design",
     medium: "button",
     title: "Paper Mario - Mario",
@@ -2449,7 +2449,7 @@ const products = [
     children: [283]
   },
   {
-    design: "mario_button_goomba",
+    id: "mario_button_goomba",
     type: "design",
     medium: "button",
     title: "Mario - Goomba",
@@ -2458,7 +2458,7 @@ const products = [
     children: [284]
   },
   {
-    design: "mario_button_koopa",
+    id: "mario_button_koopa",
     type: "design",
     medium: "button",
     title: "Mario - Koopa",
@@ -2467,7 +2467,7 @@ const products = [
     children: [285]
   },
   {
-    design: "mario_button_boo",
+    id: "mario_button_boo",
     type: "design",
     medium: "button",
     title: "Mario - Boo",
@@ -2476,7 +2476,7 @@ const products = [
     children: [286]
   },
   {
-    design: "mario_button_lakitu",
+    id: "mario_button_lakitu",
     type: "design",
     medium: "button",
     title: "Mario - Lakitu",
@@ -2485,7 +2485,7 @@ const products = [
     children: [287]
   },
   {
-    design: "mario_button_piranha",
+    id: "mario_button_piranha",
     type: "design",
     medium: "button",
     title: "Mario - Piranha Plant",
@@ -2494,7 +2494,7 @@ const products = [
     children: [288]
   },
   {
-    design: "mario_button_shyguy",
+    id: "mario_button_shyguy",
     type: "design",
     medium: "button",
     title: "Mario - Shy Guy",
@@ -2503,7 +2503,7 @@ const products = [
     children: [289]
   },
   {
-    design: "mario_button_buzzy",
+    id: "mario_button_buzzy",
     type: "design",
     medium: "button",
     title: "Mario - Buzzy Beetle",
@@ -2512,7 +2512,7 @@ const products = [
     children: [290]
   },
   {
-    design: "mario_button_blooper",
+    id: "mario_button_blooper",
     type: "design",
     medium: "button",
     title: "Mario - Blooper",
@@ -2521,7 +2521,7 @@ const products = [
     children: [291]
   },
   {
-    design: "mario_button_chomp",
+    id: "mario_button_chomp",
     type: "design",
     medium: "button",
     title: "Mario - Chain Chomp",
@@ -2530,7 +2530,7 @@ const products = [
     children: [292]
   },
   {
-    design: "mario_button_bobomb",
+    id: "mario_button_bobomb",
     type: "design",
     medium: "button",
     title: "Mario - Bobomb",
@@ -2539,7 +2539,7 @@ const products = [
     children: [293]
   },
   {
-    design: "kirby_button_kirby",
+    id: "kirby_button_kirby",
     type: "design",
     medium: "button",
     title: "Kirby - Kirby",
@@ -2548,7 +2548,7 @@ const products = [
     children: [294]
   },
   {
-    design: "kirby_button_waddle_dee",
+    id: "kirby_button_waddle_dee",
     type: "design",
     medium: "button",
     title: "Kirby - Waddle Dee",
@@ -2557,7 +2557,7 @@ const products = [
     children: [295]
   },
   {
-    design: "kirby_button_dedede",
+    id: "kirby_button_dedede",
     type: "design",
     medium: "button",
     title: "Kirby - King Dedede",
@@ -2566,7 +2566,7 @@ const products = [
     children: [296]
   },
   {
-    design: "kirby_button_metaknight",
+    id: "kirby_button_metaknight",
     type: "design",
     medium: "button",
     title: "Kirby - Metaknight",
@@ -2575,7 +2575,7 @@ const products = [
     children: [297]
   },
   {
-    design: "kirby_button_magolor",
+    id: "kirby_button_magolor",
     type: "design",
     medium: "button",
     title: "Kirby - Magolor",
@@ -2584,7 +2584,7 @@ const products = [
     children: [298]
   },
   {
-    design: "kirby_button_waddle_doo",
+    id: "kirby_button_waddle_doo",
     type: "design",
     medium: "button",
     title: "Kirby - Waddle Doo",
@@ -2593,7 +2593,7 @@ const products = [
     children: [299]
   },
   {
-    design: "kirby_button_bronto",
+    id: "kirby_button_bronto",
     type: "design",
     medium: "button",
     title: "Kirby - Bronto Burt",
@@ -2602,7 +2602,7 @@ const products = [
     children: [300]
   },
   {
-    design: "kirby_button_scarfy_cute",
+    id: "kirby_button_scarfy_cute",
     type: "design",
     medium: "button",
     title: "Kirby - Scarfy (Cute)",
@@ -2611,7 +2611,7 @@ const products = [
     children: [301]
   },
   {
-    design: "kirby_button_scarfy_terrifying",
+    id: "kirby_button_scarfy_terrifying",
     type: "design",
     medium: "button",
     title: "Kirby - Scarfy (Terrifying)",
@@ -2620,7 +2620,7 @@ const products = [
     children: [302]
   },
   {
-    design: "kirby_button_sparky",
+    id: "kirby_button_sparky",
     type: "design",
     medium: "button",
     title: "Kirby - Sparky",
@@ -2629,7 +2629,7 @@ const products = [
     children: [303]
   },
   {
-    design: "kirby_button_chilly",
+    id: "kirby_button_chilly",
     type: "design",
     medium: "button",
     title: "Kirby - Chilly",
@@ -2638,7 +2638,7 @@ const products = [
     children: [304]
   },
   {
-    design: "kirby_button_poppy",
+    id: "kirby_button_poppy",
     type: "design",
     medium: "button",
     title: "Kirby - Poppy Bros Jr",
@@ -2647,7 +2647,7 @@ const products = [
     children: [305]
   },
   {
-    design: "touhou_button_suika",
+    id: "touhou_button_suika",
     type: "design",
     medium: "button",
     title: "Touhou - Suika",
@@ -2656,7 +2656,7 @@ const products = [
     children: [306]
   },
   {
-    design: "touhou_button_reimu",
+    id: "touhou_button_reimu",
     type: "design",
     medium: "button",
     title: "Touhou - Reimu",
@@ -2665,7 +2665,7 @@ const products = [
     children: [307]
   },
   {
-    design: "touhou_button_koishi",
+    id: "touhou_button_koishi",
     type: "design",
     medium: "button",
     title: "Touhou - Koishi",
@@ -2674,7 +2674,7 @@ const products = [
     children: [308]
   },
   {
-    design: "touhou_button_youmu",
+    id: "touhou_button_youmu",
     type: "design",
     medium: "button",
     title: "Touhou - Youmu",
@@ -2683,7 +2683,7 @@ const products = [
     children: [309]
   },
   {
-    design: "touhou_button_sakuya",
+    id: "touhou_button_sakuya",
     type: "design",
     medium: "button",
     title: "Touhou - Sakuya",
@@ -2692,7 +2692,7 @@ const products = [
     children: [310]
   },
   {
-    design: "touhou_button_marisa",
+    id: "touhou_button_marisa",
     type: "design",
     medium: "button",
     title: "Touhou - Marisa",
@@ -2701,7 +2701,7 @@ const products = [
     children: [311]
   },
   {
-    design: "otgw_button_wirt",
+    id: "otgw_button_wirt",
     type: "design",
     medium: "button",
     title: "Over the Garden Wall - Wirt",
@@ -2710,7 +2710,7 @@ const products = [
     children: [312]
   },
   {
-    design: "otgw_button_greg",
+    id: "otgw_button_greg",
     type: "design",
     medium: "button",
     title: "Over the Garden Wall - Greg",
@@ -2719,7 +2719,7 @@ const products = [
     children: [313]
   },
   {
-    design: "otgw_button_beatrice",
+    id: "otgw_button_beatrice",
     type: "design",
     medium: "button",
     title: "Over the Garden Wall - Beatrice",
@@ -2728,7 +2728,7 @@ const products = [
     children: [314]
   },
   {
-    design: "otgw_button_frog",
+    id: "otgw_button_frog",
     type: "design",
     medium: "button",
     title: "Over the Garden Wall - Frog",
@@ -2737,7 +2737,7 @@ const products = [
     children: [315]
   },
   {
-    design: "otgw_button_beast",
+    id: "otgw_button_beast",
     type: "design",
     medium: "button",
     title: "Over the Garden Wall - Beast",
@@ -2746,7 +2746,7 @@ const products = [
     children: [316]
   },
   {
-    design: "sonic_silver_button",
+    id: "sonic_silver_button",
     type: "design",
     medium: "button",
     title: "Sonic - Silver",
@@ -2754,7 +2754,7 @@ const products = [
     children: [317]
   },
   {
-    design: "cavestory_quote_button",
+    id: "cavestory_quote_button",
     type: "design",
     medium: "button",
     title: "CaveStory - Quote",
@@ -2762,7 +2762,7 @@ const products = [
     children: [318]
   },
   {
-    design: "bastion_kid_button",
+    id: "bastion_kid_button",
     type: "design",
     medium: "button",
     title: "Bastion - The Kid",
@@ -2770,7 +2770,7 @@ const products = [
     children: [319]
   },
   {
-    design: "pokemon_zubat_azumarill_button",
+    id: "pokemon_zubat_azumarill_button",
     type: "design",
     medium: "button",
     title: "Pokemon - Zubat & Azumarill",
@@ -2778,7 +2778,7 @@ const products = [
     children: [320]
   },
   {
-    design: "sailor_moon_luna_button",
+    id: "sailor_moon_luna_button",
     type: "design",
     medium: "button",
     title: "Sailor Moon - Luna",
@@ -2786,7 +2786,7 @@ const products = [
     children: [321]
   },
   {
-    design: "cardcaptor_sakura_kero_button",
+    id: "cardcaptor_sakura_kero_button",
     type: "design",
     medium: "button",
     title: "Cardcaptor Sakura - Kero",
@@ -2794,7 +2794,7 @@ const products = [
     children: [322]
   },
   {
-    design: "cat_yarn_button",
+    id: "cat_yarn_button",
     type: "design",
     medium: "button",
     title: "Cat with Yarn",
@@ -2802,7 +2802,7 @@ const products = [
     children: [323]
   },
   {
-    design: "cat_loaf_button",
+    id: "cat_loaf_button",
     type: "design",
     medium: "button",
     title: "Toasy Loaf Cat",
@@ -2810,7 +2810,7 @@ const products = [
     children: [324]
   },
   {
-    design: "succulent_cactus_button",
+    id: "succulent_cactus_button",
     type: "design",
     medium: "button",
     title: "Fabulous Cactus",
@@ -2818,7 +2818,7 @@ const products = [
     children: [325]
   },
   {
-    design: "succulent_aloe_button",
+    id: "succulent_aloe_button",
     type: "design",
     medium: "button",
     title: "Aloen Time",
@@ -2826,7 +2826,7 @@ const products = [
     children: [326]
   },
   {
-    design: "bird_branch_button",
+    id: "bird_branch_button",
     type: "design",
     medium: "button",
     title: "Bird in a Tree",
@@ -2834,7 +2834,7 @@ const products = [
     children: [327]
   },
   {
-    design: "penguin_button",
+    id: "penguin_button",
     type: "design",
     medium: "button",
     title: "Penguins",
@@ -2842,7 +2842,7 @@ const products = [
     children: [328]
   },
   {
-    design: "pokemon_go_charm",
+    id: "pokemon_go_charm",
     type: "design",
     medium: "charm",
     title: "Pokemon Go!",
@@ -2850,7 +2850,7 @@ const products = [
     children: [329]
   },
   {
-    design: "pokemon_vulpix_charm",
+    id: "pokemon_vulpix_charm",
     type: "design",
     medium: "charm",
     title: "Pokemon - Vulpix",
@@ -2858,7 +2858,7 @@ const products = [
     children: [330]
   },
   {
-    design: "kirby_charm",
+    id: "kirby_charm",
     type: "design",
     medium: "charm",
     title: "Kirby",
@@ -2866,7 +2866,7 @@ const products = [
     children: [331]
   },
   {
-    design: "commission",
+    id: "commission",
     type: "design",
     medium: "commission",
     title: "Commission",
@@ -6214,7 +6214,7 @@ export function getProducts() {
 }
 
 export function getProduct(id) {
-  return products.find(p => p.design === id);
+  return products.find(p => p.id === id);
 }
 
 export function getSkus() {
