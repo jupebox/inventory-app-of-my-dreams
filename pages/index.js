@@ -1,9 +1,11 @@
+import AppContainer from "../components/app-container";
 import Search from "../components/search";
+
 function Home() {
   return (
-    <main>
+    <AppContainer>
       <Search />
-    </main>
+    </AppContainer>
   );
 }
 

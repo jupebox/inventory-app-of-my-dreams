@@ -1,10 +1,13 @@
 import Product from "../components/product";
+import AppContainer from "../components/app-container";
 import { getProduct, getSet } from "../services/inventoryService";
 import Link from "next/link";
 
 const Item = product => (
   <section>
-    <Product product={product} />
+    <AppContainer>
+      <Product product={product} />
+    </AppContainer>
     <Link href="/">
       <button>x</button>
     </Link>

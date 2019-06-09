@@ -33,7 +33,10 @@ class Search extends Component {
           value={this.state.query}
           onChange={this.handleChange}
         />
-        <Products products={this.filterProducts()} />
+        <Products
+          products={this.filterProducts()}
+          addToCart={this.props.addToCart}
+        />
       </section>
     );
   }

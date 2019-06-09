@@ -10,7 +10,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small"]
     },
-    children: [1]
+    skuIds: [1]
   },
   {
     id: "kirby_adventure_ii",
@@ -23,7 +23,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small"]
     },
-    children: [2]
+    skuIds: [2]
   },
   {
     id: "kirby_adventure_bb",
@@ -36,7 +36,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small"]
     },
-    children: [3]
+    skuIds: [3]
   },
   {
     id: "kirby_adventure_gg",
@@ -49,7 +49,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small"]
     },
-    children: [4]
+    skuIds: [4]
   },
   {
     id: "kirby_adventure_yy",
@@ -62,7 +62,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small"]
     },
-    children: [5]
+    skuIds: [5]
   },
   {
     id: "kirby_adventure_oo",
@@ -75,7 +75,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small"]
     },
-    children: [6]
+    skuIds: [6]
   },
   {
     id: "kirby_adventure_rr",
@@ -88,7 +88,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small"]
     },
-    children: [7]
+    skuIds: [7]
   },
   {
     id: "kirby_adventure_fod",
@@ -101,7 +101,7 @@ const products = [
       finishes: ["Matte", "Holographic"],
       sizes: ["Small", "Medium", "Large"]
     },
-    children: [8, 9, 10, 11, 12, 13]
+    skuIds: [8, 9, 10, 11, 12, 13]
   },
   {
     id: "smash_ladies_villager",
@@ -114,7 +114,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [14, 15]
+    skuIds: [14, 15]
   },
   {
     id: "smash_ladies_wii_fit",
@@ -127,7 +127,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [16, 17]
+    skuIds: [16, 17]
   },
   {
     id: "smash_ladies_zelda",
@@ -140,7 +140,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [18, 19]
+    skuIds: [18, 19]
   },
   {
     id: "smash_ladies_sheik",
@@ -153,7 +153,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [20, 21]
+    skuIds: [20, 21]
   },
   {
     id: "smash_ladies_palutena",
@@ -166,7 +166,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [22, 23]
+    skuIds: [22, 23]
   },
   {
     id: "smash_ladies_samus",
@@ -179,7 +179,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [24, 25]
+    skuIds: [24, 25]
   },
   {
     id: "smash_ladies_jigglypuff",
@@ -192,7 +192,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [26, 27]
+    skuIds: [26, 27]
   },
   {
     id: "smash_ladies_wendy",
@@ -205,7 +205,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [28, 29]
+    skuIds: [28, 29]
   },
   {
     id: "smash_ladies_peach",
@@ -218,7 +218,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [30, 31]
+    skuIds: [30, 31]
   },
   {
     id: "smash_ladies_rosalina",
@@ -231,7 +231,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [32, 33]
+    skuIds: [32, 33]
   },
   {
     id: "smash_ladies_bayonetta",
@@ -244,7 +244,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [34, 35]
+    skuIds: [34, 35]
   },
   {
     id: "smash_ladies_corrin",
@@ -257,7 +257,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [36, 37]
+    skuIds: [36, 37]
   },
   {
     id: "smash_ladies_lucina",
@@ -270,7 +270,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [38, 39]
+    skuIds: [38, 39]
   },
   {
     id: "smash_ladies_robin",
@@ -283,7 +283,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [40, 41]
+    skuIds: [40, 41]
   },
   {
     id: "kirby_parasol",
@@ -296,7 +296,7 @@ const products = [
       finishes: ["Matte", "Holographic"],
       sizes: ["Small", "Smedium", "Medium", "Large"]
     },
-    children: [42, 43, 44, 45, 46]
+    skuIds: [42, 43, 44, 45, 46]
   },
   {
     id: "kirby_wispy_woods",
@@ -309,7 +309,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [47, 48]
+    skuIds: [47, 48]
   },
   {
     id: "kirby_crystal_shards",
@@ -322,7 +322,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Medium", "Large"]
     },
-    children: [49, 50]
+    skuIds: [49, 50]
   },
   {
     id: "mario_rosalina",
@@ -335,7 +335,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini"]
     },
-    children: [51]
+    skuIds: [51]
   },
   {
     id: "mario_geno",
@@ -347,7 +347,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [52, 53]
+    skuIds: [52, 53]
   },
   {
     id: "mario_birds",
@@ -359,7 +359,7 @@ const products = [
       finishes: ["Matte"], // maybe don't break glossy out
       sizes: ["Small", "Medium", "Large"]
     },
-    children: [54, 55, 56]
+    skuIds: [54, 55, 56]
   },
   {
     id: "mario_paper_battle",
@@ -371,7 +371,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium", "Large"]
     },
-    children: [57, 58, 59]
+    skuIds: [57, 58, 59]
   },
   {
     id: "mario_paper_luigi",
@@ -383,7 +383,7 @@ const products = [
       finishes: ["Matte", "Holographic"],
       sizes: ["Medium", "Large"]
     },
-    children: [60, 61, 62]
+    skuIds: [60, 61, 62]
   },
   {
     id: "mario_paper_peach",
@@ -395,7 +395,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [63, 64]
+    skuIds: [63, 64]
   },
   {
     id: "pokemon_sweets_cakepops",
@@ -407,7 +407,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [67, 68]
+    skuIds: [67, 68]
   },
   {
     id: "pokemon_sweets_pumpkaboo",
@@ -419,7 +419,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [65, 66]
+    skuIds: [65, 66]
   },
   {
     id: "pokemon_sweets_slurpuff",
@@ -431,7 +431,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [69, 70]
+    skuIds: [69, 70]
   },
   {
     id: "pokemon_sweets_vulpix",
@@ -443,7 +443,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [71, 72]
+    skuIds: [71, 72]
   },
   {
     id: "pokemon_sweets_raichu",
@@ -455,7 +455,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [73, 74]
+    skuIds: [73, 74]
   },
   {
     id: "pokemon_sweets_bellossom",
@@ -467,7 +467,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium", "Large"]
     },
-    children: [75, 76, 77]
+    skuIds: [75, 76, 77]
   },
   {
     id: "pokemon_sweets_macarons",
@@ -479,7 +479,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small"]
     },
-    children: [78]
+    skuIds: [78]
   },
   {
     id: "pokemon_lilly",
@@ -491,7 +491,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium", "Large"]
     },
-    children: [79, 80, 81]
+    skuIds: [79, 80, 81]
   },
   {
     id: "pokemon_snap",
@@ -503,7 +503,7 @@ const products = [
       finishes: ["Matte", "Holographic"],
       sizes: ["Mini", "Small", "Medium", "Large"]
     },
-    children: [82, 83, 84, 85, 86]
+    skuIds: [82, 83, 84, 85, 86]
   },
   {
     id: "banjo_kazooie",
@@ -515,7 +515,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [87, 88]
+    skuIds: [87, 88]
   },
   {
     id: "zelda_malon",
@@ -527,7 +527,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium", "Large"]
     },
-    children: [89, 90, 91]
+    skuIds: [89, 90, 91]
   },
   {
     id: "zelda_saria",
@@ -539,7 +539,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium", "Large"]
     },
-    children: [92, 93, 94]
+    skuIds: [92, 93, 94]
   },
   {
     id: "ice_climbers",
@@ -551,7 +551,7 @@ const products = [
       finishes: ["Matte", "Holographic"],
       sizes: ["Small", "Smedium", "Medium", "Large"]
     },
-    children: [95, 96, 97, 98, 99]
+    skuIds: [95, 96, 97, 98, 99]
   },
   {
     id: "harvest_moon",
@@ -563,7 +563,7 @@ const products = [
       finishes: ["Matte", "Thin"],
       sizes: ["Medium"]
     },
-    children: [100, 101]
+    skuIds: [100, 101]
   },
   {
     id: "kingdom_hearts_beach",
@@ -575,7 +575,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Medium", "Large"]
     },
-    children: [102, 103]
+    skuIds: [102, 103]
   },
   {
     id: "pokemon_alphabet_gen1",
@@ -587,7 +587,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Large"]
     },
-    children: [104]
+    skuIds: [104]
   },
   {
     id: "pokemon_alphabet_gen2",
@@ -599,7 +599,7 @@ const products = [
       finishes: ["Matte", "Thin"],
       sizes: ["Large"]
     },
-    children: [105, 106]
+    skuIds: [105, 106]
   },
   {
     id: "deltarune_cake",
@@ -611,7 +611,7 @@ const products = [
       finishes: ["Matte", "Holographic"],
       sizes: ["Medium", "Large"]
     },
-    children: [107, 108, 109, 110]
+    skuIds: [107, 108, 109, 110]
   },
   {
     id: "undertale_frisk_flowey",
@@ -623,7 +623,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small", "Smedium", "Medium"]
     },
-    children: [111, 112, 113, 114]
+    skuIds: [111, 112, 113, 114]
   },
   {
     id: "undertale_cavestory",
@@ -635,7 +635,7 @@ const products = [
       finishes: ["Matte", "Thin"],
       sizes: ["Small", "Medium", "Large"]
     },
-    children: [115, 116, 117, 118]
+    skuIds: [115, 116, 117, 118]
   },
   {
     id: "cavestory_quote",
@@ -647,7 +647,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Medium"]
     },
-    children: [119]
+    skuIds: [119]
   },
   {
     id: "pokemon_alphabet_gen1_a",
@@ -660,7 +660,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [333, 334]
+    skuIds: [333, 334]
   },
   {
     id: "pokemon_alphabet_gen1_b",
@@ -673,7 +673,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [335, 336]
+    skuIds: [335, 336]
   },
   {
     id: "pokemon_alphabet_gen1_c",
@@ -686,7 +686,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [337, 338]
+    skuIds: [337, 338]
   },
   {
     id: "pokemon_alphabet_gen1_d",
@@ -699,7 +699,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [339, 340]
+    skuIds: [339, 340]
   },
   {
     id: "pokemon_alphabet_gen1_e",
@@ -712,7 +712,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [341, 342]
+    skuIds: [341, 342]
   },
   {
     id: "pokemon_alphabet_gen1_f",
@@ -725,7 +725,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [343, 344]
+    skuIds: [343, 344]
   },
   {
     id: "pokemon_alphabet_gen1_g",
@@ -738,7 +738,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [345, 346]
+    skuIds: [345, 346]
   },
   {
     id: "pokemon_alphabet_gen1_h",
@@ -751,7 +751,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [347, 348]
+    skuIds: [347, 348]
   },
   {
     id: "pokemon_alphabet_gen1_i",
@@ -764,7 +764,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [349, 350]
+    skuIds: [349, 350]
   },
   {
     id: "pokemon_alphabet_gen1_j",
@@ -777,7 +777,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [351, 352]
+    skuIds: [351, 352]
   },
   {
     id: "pokemon_alphabet_gen1_k",
@@ -790,7 +790,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [353, 354]
+    skuIds: [353, 354]
   },
   {
     id: "pokemon_alphabet_gen1_l",
@@ -803,7 +803,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [355, 356]
+    skuIds: [355, 356]
   },
   {
     id: "pokemon_alphabet_gen1_m",
@@ -816,7 +816,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [357, 358]
+    skuIds: [357, 358]
   },
   {
     id: "pokemon_alphabet_gen1_n",
@@ -829,7 +829,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [359, 360]
+    skuIds: [359, 360]
   },
   {
     id: "pokemon_alphabet_gen1_o",
@@ -842,7 +842,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [361, 362]
+    skuIds: [361, 362]
   },
   {
     id: "pokemon_alphabet_gen1_p",
@@ -855,7 +855,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [363, 364]
+    skuIds: [363, 364]
   },
   {
     id: "pokemon_alphabet_gen1_q",
@@ -868,7 +868,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [365, 366]
+    skuIds: [365, 366]
   },
   {
     id: "pokemon_alphabet_gen1_r",
@@ -881,7 +881,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [367, 368]
+    skuIds: [367, 368]
   },
   {
     id: "pokemon_alphabet_gen1_s",
@@ -894,7 +894,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [369, 370]
+    skuIds: [369, 370]
   },
   {
     id: "pokemon_alphabet_gen1_t",
@@ -907,7 +907,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [371, 372]
+    skuIds: [371, 372]
   },
   {
     id: "pokemon_alphabet_gen1_u",
@@ -920,7 +920,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [373, 374]
+    skuIds: [373, 374]
   },
   {
     id: "pokemon_alphabet_gen1_v",
@@ -933,7 +933,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [375, 376]
+    skuIds: [375, 376]
   },
   {
     id: "pokemon_alphabet_gen1_w",
@@ -946,7 +946,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [377, 378]
+    skuIds: [377, 378]
   },
   {
     id: "pokemon_alphabet_gen1_x",
@@ -959,7 +959,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [379, 380]
+    skuIds: [379, 380]
   },
   {
     id: "pokemon_alphabet_gen1_y",
@@ -972,7 +972,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [381, 382]
+    skuIds: [381, 382]
   },
   {
     id: "pokemon_alphabet_gen1_z",
@@ -985,7 +985,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [383, 384]
+    skuIds: [383, 384]
   },
   {
     id: "pokemon_alphabet_gen2_a",
@@ -998,7 +998,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [385, 386]
+    skuIds: [385, 386]
   },
   {
     id: "pokemon_alphabet_gen2_b",
@@ -1011,7 +1011,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [387, 388]
+    skuIds: [387, 388]
   },
   {
     id: "pokemon_alphabet_gen2_c",
@@ -1024,7 +1024,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [389, 390]
+    skuIds: [389, 390]
   },
   {
     id: "pokemon_alphabet_gen2_d",
@@ -1037,7 +1037,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [391, 392]
+    skuIds: [391, 392]
   },
   {
     id: "pokemon_alphabet_gen2_e",
@@ -1050,7 +1050,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [393, 394]
+    skuIds: [393, 394]
   },
   {
     id: "pokemon_alphabet_gen2_f",
@@ -1063,7 +1063,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [395, 396]
+    skuIds: [395, 396]
   },
   {
     id: "pokemon_alphabet_gen2_g",
@@ -1076,7 +1076,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [397, 398]
+    skuIds: [397, 398]
   },
   {
     id: "pokemon_alphabet_gen2_h",
@@ -1089,7 +1089,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [399, 400]
+    skuIds: [399, 400]
   },
   {
     id: "pokemon_alphabet_gen2_i",
@@ -1102,7 +1102,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [401, 402]
+    skuIds: [401, 402]
   },
   {
     id: "pokemon_alphabet_gen2_j",
@@ -1115,7 +1115,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [403, 404]
+    skuIds: [403, 404]
   },
   {
     id: "pokemon_alphabet_gen2_k",
@@ -1128,7 +1128,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [405, 406]
+    skuIds: [405, 406]
   },
   {
     id: "pokemon_alphabet_gen2_l",
@@ -1141,7 +1141,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [407, 408]
+    skuIds: [407, 408]
   },
   {
     id: "pokemon_alphabet_gen2_m",
@@ -1154,7 +1154,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [409, 410]
+    skuIds: [409, 410]
   },
   {
     id: "pokemon_alphabet_gen2_n",
@@ -1167,7 +1167,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [411, 412]
+    skuIds: [411, 412]
   },
   {
     id: "pokemon_alphabet_gen2_o",
@@ -1180,7 +1180,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [413, 414]
+    skuIds: [413, 414]
   },
   {
     id: "pokemon_alphabet_gen2_p",
@@ -1193,7 +1193,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [415, 416]
+    skuIds: [415, 416]
   },
   {
     id: "pokemon_alphabet_gen2_q",
@@ -1206,7 +1206,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [417, 418]
+    skuIds: [417, 418]
   },
   {
     id: "pokemon_alphabet_gen2_r",
@@ -1219,7 +1219,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [419, 420]
+    skuIds: [419, 420]
   },
   {
     id: "pokemon_alphabet_gen2_s",
@@ -1232,7 +1232,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [421, 422]
+    skuIds: [421, 422]
   },
   {
     id: "pokemon_alphabet_gen2_t",
@@ -1245,7 +1245,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [423, 424]
+    skuIds: [423, 424]
   },
   {
     id: "pokemon_alphabet_gen2_u",
@@ -1258,7 +1258,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [425, 426]
+    skuIds: [425, 426]
   },
   {
     id: "pokemon_alphabet_gen2_u_v1",
@@ -1271,7 +1271,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [427, 428]
+    skuIds: [427, 428]
   },
   {
     id: "pokemon_alphabet_gen2_v",
@@ -1284,7 +1284,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [429, 430]
+    skuIds: [429, 430]
   },
   {
     id: "pokemon_alphabet_gen2_w",
@@ -1297,7 +1297,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [431, 432]
+    skuIds: [431, 432]
   },
   {
     id: "pokemon_alphabet_gen2_x",
@@ -1310,7 +1310,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [433, 434]
+    skuIds: [433, 434]
   },
   {
     id: "pokemon_alphabet_gen2_y",
@@ -1323,7 +1323,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [435, 436]
+    skuIds: [435, 436]
   },
   {
     id: "pokemon_alphabet_gen2_z",
@@ -1336,7 +1336,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small"]
     },
-    children: [437, 438]
+    skuIds: [437, 438]
   },
   {
     id: "gravity_falls_dipper",
@@ -1348,7 +1348,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small", "Medium"]
     },
-    children: [120, 121, 122]
+    skuIds: [120, 121, 122]
   },
   {
     id: "gravity_falls_mabel",
@@ -1360,7 +1360,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Small", "Medium"]
     },
-    children: [123, 124, 125]
+    skuIds: [123, 124, 125]
   },
   {
     id: "gravity_falls_bill",
@@ -1372,7 +1372,7 @@ const products = [
       finishes: ["Matte", "Holographic"],
       sizes: ["Small", "Medium", "Large"]
     },
-    children: [126, 128, 130, 131]
+    skuIds: [126, 128, 130, 131]
   },
   {
     id: "gravity_falls_bill_v1",
@@ -1384,7 +1384,7 @@ const products = [
       finishes: ["Matte", "Thin"],
       sizes: ["Small", "Medium"]
     },
-    children: [127, 129]
+    skuIds: [127, 129]
   },
   {
     id: "shera_shitpost_catra",
@@ -1396,7 +1396,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini"]
     },
-    children: [132]
+    skuIds: [132]
   },
   {
     id: "shera_shitpost_adora",
@@ -1408,7 +1408,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini"]
     },
-    children: [133]
+    skuIds: [133]
   },
   {
     id: "sherlock_scarf",
@@ -1420,7 +1420,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [134, 135]
+    skuIds: [134, 135]
   },
   {
     id: "sherlock_wedding",
@@ -1432,7 +1432,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [136, 137]
+    skuIds: [136, 137]
   },
   {
     id: "steven_universe_catfingers",
@@ -1444,7 +1444,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small"]
     },
-    children: [138]
+    skuIds: [138]
   },
   {
     id: "madoka_magica_quote",
@@ -1456,7 +1456,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium", "Large"]
     },
-    children: [139, 140, 141]
+    skuIds: [139, 140, 141]
   },
   {
     id: "inuyasha_sesshoumaru_group",
@@ -1468,19 +1468,19 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium", "Large"]
     },
-    children: [142, 143, 144]
+    skuIds: [142, 143, 144]
   },
   {
-    id: "dennou_coil_circle_of_children",
+    id: "dennou_coil_circle_of_skuIds",
     type: "design",
     medium: "print",
-    title: "Dennou Coil - A Circle of Children",
+    title: "Dennou Coil - A Circle of skuIds",
     imageUrl: "",
     productOptions: {
       finishes: ["Matte", "Holographic"],
       sizes: ["Small", "Medium", "Large"]
     },
-    children: [145, 146, 147, 148, 149]
+    skuIds: [145, 146, 147, 148, 149]
   },
   {
     id: "natsume_yuujinchou_return_name",
@@ -1492,7 +1492,7 @@ const products = [
       finishes: ["Matte", "Holographic"],
       sizes: ["Medium", "Large"]
     },
-    children: [150, 151, 152]
+    skuIds: [150, 151, 152]
   },
   {
     id: "ghibli_arrietty",
@@ -1504,7 +1504,7 @@ const products = [
       finishes: ["Matte", "Holographic"],
       sizes: ["Medium", "Large"]
     },
-    children: [153, 154, 155]
+    skuIds: [153, 154, 155]
   },
   {
     id: "ghibli_cat_returns",
@@ -1516,7 +1516,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Large"]
     },
-    children: [156]
+    skuIds: [156]
   },
   {
     id: "nichijou_skyfall",
@@ -1528,7 +1528,7 @@ const products = [
       finishes: ["Matte", "Holographic"],
       sizes: ["Small", "Large"]
     },
-    children: [157, 158, 159]
+    skuIds: [157, 158, 159]
   },
   {
     id: "magical_girls_amu",
@@ -1540,7 +1540,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small"]
     },
-    children: [160]
+    skuIds: [160]
   },
   {
     id: "magical_girls_sakura",
@@ -1552,7 +1552,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small"]
     },
-    children: [161]
+    skuIds: [161]
   },
   {
     id: "magical_girls_ahiru",
@@ -1564,7 +1564,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small"]
     },
-    children: [162]
+    skuIds: [162]
   },
   {
     id: "magical_girls_rue",
@@ -1576,7 +1576,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small"]
     },
-    children: [163]
+    skuIds: [163]
   },
   {
     id: "magical_girls_maya",
@@ -1588,7 +1588,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small"]
     },
-    children: [164]
+    skuIds: [164]
   },
   {
     id: "magical_girls_akko",
@@ -1600,7 +1600,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small"]
     },
-    children: [165]
+    skuIds: [165]
   },
   {
     id: "magical_girls_kagome",
@@ -1612,7 +1612,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small"]
     },
-    children: [166]
+    skuIds: [166]
   },
   {
     id: "magical_girls_full_moon",
@@ -1624,7 +1624,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small"]
     },
-    children: [167]
+    skuIds: [167]
   },
   {
     id: "cardcaptor_sakura_cashcaptors",
@@ -1636,7 +1636,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium", "Large"]
     },
-    children: [168, 169, 170]
+    skuIds: [168, 169, 170]
   },
   {
     id: "hunter_x_pokemon_gon",
@@ -1648,7 +1648,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [171, 172]
+    skuIds: [171, 172]
   },
   {
     id: "hunter_x_pokemon_killua",
@@ -1660,7 +1660,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [173, 174]
+    skuIds: [173, 174]
   },
   {
     id: "hunter_x_pokemon_alluka",
@@ -1672,7 +1672,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [175, 176]
+    skuIds: [175, 176]
   },
   {
     id: "hunter_x_pokemon_leorio",
@@ -1684,7 +1684,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [177, 178]
+    skuIds: [177, 178]
   },
   {
     id: "hunter_x_pokemon_kurapika",
@@ -1696,7 +1696,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [179, 180]
+    skuIds: [179, 180]
   },
   {
     id: "cats_and_tea_rain",
@@ -1708,7 +1708,7 @@ const products = [
       finishes: ["Matte", "Thin"],
       sizes: ["Small", "Medium", "Large"]
     },
-    children: [181, 182, 183, 184, 185]
+    skuIds: [181, 182, 183, 184, 185]
   },
   {
     id: "cats_and_tea_fire",
@@ -1720,7 +1720,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium", "Large"]
     },
-    children: [186, 188, 190]
+    skuIds: [186, 188, 190]
   },
   {
     id: "cats_and_tea_fire_v1",
@@ -1732,7 +1732,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium", "Large"]
     },
-    children: [187, 189, 191]
+    skuIds: [187, 189, 191]
   },
   {
     id: "cats_and_tea_cafe",
@@ -1744,7 +1744,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium", "Large"]
     },
-    children: [192, 193, 194]
+    skuIds: [192, 193, 194]
   },
   {
     id: "cats_and_tea_sadness",
@@ -1756,7 +1756,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Large"]
     },
-    children: [195, 196]
+    skuIds: [195, 196]
   },
   {
     id: "bees_beelines",
@@ -1768,7 +1768,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small"]
     },
-    children: [197]
+    skuIds: [197]
   },
   {
     id: "bees_dance",
@@ -1780,7 +1780,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Medium"]
     },
-    children: [198]
+    skuIds: [198]
   },
   {
     id: "bees_felt",
@@ -1792,7 +1792,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Medium"]
     },
-    children: [199]
+    skuIds: [199]
   },
   {
     id: "bees_fruit",
@@ -1804,7 +1804,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Medium"]
     },
-    children: [200]
+    skuIds: [200]
   },
   {
     id: "bees_ribbon",
@@ -1816,7 +1816,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Medium"]
     },
-    children: [201]
+    skuIds: [201]
   },
   {
     id: "tea_makes_me_happy",
@@ -1828,7 +1828,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [202, 203]
+    skuIds: [202, 203]
   },
   {
     id: "all_you_need_is_cake",
@@ -1840,7 +1840,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Small", "Medium"]
     },
-    children: [204, 205]
+    skuIds: [204, 205]
   },
   {
     id: "mushishi_light_river",
@@ -1852,7 +1852,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Medium", "Large"]
     },
-    children: [206, 207]
+    skuIds: [206, 207]
   },
   {
     id: "princess_tutu_healing_touch",
@@ -1864,7 +1864,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini", "Medium", "Large"]
     },
-    children: [208, 209, 210]
+    skuIds: [208, 209, 210]
   },
   {
     id: "heck_bird",
@@ -1876,7 +1876,7 @@ const products = [
       finishes: ["Matte"],
       sizes: ["Mini"]
     },
-    children: [211]
+    skuIds: [211]
   },
   {
     id: "loaf_cat",
@@ -1888,7 +1888,7 @@ const products = [
       finishes: ["Matte", "Holographic"],
       sizes: ["Mini"]
     },
-    children: [212, 213]
+    skuIds: [212, 213]
   },
   {
     id: "harvest_moon_bookmark",
@@ -1899,7 +1899,7 @@ const products = [
     productOptions: {
       sides: ["Double-sided", "Front", "Back"]
     },
-    children: [214, 215, 216]
+    skuIds: [214, 215, 216]
   },
   {
     id: "bomberman_bookmark",
@@ -1910,7 +1910,7 @@ const products = [
     productOptions: {
       sides: ["Double-sided"]
     },
-    children: [217]
+    skuIds: [217]
   },
   {
     id: "yoshi_bookmark",
@@ -1921,7 +1921,7 @@ const products = [
     productOptions: {
       sides: ["Double-sided", "Front"]
     },
-    children: [218, 219]
+    skuIds: [218, 219]
   },
   {
     id: "kirby_bookmark",
@@ -1932,7 +1932,7 @@ const products = [
     productOptions: {
       sides: ["Double-sided"]
     },
-    children: [220]
+    skuIds: [220]
   },
   {
     id: "monkey_island_bookmark",
@@ -1943,7 +1943,7 @@ const products = [
     productOptions: {
       sides: ["Double-sided"]
     },
-    children: [221]
+    skuIds: [221]
   },
   {
     id: "cat_cafe_stickers",
@@ -1954,7 +1954,7 @@ const products = [
     productOptions: {
       quality: ["Good", "Misprint"]
     },
-    children: [222, 223]
+    skuIds: [222, 223]
   },
   {
     id: "pokemon_birds_stickers",
@@ -1965,7 +1965,7 @@ const products = [
     productOptions: {
       quality: ["Good"]
     },
-    children: [224]
+    skuIds: [224]
   },
   {
     id: "zelda_emojis_stickers",
@@ -1976,7 +1976,7 @@ const products = [
     productOptions: {
       quality: ["Good"]
     },
-    children: [225]
+    skuIds: [225]
   },
   {
     id: "zelda_phrases_stickers",
@@ -1987,7 +1987,7 @@ const products = [
     productOptions: {
       quality: ["Good"]
     },
-    children: [226]
+    skuIds: [226]
   },
   {
     id: "bees_stickers",
@@ -1998,7 +1998,7 @@ const products = [
     productOptions: {
       quality: ["Good", "Misprint"]
     },
-    children: [227, 228]
+    skuIds: [227, 228]
   },
   {
     id: "kirby_stickers",
@@ -2009,7 +2009,7 @@ const products = [
     productOptions: {
       quality: ["Good", "Misprint"]
     },
-    children: [229, 230]
+    skuIds: [229, 230]
   },
   {
     id: "zelda_rupees_stickers",
@@ -2020,7 +2020,7 @@ const products = [
     productOptions: {
       quality: ["Good"]
     },
-    children: [231]
+    skuIds: [231]
   },
   {
     id: "zelda_fairies_stickers",
@@ -2031,7 +2031,7 @@ const products = [
     productOptions: {
       quality: ["Good"]
     },
-    children: [232]
+    skuIds: [232]
   },
   {
     id: "zelda_spirit_stones_stickers",
@@ -2042,7 +2042,7 @@ const products = [
     productOptions: {
       quality: ["Good"]
     },
-    children: [233]
+    skuIds: [233]
   },
   {
     id: "zelda_items_stickers",
@@ -2053,7 +2053,7 @@ const products = [
     productOptions: {
       quality: ["Good"]
     },
-    children: [234]
+    skuIds: [234]
   },
   {
     id: "bees_accessories_stickers",
@@ -2064,7 +2064,7 @@ const products = [
     productOptions: {
       quality: ["Good"]
     },
-    children: [235]
+    skuIds: [235]
   },
   {
     id: "bees_stickers_v1",
@@ -2075,7 +2075,7 @@ const products = [
     productOptions: {
       quality: ["Good"]
     },
-    children: [236]
+    skuIds: [236]
   },
   {
     id: "single_sticker",
@@ -2086,7 +2086,7 @@ const products = [
     productOptions: {
       size: ["Tiny", "Small", "Large"]
     },
-    children: [237, 238, 239]
+    skuIds: [237, 238, 239]
   },
   {
     id: "bee_lines_zine",
@@ -2094,7 +2094,7 @@ const products = [
     medium: "booklet",
     title: "Bee Lines (Zine)",
     imageUrl: "",
-    children: [240]
+    skuIds: [240]
   },
   {
     id: "sweets_zine",
@@ -2102,7 +2102,7 @@ const products = [
     medium: "booklet",
     title: "Pokemon - Sweets (Zine)",
     imageUrl: "",
-    children: [241]
+    skuIds: [241]
   },
   {
     id: "tayce_t_zine",
@@ -2110,7 +2110,7 @@ const products = [
     medium: "booklet",
     title: "Paper Mario - Tayce T (Comic)",
     imageUrl: "",
-    children: [242]
+    skuIds: [242]
   },
   {
     id: "bee_stationery",
@@ -2122,7 +2122,7 @@ const products = [
       color: ["Blue", "Pink", "Yellow", "Combo"],
       size: ["6 sheets", "12 sheets"]
     },
-    children: [243, 244, 245, 246, 247]
+    skuIds: [243, 244, 245, 246, 247]
   },
   {
     id: "undertale_button_frisk",
@@ -2131,7 +2131,7 @@ const products = [
     title: "Undertale - Frisk",
     imageUrl: "",
     hideFromList: true,
-    children: [248]
+    skuIds: [248]
   },
   {
     id: "undertale_button_chara",
@@ -2140,7 +2140,7 @@ const products = [
     title: "Undertale - Chara",
     imageUrl: "",
     hideFromList: true,
-    children: [249]
+    skuIds: [249]
   },
   {
     id: "undertale_button_flowey",
@@ -2149,7 +2149,7 @@ const products = [
     title: "Undertale - Flowey",
     imageUrl: "",
     hideFromList: true,
-    children: [250]
+    skuIds: [250]
   },
   {
     id: "undertale_button_asriel",
@@ -2158,7 +2158,7 @@ const products = [
     title: "Undertale - Asriel",
     imageUrl: "",
     hideFromList: true,
-    children: [251]
+    skuIds: [251]
   },
   {
     id: "undertale_button_toriel",
@@ -2167,7 +2167,7 @@ const products = [
     title: "Undertale - Toriel",
     imageUrl: "",
     hideFromList: true,
-    children: [252]
+    skuIds: [252]
   },
   {
     id: "undertale_button_asgore",
@@ -2176,7 +2176,7 @@ const products = [
     title: "Undertale - Asgore",
     imageUrl: "",
     hideFromList: true,
-    children: [253]
+    skuIds: [253]
   },
   {
     id: "undertale_button_papyrus",
@@ -2185,7 +2185,7 @@ const products = [
     title: "Undertale - Papyrus",
     imageUrl: "",
     hideFromList: true,
-    children: [254]
+    skuIds: [254]
   },
   {
     id: "undertale_button_sans",
@@ -2194,7 +2194,7 @@ const products = [
     title: "Undertale - Sans",
     imageUrl: "",
     hideFromList: true,
-    children: [255]
+    skuIds: [255]
   },
   {
     id: "undertale_button_undyne",
@@ -2203,7 +2203,7 @@ const products = [
     title: "Undertale - Undyne",
     imageUrl: "",
     hideFromList: true,
-    children: [256]
+    skuIds: [256]
   },
   {
     id: "undertale_button_alphys",
@@ -2212,7 +2212,7 @@ const products = [
     title: "Undertale - Alphys",
     imageUrl: "",
     hideFromList: true,
-    children: [257]
+    skuIds: [257]
   },
   {
     id: "undertale_button_mettaton_humanoid",
@@ -2221,7 +2221,7 @@ const products = [
     title: "Undertale - Mettaton (Humanoid)",
     imageUrl: "",
     hideFromList: true,
-    children: [258]
+    skuIds: [258]
   },
   {
     id: "undertale_button_mettaton_box",
@@ -2230,7 +2230,7 @@ const products = [
     title: "Undertale - Mettaton (Box)",
     imageUrl: "",
     hideFromList: true,
-    children: [259]
+    skuIds: [259]
   },
   {
     id: "undertale_button_muffet",
@@ -2239,7 +2239,7 @@ const products = [
     title: "Undertale - Muffet",
     imageUrl: "",
     hideFromList: true,
-    children: [260]
+    skuIds: [260]
   },
   {
     id: "undertale_button_bratty",
@@ -2248,7 +2248,7 @@ const products = [
     title: "Undertale - Bratty",
     imageUrl: "",
     hideFromList: true,
-    children: [261]
+    skuIds: [261]
   },
   {
     id: "undertale_button_catty",
@@ -2257,7 +2257,7 @@ const products = [
     title: "Undertale - Catty",
     imageUrl: "",
     hideFromList: true,
-    children: [262]
+    skuIds: [262]
   },
   {
     id: "undertale_button_nice_cream",
@@ -2266,7 +2266,7 @@ const products = [
     title: "Undertale - Nice Cream Guy",
     imageUrl: "",
     hideFromList: true,
-    children: [263]
+    skuIds: [263]
   },
   {
     id: "undertale_button_burgerpants",
@@ -2275,7 +2275,7 @@ const products = [
     title: "Undertale - Burgerpants",
     imageUrl: "",
     hideFromList: true,
-    children: [264]
+    skuIds: [264]
   },
   {
     id: "undertale_button_temmie",
@@ -2284,7 +2284,7 @@ const products = [
     title: "Undertale - Temmie",
     imageUrl: "",
     hideFromList: true,
-    children: [265]
+    skuIds: [265]
   },
   {
     id: "undertale_button_grillby",
@@ -2293,7 +2293,7 @@ const products = [
     title: "Undertale - Grillby",
     imageUrl: "",
     hideFromList: true,
-    children: [266]
+    skuIds: [266]
   },
   {
     id: "undertale_button_monster_kid",
@@ -2302,7 +2302,7 @@ const products = [
     title: "Undertale - Monster Kid",
     imageUrl: "",
     hideFromList: true,
-    children: [267]
+    skuIds: [267]
   },
   {
     id: "undertale_button_napstablook",
@@ -2311,7 +2311,7 @@ const products = [
     title: "Undertale - Napstablook",
     imageUrl: "",
     hideFromList: true,
-    children: [268]
+    skuIds: [268]
   },
   {
     id: "undertale_button_lesser_dog_head",
@@ -2320,7 +2320,7 @@ const products = [
     title: "Undertale - Lesser Dog Head",
     imageUrl: "",
     hideFromList: true,
-    children: [269]
+    skuIds: [269]
   },
   {
     id: "undertale_button_lesser_dog_bent_neck",
@@ -2329,7 +2329,7 @@ const products = [
     title: "Undertale - Lesser Dog Bent Neck",
     imageUrl: "",
     hideFromList: true,
-    children: [271]
+    skuIds: [271]
   },
   {
     id: "undertale_button_lesser_dog_straight_neck",
@@ -2338,7 +2338,7 @@ const products = [
     title: "Undertale - Lesser Dog Straight Neck",
     imageUrl: "",
     hideFromList: true,
-    children: [270]
+    skuIds: [270]
   },
   {
     id: "undertale_button_lesser_dog_body",
@@ -2347,7 +2347,7 @@ const products = [
     title: "Undertale - Lesser Dog Body",
     imageUrl: "",
     hideFromList: true,
-    children: [272]
+    skuIds: [272]
   },
   {
     id: "paper_mario_button_goombario",
@@ -2356,7 +2356,7 @@ const products = [
     title: "Paper Mario - Goombario",
     imageUrl: "",
     hideFromList: true,
-    children: [273]
+    skuIds: [273]
   },
   {
     id: "paper_mario_button_kooper",
@@ -2365,7 +2365,7 @@ const products = [
     title: "Paper Mario - Kooper",
     imageUrl: "",
     hideFromList: true,
-    children: [274]
+    skuIds: [274]
   },
   {
     id: "paper_mario_button_bombette",
@@ -2374,7 +2374,7 @@ const products = [
     title: "Paper Mario - Bombette",
     imageUrl: "",
     hideFromList: true,
-    children: [275]
+    skuIds: [275]
   },
   {
     id: "paper_mario_button_parakarry",
@@ -2383,7 +2383,7 @@ const products = [
     title: "Paper Mario - Parakarry",
     imageUrl: "",
     hideFromList: true,
-    children: [276]
+    skuIds: [276]
   },
   {
     id: "paper_mario_button_bow",
@@ -2392,7 +2392,7 @@ const products = [
     title: "Paper Mario - Lady Bow",
     imageUrl: "",
     hideFromList: true,
-    children: [277]
+    skuIds: [277]
   },
   {
     id: "paper_mario_button_watt",
@@ -2401,7 +2401,7 @@ const products = [
     title: "Paper Mario - Watt",
     imageUrl: "",
     hideFromList: true,
-    children: [278]
+    skuIds: [278]
   },
   {
     id: "paper_mario_button_sushie",
@@ -2410,7 +2410,7 @@ const products = [
     title: "Paper Mario - Sushie",
     imageUrl: "",
     hideFromList: true,
-    children: [279]
+    skuIds: [279]
   },
   {
     id: "paper_mario_button_lakilester",
@@ -2419,7 +2419,7 @@ const products = [
     title: "Paper Mario - Lakilester",
     imageUrl: "",
     hideFromList: true,
-    children: [280]
+    skuIds: [280]
   },
   {
     id: "paper_mario_button_peach",
@@ -2428,7 +2428,7 @@ const products = [
     title: "Paper Mario - Peach & Twink",
     imageUrl: "",
     hideFromList: true,
-    children: [281]
+    skuIds: [281]
   },
   {
     id: "paper_mario_button_luigi",
@@ -2437,7 +2437,7 @@ const products = [
     title: "Paper Mario - Luigi",
     imageUrl: "",
     hideFromList: true,
-    children: [282]
+    skuIds: [282]
   },
   {
     id: "paper_mario_button_mario",
@@ -2446,7 +2446,7 @@ const products = [
     title: "Paper Mario - Mario",
     imageUrl: "",
     hideFromList: true,
-    children: [283]
+    skuIds: [283]
   },
   {
     id: "mario_button_goomba",
@@ -2455,7 +2455,7 @@ const products = [
     title: "Mario - Goomba",
     imageUrl: "",
     hideFromList: true,
-    children: [284]
+    skuIds: [284]
   },
   {
     id: "mario_button_koopa",
@@ -2464,7 +2464,7 @@ const products = [
     title: "Mario - Koopa",
     imageUrl: "",
     hideFromList: true,
-    children: [285]
+    skuIds: [285]
   },
   {
     id: "mario_button_boo",
@@ -2473,7 +2473,7 @@ const products = [
     title: "Mario - Boo",
     imageUrl: "",
     hideFromList: true,
-    children: [286]
+    skuIds: [286]
   },
   {
     id: "mario_button_lakitu",
@@ -2482,7 +2482,7 @@ const products = [
     title: "Mario - Lakitu",
     imageUrl: "",
     hideFromList: true,
-    children: [287]
+    skuIds: [287]
   },
   {
     id: "mario_button_piranha",
@@ -2491,7 +2491,7 @@ const products = [
     title: "Mario - Piranha Plant",
     imageUrl: "",
     hideFromList: true,
-    children: [288]
+    skuIds: [288]
   },
   {
     id: "mario_button_shyguy",
@@ -2500,7 +2500,7 @@ const products = [
     title: "Mario - Shy Guy",
     imageUrl: "",
     hideFromList: true,
-    children: [289]
+    skuIds: [289]
   },
   {
     id: "mario_button_buzzy",
@@ -2509,7 +2509,7 @@ const products = [
     title: "Mario - Buzzy Beetle",
     imageUrl: "",
     hideFromList: true,
-    children: [290]
+    skuIds: [290]
   },
   {
     id: "mario_button_blooper",
@@ -2518,7 +2518,7 @@ const products = [
     title: "Mario - Blooper",
     imageUrl: "",
     hideFromList: true,
-    children: [291]
+    skuIds: [291]
   },
   {
     id: "mario_button_chomp",
@@ -2527,7 +2527,7 @@ const products = [
     title: "Mario - Chain Chomp",
     imageUrl: "",
     hideFromList: true,
-    children: [292]
+    skuIds: [292]
   },
   {
     id: "mario_button_bobomb",
@@ -2536,7 +2536,7 @@ const products = [
     title: "Mario - Bobomb",
     imageUrl: "",
     hideFromList: true,
-    children: [293]
+    skuIds: [293]
   },
   {
     id: "kirby_button_kirby",
@@ -2545,7 +2545,7 @@ const products = [
     title: "Kirby - Kirby",
     imageUrl: "",
     hideFromList: true,
-    children: [294]
+    skuIds: [294]
   },
   {
     id: "kirby_button_waddle_dee",
@@ -2554,7 +2554,7 @@ const products = [
     title: "Kirby - Waddle Dee",
     imageUrl: "",
     hideFromList: true,
-    children: [295]
+    skuIds: [295]
   },
   {
     id: "kirby_button_dedede",
@@ -2563,7 +2563,7 @@ const products = [
     title: "Kirby - King Dedede",
     imageUrl: "",
     hideFromList: true,
-    children: [296]
+    skuIds: [296]
   },
   {
     id: "kirby_button_metaknight",
@@ -2572,7 +2572,7 @@ const products = [
     title: "Kirby - Metaknight",
     imageUrl: "",
     hideFromList: true,
-    children: [297]
+    skuIds: [297]
   },
   {
     id: "kirby_button_magolor",
@@ -2581,7 +2581,7 @@ const products = [
     title: "Kirby - Magolor",
     imageUrl: "",
     hideFromList: true,
-    children: [298]
+    skuIds: [298]
   },
   {
     id: "kirby_button_waddle_doo",
@@ -2590,7 +2590,7 @@ const products = [
     title: "Kirby - Waddle Doo",
     imageUrl: "",
     hideFromList: true,
-    children: [299]
+    skuIds: [299]
   },
   {
     id: "kirby_button_bronto",
@@ -2599,7 +2599,7 @@ const products = [
     title: "Kirby - Bronto Burt",
     imageUrl: "",
     hideFromList: true,
-    children: [300]
+    skuIds: [300]
   },
   {
     id: "kirby_button_scarfy_cute",
@@ -2608,7 +2608,7 @@ const products = [
     title: "Kirby - Scarfy (Cute)",
     imageUrl: "",
     hideFromList: true,
-    children: [301]
+    skuIds: [301]
   },
   {
     id: "kirby_button_scarfy_terrifying",
@@ -2617,7 +2617,7 @@ const products = [
     title: "Kirby - Scarfy (Terrifying)",
     imageUrl: "",
     hideFromList: true,
-    children: [302]
+    skuIds: [302]
   },
   {
     id: "kirby_button_sparky",
@@ -2626,7 +2626,7 @@ const products = [
     title: "Kirby - Sparky",
     imageUrl: "",
     hideFromList: true,
-    children: [303]
+    skuIds: [303]
   },
   {
     id: "kirby_button_chilly",
@@ -2635,7 +2635,7 @@ const products = [
     title: "Kirby - Chilly",
     imageUrl: "",
     hideFromList: true,
-    children: [304]
+    skuIds: [304]
   },
   {
     id: "kirby_button_poppy",
@@ -2644,7 +2644,7 @@ const products = [
     title: "Kirby - Poppy Bros Jr",
     imageUrl: "",
     hideFromList: true,
-    children: [305]
+    skuIds: [305]
   },
   {
     id: "touhou_button_suika",
@@ -2653,7 +2653,7 @@ const products = [
     title: "Touhou - Suika",
     imageUrl: "",
     hideFromList: true,
-    children: [306]
+    skuIds: [306]
   },
   {
     id: "touhou_button_reimu",
@@ -2662,7 +2662,7 @@ const products = [
     title: "Touhou - Reimu",
     imageUrl: "",
     hideFromList: true,
-    children: [307]
+    skuIds: [307]
   },
   {
     id: "touhou_button_koishi",
@@ -2671,7 +2671,7 @@ const products = [
     title: "Touhou - Koishi",
     imageUrl: "",
     hideFromList: true,
-    children: [308]
+    skuIds: [308]
   },
   {
     id: "touhou_button_youmu",
@@ -2680,7 +2680,7 @@ const products = [
     title: "Touhou - Youmu",
     imageUrl: "",
     hideFromList: true,
-    children: [309]
+    skuIds: [309]
   },
   {
     id: "touhou_button_sakuya",
@@ -2689,7 +2689,7 @@ const products = [
     title: "Touhou - Sakuya",
     imageUrl: "",
     hideFromList: true,
-    children: [310]
+    skuIds: [310]
   },
   {
     id: "touhou_button_marisa",
@@ -2698,7 +2698,7 @@ const products = [
     title: "Touhou - Marisa",
     imageUrl: "",
     hideFromList: true,
-    children: [311]
+    skuIds: [311]
   },
   {
     id: "otgw_button_wirt",
@@ -2707,7 +2707,7 @@ const products = [
     title: "Over the Garden Wall - Wirt",
     imageUrl: "",
     hideFromList: true,
-    children: [312]
+    skuIds: [312]
   },
   {
     id: "otgw_button_greg",
@@ -2716,7 +2716,7 @@ const products = [
     title: "Over the Garden Wall - Greg",
     imageUrl: "",
     hideFromList: true,
-    children: [313]
+    skuIds: [313]
   },
   {
     id: "otgw_button_beatrice",
@@ -2725,7 +2725,7 @@ const products = [
     title: "Over the Garden Wall - Beatrice",
     imageUrl: "",
     hideFromList: true,
-    children: [314]
+    skuIds: [314]
   },
   {
     id: "otgw_button_frog",
@@ -2734,7 +2734,7 @@ const products = [
     title: "Over the Garden Wall - Frog",
     imageUrl: "",
     hideFromList: true,
-    children: [315]
+    skuIds: [315]
   },
   {
     id: "otgw_button_beast",
@@ -2743,7 +2743,7 @@ const products = [
     title: "Over the Garden Wall - Beast",
     imageUrl: "",
     hideFromList: true,
-    children: [316]
+    skuIds: [316]
   },
   {
     id: "sonic_silver_button",
@@ -2751,7 +2751,7 @@ const products = [
     medium: "button",
     title: "Sonic - Silver",
     imageUrl: "",
-    children: [317]
+    skuIds: [317]
   },
   {
     id: "cavestory_quote_button",
@@ -2759,7 +2759,7 @@ const products = [
     medium: "button",
     title: "CaveStory - Quote",
     imageUrl: "",
-    children: [318]
+    skuIds: [318]
   },
   {
     id: "bastion_kid_button",
@@ -2767,7 +2767,7 @@ const products = [
     medium: "button",
     title: "Bastion - The Kid",
     imageUrl: "",
-    children: [319]
+    skuIds: [319]
   },
   {
     id: "pokemon_zubat_azumarill_button",
@@ -2775,7 +2775,7 @@ const products = [
     medium: "button",
     title: "Pokemon - Zubat & Azumarill",
     imageUrl: "",
-    children: [320]
+    skuIds: [320]
   },
   {
     id: "sailor_moon_luna_button",
@@ -2783,7 +2783,7 @@ const products = [
     medium: "button",
     title: "Sailor Moon - Luna",
     imageUrl: "",
-    children: [321]
+    skuIds: [321]
   },
   {
     id: "cardcaptor_sakura_kero_button",
@@ -2791,7 +2791,7 @@ const products = [
     medium: "button",
     title: "Cardcaptor Sakura - Kero",
     imageUrl: "",
-    children: [322]
+    skuIds: [322]
   },
   {
     id: "cat_yarn_button",
@@ -2799,7 +2799,7 @@ const products = [
     medium: "button",
     title: "Cat with Yarn",
     imageUrl: "",
-    children: [323]
+    skuIds: [323]
   },
   {
     id: "cat_loaf_button",
@@ -2807,7 +2807,7 @@ const products = [
     medium: "button",
     title: "Toasy Loaf Cat",
     imageUrl: "",
-    children: [324]
+    skuIds: [324]
   },
   {
     id: "succulent_cactus_button",
@@ -2815,7 +2815,7 @@ const products = [
     medium: "button",
     title: "Fabulous Cactus",
     imageUrl: "",
-    children: [325]
+    skuIds: [325]
   },
   {
     id: "succulent_aloe_button",
@@ -2823,7 +2823,7 @@ const products = [
     medium: "button",
     title: "Aloen Time",
     imageUrl: "",
-    children: [326]
+    skuIds: [326]
   },
   {
     id: "bird_branch_button",
@@ -2831,7 +2831,7 @@ const products = [
     medium: "button",
     title: "Bird in a Tree",
     imageUrl: "",
-    children: [327]
+    skuIds: [327]
   },
   {
     id: "penguin_button",
@@ -2839,7 +2839,7 @@ const products = [
     medium: "button",
     title: "Penguins",
     imageUrl: "",
-    children: [328]
+    skuIds: [328]
   },
   {
     id: "pokemon_go_charm",
@@ -2847,7 +2847,7 @@ const products = [
     medium: "charm",
     title: "Pokemon Go!",
     imageUrl: "",
-    children: [329]
+    skuIds: [329]
   },
   {
     id: "pokemon_vulpix_charm",
@@ -2855,7 +2855,7 @@ const products = [
     medium: "charm",
     title: "Pokemon - Vulpix",
     imageUrl: "",
-    children: [330]
+    skuIds: [330]
   },
   {
     id: "kirby_charm",
@@ -2863,7 +2863,7 @@ const products = [
     medium: "charm",
     title: "Kirby",
     imageUrl: "",
-    children: [331]
+    skuIds: [331]
   },
   {
     id: "commission",
@@ -2875,7 +2875,7 @@ const products = [
       medium: ["Sketch", "Lines", "Lines & Crayon", "Marker"],
       sizes: ["Small", "Medium", "Large"]
     },
-    children: [332]
+    skuIds: [332]
   }
 ];
 
@@ -2884,1696 +2884,2366 @@ const skus = [
     id: 1,
     parentId: "kirby_adventure_vv",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 2,
     parentId: "kirby_adventure_ii",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 3,
     parentId: "kirby_adventure_bb",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 4,
     parentId: "kirby_adventure_gg",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 5,
     parentId: "kirby_adventure_yy",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 6,
     parentId: "kirby_adventure_oo",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 7,
     parentId: "kirby_adventure_rr",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 8,
     parentId: "kirby_adventure_fod",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 9,
     parentId: "kirby_adventure_fod",
     type: "sku",
-    size: "Small",
-    holographic: true,
+    options: {
+      size: "Small",
+      finish: "Holographic"
+    },
     inventory: 10
   },
   {
     id: 10,
     parentId: "kirby_adventure_fod",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 11,
     parentId: "kirby_adventure_fod",
     type: "sku",
-    size: "Medium",
-    holographic: true,
+    options: {
+      size: "Medium",
+      finish: "Holographic"
+    },
     inventory: 10
   },
   {
     id: 12,
     parentId: "kirby_adventure_fod",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 13,
     parentId: "kirby_adventure_fod",
     type: "sku",
-    size: "Large",
-    holographic: true,
+    options: {
+      size: "Large",
+      finish: "Holographic"
+    },
     inventory: 10
   },
   {
     id: 14,
     parentId: "smash_ladies_villager",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 15,
     parentId: "smash_ladies_villager",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 16,
     parentId: "smash_ladies_wii_fit",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 17,
     parentId: "smash_ladies_wii_fit",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 18,
     parentId: "smash_ladies_zelda",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 19,
     parentId: "smash_ladies_zelda",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 20,
     parentId: "smash_ladies_sheik",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 21,
     parentId: "smash_ladies_sheik",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 22,
     parentId: "smash_ladies_palutena",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 23,
     parentId: "smash_ladies_palutena",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 24,
     parentId: "smash_ladies_samus",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 25,
     parentId: "smash_ladies_samus",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 26,
     parentId: "smash_ladies_jigglypuff",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 27,
     parentId: "smash_ladies_jigglypuff",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 28,
     parentId: "smash_ladies_wendy",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 29,
     parentId: "smash_ladies_wendy",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 30,
     parentId: "smash_ladies_peach",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 31,
     parentId: "smash_ladies_peach",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 32,
     parentId: "smash_ladies_rosalina",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 33,
     parentId: "smash_ladies_rosalina",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 34,
     parentId: "smash_ladies_bayonetta",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 35,
     parentId: "smash_ladies_bayonetta",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 36,
     parentId: "smash_ladies_corrin",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 37,
     parentId: "smash_ladies_corrin",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 38,
     parentId: "smash_ladies_lucina",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 39,
     parentId: "smash_ladies_lucina",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 40,
     parentId: "smash_ladies_robin",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 41,
     parentId: "smash_ladies_robin",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 42,
     parentId: "kirby_parasol",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 43,
     parentId: "kirby_parasol",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 44,
     parentId: "kirby_parasol",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 45,
     parentId: "kirby_parasol",
     type: "sku",
-    size: "Large",
-    holographic: true,
+    options: {
+      size: "Large",
+      finish: "Holographic"
+    },
     inventory: 10
   },
   {
     id: 46,
     parentId: "kirby_parasol",
     type: "sku",
-    size: "Smedium",
+    options: {
+      size: "Smedium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 47,
     parentId: "kirby_wispy_woods",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 48,
     parentId: "kirby_wispy_woods",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 49,
     parentId: "kirby_crystal_shards",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 50,
     parentId: "kirby_crystal_shards",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 51,
     parentId: "mario_rosalina",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 52,
     parentId: "mario_geno",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 53,
     parentId: "mario_geno",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 54,
     parentId: "mario_birds",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 55,
     parentId: "mario_birds",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 56,
     parentId: "mario_birds",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 57,
     parentId: "mario_paper_battle",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 58,
     parentId: "mario_paper_battle",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 59,
     parentId: "mario_paper_battle",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 60,
     parentId: "mario_paper_luigi",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 61,
     parentId: "mario_paper_luigi",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 62,
     parentId: "mario_paper_luigi",
     type: "sku",
-    size: "Large",
-    holographic: true,
+    options: {
+      size: "Large",
+      finish: "Holographic"
+    },
     inventory: 10
   },
   {
     id: 63,
     parentId: "mario_paper_peach",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 64,
     parentId: "mario_paper_peach",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 65,
     parentId: "pokemon_sweets_pumpkaboo",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 66,
     parentId: "pokemon_sweets_pumpkaboo",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 67,
     parentId: "pokemon_sweets_cakepops",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 68,
     parentId: "pokemon_sweets_cakepops",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 69,
     parentId: "pokemon_sweets_slurpuff",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 70,
     parentId: "pokemon_sweets_slurpuff",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 71,
     parentId: "pokemon_sweets_vulpix",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 72,
     parentId: "pokemon_sweets_vulpix",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 73,
     parentId: "pokemon_sweets_raichu",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 74,
     parentId: "pokemon_sweets_raichu",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 75,
     parentId: "pokemon_sweets_bellossom",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 76,
     parentId: "pokemon_sweets_bellossom",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 77,
     parentId: "pokemon_sweets_bellossom",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 78,
     parentId: "pokemon_sweets_macarons",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 79,
     parentId: "pokemon_lilly",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 80,
     parentId: "pokemon_lilly",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 81,
     parentId: "pokemon_lilly",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 82,
     parentId: "pokemon_snap",
     type: "sku",
-    size: "mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 83,
     parentId: "pokemon_snap",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 84,
     parentId: "pokemon_snap",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 85,
     parentId: "pokemon_snap",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 86,
     parentId: "pokemon_snap",
     type: "sku",
-    size: "Large",
-    holographic: true,
+    options: {
+      size: "Large",
+      finish: "Holographic"
+    },
     inventory: 10
   },
   {
     id: 87,
     parentId: "banjo_kazooie",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 88,
     parentId: "banjo_kazooie",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 89,
     parentId: "zelda_malon",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 90,
     parentId: "zelda_malon",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 91,
     parentId: "zelda_malon",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 92,
     parentId: "zelda_saria",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 93,
     parentId: "zelda_saria",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 94,
     parentId: "zelda_saria",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 95,
     parentId: "ice_climbers",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 9
   },
   {
     id: 96,
     parentId: "ice_climbers",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 4
   },
   {
     id: 97,
     parentId: "ice_climbers",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 4
   },
   {
     id: 98,
     parentId: "ice_climbers",
     type: "sku",
-    size: "Large",
-    holographic: true,
+    options: {
+      size: "Large",
+      finish: "Holographic"
+    },
     inventory: 3
   },
   {
     id: 99,
     parentId: "ice_climbers",
     type: "sku",
-    size: "Smedium",
+    options: {
+      size: "Smedium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 100,
     parentId: "harvest_moon",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 101,
     parentId: "harvest_moon",
     type: "sku",
-    size: "Medium",
-    thin: true,
+    options: {
+      size: "Medium",
+      finish: "Thin"
+    },
+
     inventory: 10
   },
   {
     id: 102,
     parentId: "kingdom_hearts_beach",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 3
   },
   {
     id: 103,
     parentId: "kingdom_hearts_beach",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 3
   },
   {
     id: 104,
     parentId: "pokemon_alphabet_gen1",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 105,
     parentId: "pokemon_alphabet_gen2",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 106,
     parentId: "pokemon_alphabet_gen2",
     type: "sku",
-    size: "Large",
-    thin: true,
+    options: {
+      size: "Large",
+      finish: "Thin"
+    },
+
     inventory: 10
   },
   {
     id: 107,
     parentId: "deltarune_cake",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 11
   },
   {
     id: 108,
     parentId: "deltarune_cake",
     type: "sku",
-    size: "Medium",
-    holographic: true,
+    options: {
+      size: "Medium",
+      finish: "Holographic"
+    },
     inventory: 2
   },
   {
     id: 109,
     parentId: "deltarune_cake",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 8
   },
   {
     id: 110,
     parentId: "deltarune_cake",
     type: "sku",
-    size: "Large",
-    holographic: true,
+    options: {
+      size: "Large",
+      finish: "Holographic"
+    },
     inventory: 2
   },
   {
     id: 111,
     parentId: "undertale_frisk_flowey",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 3
   },
   {
     id: 112,
     parentId: "undertale_frisk_flowey",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 113,
     parentId: "undertale_frisk_flowey",
     type: "sku",
-    size: "Smedium",
+    options: {
+      size: "Smedium",
+      finish: "Matte"
+    },
     inventory: 6
   },
   {
     id: 114,
     parentId: "undertale_frisk_flowey",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 8
   },
   {
     id: 115,
     parentId: "undertale_cavestory",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 1
   },
   {
     id: 116,
     parentId: "undertale_cavestory",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 9
   },
   {
     id: 117,
     parentId: "undertale_cavestory",
     type: "sku",
-    size: "Medium",
-    thin: true,
+    options: {
+      size: "Medium",
+      finish: "Thin"
+    },
     inventory: 10
   },
   {
     id: 118,
     parentId: "undertale_cavestory",
     type: "sku",
-    size: "Large",
-    thin: true,
+    options: {
+      size: "Large",
+      finish: "Thin"
+    },
     inventory: 10
   },
   {
     id: 119,
     parentId: "cavestory_quote",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 120,
     parentId: "gravity_falls_dipper",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 2
   },
   {
     id: 121,
     parentId: "gravity_falls_dipper",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 7
   },
   {
     id: 122,
     parentId: "gravity_falls_dipper",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 8
   },
   {
     id: 123,
     parentId: "gravity_falls_mabel",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 2
   },
   {
     id: 124,
     parentId: "gravity_falls_mabel",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 1
   },
   {
     id: 125,
     parentId: "gravity_falls_mabel",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 6
   },
   {
     id: 126,
     parentId: "gravity_falls_bill",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 15
   },
   {
     id: 127,
     parentId: "gravity_falls_bill_v1",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 3
   },
   {
     id: 128,
     parentId: "gravity_falls_bill",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 11
   },
   {
     id: 129,
     parentId: "gravity_falls_bill_v1",
     type: "sku",
-    size: "Medium",
-    thin: true,
+    options: {
+      size: "Medium",
+      finish: "Thin"
+    },
     inventory: 51
   },
   {
     id: 130,
     parentId: "gravity_falls_bill",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 5
   },
   {
     id: 131,
     parentId: "gravity_falls_bill",
     type: "sku",
-    size: "Large",
-    holographic: true,
+    options: {
+      size: "Large",
+      finish: "Holographic"
+    },
     inventory: 3
   },
   {
     id: 132,
     parentId: "shera_shitpost_catra",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 133,
     parentId: "shera_shitpost_adora",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 134,
     parentId: "sherlock_scarf",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 14
   },
   {
     id: 135,
     parentId: "sherlock_scarf",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 9
   },
   {
     id: 136,
     parentId: "sherlock_wedding",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 5
   },
   {
     id: 137,
     parentId: "sherlock_wedding",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 7
   },
   {
     id: 138,
     parentId: "steven_universe_catfingers",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 2
   },
   {
     id: 139,
     parentId: "madoka_magica_quote",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 17
   },
   {
     id: 140,
     parentId: "madoka_magica_quote",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 7
   },
   {
     id: 141,
     parentId: "madoka_magica_quote",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 9
   },
   {
     id: 142,
     parentId: "inuyasha_sesshoumaru_group",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 143,
     parentId: "inuyasha_sesshoumaru_group",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 14
   },
   {
     id: 144,
     parentId: "inuyasha_sesshoumaru_group",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 11
   },
   {
     id: 145,
-    parentId: "dennou_coil_circle_of_children",
+    parentId: "dennou_coil_circle_of_skuIds",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 146,
-    parentId: "dennou_coil_circle_of_children",
+    parentId: "dennou_coil_circle_of_skuIds",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 8
   },
   {
     id: 147,
-    parentId: "dennou_coil_circle_of_children",
+    parentId: "dennou_coil_circle_of_skuIds",
     type: "sku",
-    size: "Medium",
-    holographic: true,
+    options: {
+      size: "Medium",
+      finish: "Holographic"
+    },
     inventory: 1
   },
   {
     id: 148,
-    parentId: "dennou_coil_circle_of_children",
+    parentId: "dennou_coil_circle_of_skuIds",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 2
   },
   {
     id: 149,
-    parentId: "dennou_coil_circle_of_children",
+    parentId: "dennou_coil_circle_of_skuIds",
     type: "sku",
-    size: "Large",
-    holographic: true,
+    options: {
+      size: "Large",
+      finish: "Holographic"
+    },
     inventory: 2
   },
   {
     id: 150,
     parentId: "natsume_yuujinchou_return_name",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 151,
     parentId: "natsume_yuujinchou_return_name",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 152,
     parentId: "natsume_yuujinchou_return_name",
     type: "sku",
-    size: "Large",
-    holographic: true,
+    options: {
+      size: "Large",
+      finish: "Holographic"
+    },
     inventory: 10
   },
   {
     id: 153,
     parentId: "ghibli_arrietty",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 154,
     parentId: "ghibli_arrietty",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 155,
     parentId: "ghibli_arrietty",
     type: "sku",
-    size: "Large",
-    holographic: true,
+    options: {
+      size: "Large",
+      finish: "Holographic"
+    },
     inventory: 2
   },
   {
     id: 156,
     parentId: "ghibli_cat_returns",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 157,
     parentId: "nichijou_skyfall",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 5
   },
   {
     id: 158,
     parentId: "nichijou_skyfall",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 159,
     parentId: "nichijou_skyfall",
     type: "sku",
-    size: "Large",
-    holographic: true,
+    options: {
+      size: "Large",
+      finish: "Holographic"
+    },
     inventory: 3
   },
   {
     id: 160,
     parentId: "magical_girls_amu",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 161,
     parentId: "magical_girls_sakura",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 162,
     parentId: "magical_girls_ahiru",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 163,
     parentId: "magical_girls_rue",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 164,
     parentId: "magical_girls_maya",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 165,
     parentId: "magical_girls_akko",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 166,
     parentId: "magical_girls_kagome",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 167,
     parentId: "magical_girls_full_moon",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 168,
     parentId: "cardcaptor_sakura_cashcaptors",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 1
   },
   {
     id: 169,
     parentId: "cardcaptor_sakura_cashcaptors",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 5
   },
   {
     id: 170,
     parentId: "cardcaptor_sakura_cashcaptors",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 4
   },
   {
     id: 171,
     parentId: "hunter_x_pokemon_gon",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 172,
     parentId: "hunter_x_pokemon_gon",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 173,
     parentId: "hunter_x_pokemon_killua",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 174,
     parentId: "hunter_x_pokemon_killua",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 175,
     parentId: "hunter_x_pokemon_alluka",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 176,
     parentId: "hunter_x_pokemon_alluka",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 177,
     parentId: "hunter_x_pokemon_leorio",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 178,
     parentId: "hunter_x_pokemon_leorio",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 179,
     parentId: "hunter_x_pokemon_kurapika",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 180,
     parentId: "hunter_x_pokemon_kurapika",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 181,
     parentId: "cats_and_tea_rain",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 3
   },
   {
     id: 182,
     parentId: "cats_and_tea_rain",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 7
   },
   {
     id: 183,
     parentId: "cats_and_tea_rain",
     type: "sku",
-    size: "Medium",
-    thin: true,
+    options: {
+      size: "Medium",
+      finish: "Thin"
+    },
     inventory: 51
   },
   {
     id: 184,
     parentId: "cats_and_tea_rain",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 2
   },
   {
     id: 185,
     parentId: "cats_and_tea_rain",
     type: "sku",
-    size: "Small",
-    thin: true,
+    options: {
+      size: "Large",
+      finish: "Thin"
+    },
     inventory: 48
   },
   {
     id: 186,
     parentId: "cats_and_tea_fire",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 6
   },
   {
     id: 187,
     parentId: "cats_and_tea_fire_v1",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 8
   },
   {
     id: 188,
     parentId: "cats_and_tea_fire",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 11
   },
   {
     id: 189,
     parentId: "cats_and_tea_fire_v1",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 4
   },
   {
     id: 190,
     parentId: "cats_and_tea_fire",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 4
   },
   {
     id: 191,
     parentId: "cats_and_tea_fire_v1",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 6
   },
   {
     id: 192,
     parentId: "cats_and_tea_cafe",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 193,
     parentId: "cats_and_tea_cafe",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 194,
     parentId: "cats_and_tea_cafe",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 195,
     parentId: "cats_and_tea_sadness",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 2
   },
   {
     id: 196,
     parentId: "cats_and_tea_sadness",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 1
   },
   {
     id: 197,
     parentId: "bees_beelines",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 2
   },
   {
     id: 198,
     parentId: "bees_dance",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 3
   },
   {
     id: 199,
     parentId: "bees_felt",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 3
   },
   {
     id: 200,
     parentId: "bees_fruit",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 1
   },
   {
     id: 201,
     parentId: "bees_ribbon",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 2
   },
   {
     id: 202,
     parentId: "tea_makes_me_happy",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 2
   },
   {
     id: 203,
     parentId: "tea_makes_me_happy",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 2
   },
   {
     id: 204,
     parentId: "all_you_need_is_cake",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 1
   },
   {
     id: 205,
     parentId: "all_you_need_is_cake",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 3
   },
   {
     id: 206,
     parentId: "mushishi_light_river",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 4
   },
   {
     id: 207,
     parentId: "mushishi_light_river",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 2
   },
   {
     id: 208,
     parentId: "princess_tutu_healing_touch",
     type: "sku",
-    size: "Medium",
+    options: {
+      size: "Medium",
+      finish: "Matte"
+    },
     inventory: 16
   },
   {
     id: 209,
     parentId: "princess_tutu_healing_touch",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large",
+      finish: "Matte"
+    },
     inventory: 6
   },
   {
     id: 210,
     parentId: "princess_tutu_healing_touch",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 4
   },
   {
     id: 211,
     parentId: "heck_bird",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 15
   },
   {
     id: 212,
     parentId: "loaf_cat",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 7
   },
   {
     id: 213,
     parentId: "loaf_cat",
     type: "sku",
-    size: "Mini",
-    holographic: true,
+    options: {
+      size: "Mini",
+      finish: "Holographic"
+    },
     inventory: 1
   },
   {
     id: 214,
     parentId: "harvest_moon_bookmark",
     type: "sku",
-    side: "Double-sided",
+    options: {
+      side: "Double-sided"
+    },
     inventory: 15
   },
   {
     id: 215,
     parentId: "harvest_moon_bookmark",
     type: "sku",
-    side: "Front",
+    options: {
+      side: "Front"
+    },
     inventory: 1
   },
   {
     id: 216,
     parentId: "harvest_moon_bookmark",
     type: "sku",
-    side: "Back",
+    options: {
+      side: "Back"
+    },
     inventory: 5
   },
   {
     id: 217,
     parentId: "bomberman_bookmark",
     type: "sku",
-    side: "Double-sided",
+    options: {
+      side: "Double-sided"
+    },
     inventory: 14
   },
   {
     id: 218,
     parentId: "yoshi_bookmark",
     type: "sku",
-    side: "Double-sided",
+    options: {
+      side: "Double-sided"
+    },
     inventory: 7
   },
   {
     id: 219,
     parentId: "yoshi_bookmark",
     type: "sku",
-    side: "Front",
+    options: {
+      side: "Front"
+    },
     inventory: 1
   },
   {
     id: 220,
     parentId: "kirby_bookmark",
     type: "sku",
-    side: "Double-sided",
+    options: {
+      side: "Double-sided"
+    },
     inventory: 32
   },
   {
     id: 221,
     parentId: "monkey_island_bookmark",
     type: "sku",
-    side: "Double-sided",
+    options: {
+      side: "Double-sided"
+    },
     inventory: 4
   },
   {
     id: 222,
     parentId: "cat_cafe_stickers",
     type: "sku",
-    quality: "Good",
+    options: {
+      quality: "Good"
+    },
     inventory: 34
   },
   {
     id: 223,
     parentId: "cat_cafe_stickers",
     type: "sku",
-    quality: "Misprint",
+    options: {
+      quality: "Misprint"
+    },
     inventory: 21
   },
   {
     id: 224,
     parentId: "pokemon_birds_stickers",
     type: "sku",
-    quality: "Good",
+    options: {
+      quality: "Good"
+    },
     inventory: 12
   },
   {
     id: 225,
     parentId: "zelda_emojis_stickers",
     type: "sku",
-    quality: "Good",
+    options: {
+      quality: "Good"
+    },
     inventory: 21
   },
   {
     id: 226,
     parentId: "zelda_phrases_stickers",
     type: "sku",
-    quality: "Good",
+    options: {
+      quality: "Good"
+    },
     inventory: 7
   },
   {
     id: 227,
     parentId: "bees_stickers",
     type: "sku",
-    quality: "Good",
+    options: {
+      quality: "Good"
+    },
     inventory: 23
   },
   {
     id: 228,
     parentId: "bees_stickers",
     type: "sku",
-    quality: "Misprint",
+    options: {
+      quality: "Misprint"
+    },
     inventory: 16
   },
   {
     id: 229,
     parentId: "kirby_stickers",
     type: "sku",
-    quality: "Good",
+    options: {
+      quality: "Good"
+    },
     inventory: 16
   },
   {
     id: 230,
     parentId: "kirby_stickers",
     type: "sku",
-    quality: "Misprint",
+    options: {
+      quality: "Misprint"
+    },
     inventory: 8
   },
   {
     id: 231,
     parentId: "zelda_rupees_stickers",
     type: "sku",
-    quality: "Good",
+    options: {
+      quality: "Good"
+    },
     inventory: 35
   },
   {
     id: 232,
     parentId: "zelda_fairies_stickers",
     type: "sku",
-    quality: "Good",
+    options: {
+      quality: "Good"
+    },
     inventory: 8
   },
   {
     id: 233,
     parentId: "zelda_spirit_stones_stickers",
     type: "sku",
-    quality: "Good",
+    options: {
+      quality: "Good"
+    },
     inventory: 0
   },
   {
     id: 234,
     parentId: "zelda_items_stickers",
     type: "sku",
-    quality: "Good",
+    options: {
+      quality: "Good"
+    },
     inventory: 8
   },
   {
     id: 235,
     parentId: "bees_accessories_stickers",
     type: "sku",
-    quality: "Good",
+    options: {
+      quality: "Good"
+    },
     inventory: 9
   },
   {
     id: 236,
     parentId: "bees_stickers_v1",
     type: "sku",
-    quality: "Good",
+    options: {
+      quality: "Good"
+    },
     inventory: 8
   },
   {
     id: 237,
     parentId: "single_sticker",
     type: "sku",
-    size: "Tiny",
+    options: {
+      size: "Tiny"
+    },
     inventory: 13
   },
   {
     id: 238,
     parentId: "single_sticker",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small"
+    },
     inventory: 58
   },
   {
     id: 239,
     parentId: "single_sticker",
     type: "sku",
-    size: "Large",
+    options: {
+      size: "Large"
+    },
     inventory: 10
   },
   {
@@ -4598,40 +5268,51 @@ const skus = [
     id: 243,
     parentId: "bee_stationery",
     type: "sku",
-    size: "6 sheets",
-    color: "Pink",
+    options: {
+      size: "6 sheets",
+      color: "Pink"
+    },
+
     inventory: 4
   },
   {
     id: 244,
     parentId: "bee_stationery",
     type: "sku",
-    size: "6 sheets",
-    color: "Blue",
+    options: {
+      size: "6 sheets",
+      color: "Blue"
+    },
     inventory: 2
   },
   {
     id: 245,
     parentId: "bee_stationery",
     type: "sku",
-    size: "6 sheets",
-    color: "Yellow",
+    options: {
+      size: "6 sheets",
+      color: "Yellow"
+    },
     inventory: 3
   },
   {
     id: 246,
     parentId: "bee_stationery",
     type: "sku",
-    size: "6 sheets",
-    color: "Combo",
+    options: {
+      size: "6 sheets",
+      color: "Combo"
+    },
     inventory: 7
   },
   {
     id: 247,
     parentId: "bee_stationery",
     type: "sku",
-    size: "12 sheets",
-    color: "Combo",
+    options: {
+      size: "12 sheets",
+      color: "Combo"
+    },
     inventory: 2
   },
   {
@@ -5148,742 +5829,1060 @@ const skus = [
     id: 333,
     parentId: "pokemon_alphabet_gen1_a",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 334,
     parentId: "pokemon_alphabet_gen1_a",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 335,
     parentId: "pokemon_alphabet_gen1_b",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 336,
     parentId: "pokemon_alphabet_gen1_b",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 337,
     parentId: "pokemon_alphabet_gen1_c",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 338,
     parentId: "pokemon_alphabet_gen1_c",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 339,
     parentId: "pokemon_alphabet_gen1_d",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 340,
     parentId: "pokemon_alphabet_gen1_d",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 341,
     parentId: "pokemon_alphabet_gen1_e",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 342,
     parentId: "pokemon_alphabet_gen1_e",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 343,
     parentId: "pokemon_alphabet_gen1_f",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 344,
     parentId: "pokemon_alphabet_gen1_f",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 345,
     parentId: "pokemon_alphabet_gen1_g",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 346,
     parentId: "pokemon_alphabet_gen1_g",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 347,
     parentId: "pokemon_alphabet_gen1_h",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 348,
     parentId: "pokemon_alphabet_gen1_h",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 349,
     parentId: "pokemon_alphabet_gen1_i",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 350,
     parentId: "pokemon_alphabet_gen1_i",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 351,
     parentId: "pokemon_alphabet_gen1_j",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 352,
     parentId: "pokemon_alphabet_gen1_j",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 353,
     parentId: "pokemon_alphabet_gen1_k",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 354,
     parentId: "pokemon_alphabet_gen1_k",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 355,
     parentId: "pokemon_alphabet_gen1_l",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 356,
     parentId: "pokemon_alphabet_gen1_l",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 357,
     parentId: "pokemon_alphabet_gen1_m",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 358,
     parentId: "pokemon_alphabet_gen1_m",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 359,
     parentId: "pokemon_alphabet_gen1_n",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 360,
     parentId: "pokemon_alphabet_gen1_n",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 361,
     parentId: "pokemon_alphabet_gen1_o",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 362,
     parentId: "pokemon_alphabet_gen1_o",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 363,
     parentId: "pokemon_alphabet_gen1_p",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 364,
     parentId: "pokemon_alphabet_gen1_p",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 365,
     parentId: "pokemon_alphabet_gen1_q",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 366,
     parentId: "pokemon_alphabet_gen1_q",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 367,
     parentId: "pokemon_alphabet_gen1_r",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 368,
     parentId: "pokemon_alphabet_gen1_r",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 369,
     parentId: "pokemon_alphabet_gen1_s",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 370,
     parentId: "pokemon_alphabet_gen1_s",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 371,
     parentId: "pokemon_alphabet_gen1_t",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 372,
     parentId: "pokemon_alphabet_gen1_t",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 373,
     parentId: "pokemon_alphabet_gen1_u",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 374,
     parentId: "pokemon_alphabet_gen1_u",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 375,
     parentId: "pokemon_alphabet_gen1_v",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 376,
     parentId: "pokemon_alphabet_gen1_v",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 377,
     parentId: "pokemon_alphabet_gen1_w",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 378,
     parentId: "pokemon_alphabet_gen1_w",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 379,
     parentId: "pokemon_alphabet_gen1_x",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 380,
     parentId: "pokemon_alphabet_gen1_x",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 381,
     parentId: "pokemon_alphabet_gen1_y",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 382,
     parentId: "pokemon_alphabet_gen1_y",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 383,
     parentId: "pokemon_alphabet_gen1_z",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 384,
     parentId: "pokemon_alphabet_gen1_z",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 385,
     parentId: "pokemon_alphabet_gen2_a",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 386,
     parentId: "pokemon_alphabet_gen2_a",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 387,
     parentId: "pokemon_alphabet_gen2_b",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 388,
     parentId: "pokemon_alphabet_gen2_b",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 389,
     parentId: "pokemon_alphabet_gen2_c",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 390,
     parentId: "pokemon_alphabet_gen2_c",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 391,
     parentId: "pokemon_alphabet_gen2_d",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 392,
     parentId: "pokemon_alphabet_gen2_d",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 393,
     parentId: "pokemon_alphabet_gen2_e",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 394,
     parentId: "pokemon_alphabet_gen2_e",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 395,
     parentId: "pokemon_alphabet_gen2_f",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 396,
     parentId: "pokemon_alphabet_gen2_f",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 397,
     parentId: "pokemon_alphabet_gen2_g",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 398,
     parentId: "pokemon_alphabet_gen2_g",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 399,
     parentId: "pokemon_alphabet_gen2_h",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 400,
     parentId: "pokemon_alphabet_gen2_h",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 401,
     parentId: "pokemon_alphabet_gen2_i",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 402,
     parentId: "pokemon_alphabet_gen2_i",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 403,
     parentId: "pokemon_alphabet_gen2_j",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 404,
     parentId: "pokemon_alphabet_gen2_j",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 405,
     parentId: "pokemon_alphabet_gen2_k",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 406,
     parentId: "pokemon_alphabet_gen2_k",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 407,
     parentId: "pokemon_alphabet_gen2_l",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 408,
     parentId: "pokemon_alphabet_gen2_l",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 409,
     parentId: "pokemon_alphabet_gen2_m",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 410,
     parentId: "pokemon_alphabet_gen2_m",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 411,
     parentId: "pokemon_alphabet_gen2_n",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 412,
     parentId: "pokemon_alphabet_gen2_n",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 413,
     parentId: "pokemon_alphabet_gen2_o",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 414,
     parentId: "pokemon_alphabet_gen2_o",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 415,
     parentId: "pokemon_alphabet_gen2_p",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 416,
     parentId: "pokemon_alphabet_gen2_p",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 417,
     parentId: "pokemon_alphabet_gen2_q",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 418,
     parentId: "pokemon_alphabet_gen2_q",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 419,
     parentId: "pokemon_alphabet_gen2_r",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 420,
     parentId: "pokemon_alphabet_gen2_r",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 421,
     parentId: "pokemon_alphabet_gen2_s",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 422,
     parentId: "pokemon_alphabet_gen2_s",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 423,
     parentId: "pokemon_alphabet_gen2_t",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 424,
     parentId: "pokemon_alphabet_gen2_t",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 425,
     parentId: "pokemon_alphabet_gen2_u",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 426,
     parentId: "pokemon_alphabet_gen2_u",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 427,
     parentId: "pokemon_alphabet_gen2_u_v1",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 428,
     parentId: "pokemon_alphabet_gen2_u_v1",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 429,
     parentId: "pokemon_alphabet_gen2_v",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 430,
     parentId: "pokemon_alphabet_gen2_v",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 431,
     parentId: "pokemon_alphabet_gen2_w",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 432,
     parentId: "pokemon_alphabet_gen2_w",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 433,
     parentId: "pokemon_alphabet_gen2_x",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 434,
     parentId: "pokemon_alphabet_gen2_x",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 435,
     parentId: "pokemon_alphabet_gen2_y",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 436,
     parentId: "pokemon_alphabet_gen2_y",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 437,
     parentId: "pokemon_alphabet_gen2_z",
     type: "sku",
-    size: "Mini",
+    options: {
+      size: "Mini",
+      finish: "Matte"
+    },
     inventory: 10
   },
   {
     id: 438,
     parentId: "pokemon_alphabet_gen2_z",
     type: "sku",
-    size: "Small",
+    options: {
+      size: "Small",
+      finish: "Matte"
+    },
     inventory: 10
   }
 ];
