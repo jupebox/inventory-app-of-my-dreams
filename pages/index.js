@@ -1,6 +1,10 @@
+import Search from "../components/search";
 function Home() {
-    return <div>Welcome to Next.js!</div>;
-  }
-  
-  export default Home;
-  
+  return (
+    <main>
+      <Search />
+    </main>
+  );
+}
+
+export default Home;
