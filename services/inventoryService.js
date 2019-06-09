@@ -7,8 +7,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/312c153bf93ad3a1f557d546e879d220/tumblr_osaiwecZyn1r5lrepo1_500.jpg",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small"]
+      size: ["Small"],
+      finish: ["Matte"]
     },
     skuIds: [1]
   },
@@ -20,8 +20,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/457080ff962593804f64b8d27da75755/tumblr_osaiwecZyn1r5lrepo2_500.jpg",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small"]
+      size: ["Small"],
+      finish: ["Matte"]
     },
     skuIds: [2]
   },
@@ -33,8 +33,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/c043d4e89eeec1494fc3e1a78db09b46/tumblr_osaiwecZyn1r5lrepo3_500.jpg",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small"]
+      size: ["Small"],
+      finish: ["Matte"]
     },
     skuIds: [3]
   },
@@ -46,8 +46,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/b03fe57f27d3591d2ba711d722a4e4ae/tumblr_osaiwecZyn1r5lrepo4_500.jpg",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small"]
+      size: ["Small"],
+      finish: ["Matte"]
     },
     skuIds: [4]
   },
@@ -59,8 +59,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/d43b09992e40ad9e94ea98ae2dec364a/tumblr_osaiwecZyn1r5lrepo5_500.jpg",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small"]
+      size: ["Small"],
+      finish: ["Matte"]
     },
     skuIds: [5]
   },
@@ -72,8 +72,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/171ce3b1be6c4b2d7f0ab58b5f0b844c/tumblr_osaiwecZyn1r5lrepo6_500.jpg",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small"]
+      size: ["Small"],
+      finish: ["Matte"]
     },
     skuIds: [6]
   },
@@ -85,8 +85,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/eae79b467e17339500da852c185b335a/tumblr_osaiwecZyn1r5lrepo7_500.jpg",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small"]
+      size: ["Small"],
+      finish: ["Matte"]
     },
     skuIds: [7]
   },
@@ -98,8 +98,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/933a23b221fb4cc4148002b3c18190e2/tumblr_osaiwecZyn1r5lrepo8_500.jpg",
     productOptions: {
-      finishes: ["Matte", "Holographic"],
-      sizes: ["Small", "Medium", "Large"]
+      size: ["Small", "Medium", "Large"],
+      finish: ["Matte", "Holographic"]
     },
     skuIds: [8, 9, 10, 11, 12, 13]
   },
@@ -111,8 +111,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/b9ade24d20b123eb50317db15acd9e83/tumblr_nx6afbbT1i1r5lrepo1_500.jpg",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [14, 15]
   },
@@ -124,8 +124,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/1a68db3b82b2c3f2422abc26fd2dfce7/tumblr_nxdu8rYPzL1r5lrepo1_500.jpg",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [16, 17]
   },
@@ -137,8 +137,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/5954c744bf27dc4f460818fdeaa8de8b/tumblr_nt3zk7ZPGF1r5lrepo2_640.jpg",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [18, 19]
   },
@@ -150,8 +150,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/5513a1a5b30749aec79b864d26a2f3d9/tumblr_ntvfaoeVei1r5lrepo1_500.jpg",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [20, 21]
   },
@@ -163,8 +163,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/749e8f45e195a56edf845215b3c1daa0/tumblr_nxikuslfP61r5lrepo1_1280.jpg",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [22, 23]
   },
@@ -176,8 +176,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/1081a49008cd5dd7b2c8799938d218e7/tumblr_ntq4d5QpvH1r5lrepo1_500.jpg",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [24, 25]
   },
@@ -189,8 +189,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/f6623c584b02090812fc10bfd9f2fd34/tumblr_or1hhx48cA1r5lrepo1_500.png",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [26, 27]
   },
@@ -202,8 +202,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/7b68d65225793cf0e29bd3c04bff9390/tumblr_or2zykepAx1r5lrepo1_500.jpg",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [28, 29]
   },
@@ -215,8 +215,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/4cf1eb427187977d0073afea6393bae7/tumblr_nto9spzkDK1r5lrepo1_r1_500.jpg",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [30, 31]
   },
@@ -228,8 +228,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/364f8ea6940abf684fdb2573844d190b/tumblr_nt3zk7ZPGF1r5lrepo1_640.jpg",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [32, 33]
   },
@@ -241,8 +241,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/7710e0e87f5b242b3a4c3f509238adc0/tumblr_o6qp5bKC6G1r5lrepo1_500.jpg",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [34, 35]
   },
@@ -254,8 +254,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/ee000919590fadbc945f5da3557f0491/tumblr_odqb59gbzD1r5lrepo1_500.jpg",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [36, 37]
   },
@@ -267,8 +267,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/146bef9e409b40c8e2875cf83283873e/tumblr_nxbt5c4MmE1r5lrepo1_1280.jpg",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [38, 39]
   },
@@ -280,8 +280,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/28c1ecc51b2488d1f599aaf1f1b4cfa4/tumblr_nxbt5c4MmE1r5lrepo2_1280.jpg",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [40, 41]
   },
@@ -293,8 +293,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/1c9867e871a7105090938b176a6da59f/tumblr_nhbg7vfdOX1r5lrepo1_540.jpg",
     productOptions: {
-      finishes: ["Matte", "Holographic"],
-      sizes: ["Small", "Smedium", "Medium", "Large"]
+      size: ["Small", "Smedium", "Medium", "Large"],
+      finish: ["Matte", "Holographic"]
     },
     skuIds: [42, 43, 44, 45, 46]
   },
@@ -306,8 +306,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/bfbda3122e9b5fb2aa8ea50b03c0d4aa/tumblr_oulizje7K41r5lrepo1_500.jpg",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [47, 48]
   },
@@ -319,8 +319,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/b2035975bde2f2a947e97ea310428347/tumblr_ovaw2jC2Om1r5lrepo1_500.png",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Medium", "Large"]
+      size: ["Medium", "Large"],
+      finish: ["Matte"]
     },
     skuIds: [49, 50]
   },
@@ -332,8 +332,8 @@ const products = [
     imageUrl:
       "https://66.media.tumblr.com/79f6253990e2ca560033667c7c70778b/tumblr_pi4eymkWKn1r5lrepo1_500.png",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini"]
+      size: ["Mini"],
+      finish: ["Matte"]
     },
     skuIds: [51]
   },
@@ -344,8 +344,8 @@ const products = [
     title: "Mario - Geno",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [52, 53]
   },
@@ -356,8 +356,8 @@ const products = [
     title: "Mario - Birdwatching",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"], // maybe don't break glossy out
-      sizes: ["Small", "Medium", "Large"]
+      finish: ["Matte"], // maybe don't break glossy out
+      size: ["Small", "Medium", "Large"]
     },
     skuIds: [54, 55, 56]
   },
@@ -368,8 +368,8 @@ const products = [
     title: "Paper Mario - Boss Rush",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium", "Large"]
+      size: ["Small", "Medium", "Large"],
+      finish: ["Matte"]
     },
     skuIds: [57, 58, 59]
   },
@@ -380,8 +380,8 @@ const products = [
     title: "Paper Mario - Luigi Parade",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte", "Holographic"],
-      sizes: ["Medium", "Large"]
+      size: ["Medium", "Large"],
+      finish: ["Matte", "Holographic"]
     },
     skuIds: [60, 61, 62]
   },
@@ -392,8 +392,8 @@ const products = [
     title: "Paper Mario - A Piece of Cake",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [63, 64]
   },
@@ -404,8 +404,8 @@ const products = [
     title: "Pokemon Sweets - Pokeball Cakepops",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [67, 68]
   },
@@ -416,8 +416,8 @@ const products = [
     title: "Pokemon Sweets - Pumpkaboo Cupcakes",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [65, 66]
   },
@@ -428,8 +428,8 @@ const products = [
     title: "Pokemon Sweets - Slurpuff Parfait",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [69, 70]
   },
@@ -440,8 +440,8 @@ const products = [
     title: "Pokemon Sweets - Vulpix Cake",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [71, 72]
   },
@@ -452,8 +452,8 @@ const products = [
     title: "Pokemon Sweets - Alolan Raichu Pancakes",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [73, 74]
   },
@@ -464,8 +464,8 @@ const products = [
     title: "Pokemon Sweets - Bellossom Fruit Tart",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium", "Large"]
+      size: ["Small", "Medium", "Large"],
+      finish: ["Matte"]
     },
     skuIds: [75, 76, 77]
   },
@@ -476,8 +476,8 @@ const products = [
     title: "Pokemon Sweets - Macarons",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small"]
+      size: ["Small"],
+      finish: ["Matte"]
     },
     skuIds: [78]
   },
@@ -488,8 +488,8 @@ const products = [
     title: "Pokemon - Lilly & Nebby",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium", "Large"]
+      size: ["Small", "Medium", "Large"],
+      finish: ["Matte"]
     },
     skuIds: [79, 80, 81]
   },
@@ -500,8 +500,8 @@ const products = [
     title: "Pokemon Snap - Wonderful!",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte", "Holographic"],
-      sizes: ["Mini", "Small", "Medium", "Large"]
+      size: ["Mini", "Small", "Medium", "Large"],
+      finish: ["Matte", "Holographic"]
     },
     skuIds: [82, 83, 84, 85, 86]
   },
@@ -512,8 +512,8 @@ const products = [
     title: "Banjo-Kazooie",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [87, 88]
   },
@@ -524,8 +524,8 @@ const products = [
     title: "Zelda Songs - Epona's Song",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium", "Large"]
+      size: ["Small", "Medium", "Large"],
+      finish: ["Matte"]
     },
     skuIds: [89, 90, 91]
   },
@@ -536,8 +536,8 @@ const products = [
     title: "Zelda Songs - Saria's Song",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium", "Large"]
+      size: ["Small", "Medium", "Large"],
+      finish: ["Matte"]
     },
     skuIds: [92, 93, 94]
   },
@@ -548,8 +548,8 @@ const products = [
     title: "Ice Climbers - Northern Lights",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte", "Holographic"],
-      sizes: ["Small", "Smedium", "Medium", "Large"]
+      size: ["Small", "Smedium", "Medium", "Large"],
+      finish: ["Matte", "Holographic"]
     },
     skuIds: [95, 96, 97, 98, 99]
   },
@@ -560,8 +560,8 @@ const products = [
     title: "Harvest Moon - Bountiful",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte", "Thin"],
-      sizes: ["Medium"]
+      size: ["Medium"],
+      finish: ["Matte", "Thin"]
     },
     skuIds: [100, 101]
   },
@@ -572,8 +572,8 @@ const products = [
     title: "Kingdom Hearts - Ice Cream",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Medium", "Large"]
+      size: ["Medium", "Large"],
+      finish: ["Matte"]
     },
     skuIds: [102, 103]
   },
@@ -584,8 +584,8 @@ const products = [
     title: "Pokebet - Gen 1",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Large"]
+      size: ["Large"],
+      finish: ["Matte"]
     },
     skuIds: [104]
   },
@@ -596,8 +596,8 @@ const products = [
     title: "Pokebet - Gen 2",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte", "Thin"],
-      sizes: ["Large"]
+      size: ["Large"],
+      finish: ["Matte", "Thin"]
     },
     skuIds: [105, 106]
   },
@@ -608,8 +608,8 @@ const products = [
     title: "Deltarune - Never Enough Cake",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte", "Holographic"],
-      sizes: ["Medium", "Large"]
+      size: ["Medium", "Large"],
+      finish: ["Matte", "Holographic"]
     },
     skuIds: [107, 108, 109, 110]
   },
@@ -620,8 +620,8 @@ const products = [
     title: "Undertale - Frisk & Flowey",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small", "Smedium", "Medium"]
+      size: ["Mini", "Small", "Smedium", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [111, 112, 113, 114]
   },
@@ -632,8 +632,8 @@ const products = [
     title: "Undertale & CaveStory - Let's Go Together",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte", "Thin"],
-      sizes: ["Small", "Medium", "Large"]
+      size: ["Small", "Medium", "Large"],
+      finish: ["Matte", "Thin"]
     },
     skuIds: [115, 116, 117, 118]
   },
@@ -644,8 +644,8 @@ const products = [
     title: "CaveStory - Pipe Dreams",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Medium"]
+      size: ["Medium"],
+      finish: ["Matte"]
     },
     skuIds: [119]
   },
@@ -657,8 +657,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [333, 334]
   },
@@ -670,8 +670,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [335, 336]
   },
@@ -683,8 +683,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [337, 338]
   },
@@ -696,8 +696,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [339, 340]
   },
@@ -709,8 +709,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [341, 342]
   },
@@ -722,8 +722,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [343, 344]
   },
@@ -735,8 +735,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [345, 346]
   },
@@ -748,8 +748,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [347, 348]
   },
@@ -761,8 +761,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [349, 350]
   },
@@ -774,8 +774,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [351, 352]
   },
@@ -787,8 +787,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [353, 354]
   },
@@ -800,8 +800,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [355, 356]
   },
@@ -813,8 +813,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [357, 358]
   },
@@ -826,8 +826,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [359, 360]
   },
@@ -839,8 +839,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [361, 362]
   },
@@ -852,8 +852,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [363, 364]
   },
@@ -865,8 +865,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [365, 366]
   },
@@ -878,8 +878,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [367, 368]
   },
@@ -891,8 +891,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [369, 370]
   },
@@ -904,8 +904,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [371, 372]
   },
@@ -917,8 +917,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [373, 374]
   },
@@ -930,8 +930,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [375, 376]
   },
@@ -943,8 +943,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [377, 378]
   },
@@ -956,8 +956,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [379, 380]
   },
@@ -969,8 +969,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [381, 382]
   },
@@ -982,8 +982,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [383, 384]
   },
@@ -995,8 +995,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [385, 386]
   },
@@ -1008,8 +1008,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [387, 388]
   },
@@ -1021,8 +1021,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [389, 390]
   },
@@ -1034,8 +1034,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [391, 392]
   },
@@ -1047,8 +1047,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [393, 394]
   },
@@ -1060,8 +1060,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [395, 396]
   },
@@ -1073,8 +1073,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [397, 398]
   },
@@ -1086,8 +1086,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [399, 400]
   },
@@ -1099,8 +1099,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [401, 402]
   },
@@ -1112,8 +1112,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [403, 404]
   },
@@ -1125,8 +1125,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [405, 406]
   },
@@ -1138,8 +1138,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [407, 408]
   },
@@ -1151,8 +1151,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [409, 410]
   },
@@ -1164,8 +1164,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [411, 412]
   },
@@ -1177,8 +1177,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [413, 414]
   },
@@ -1190,8 +1190,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [415, 416]
   },
@@ -1203,8 +1203,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [417, 418]
   },
@@ -1216,8 +1216,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [419, 420]
   },
@@ -1229,8 +1229,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [421, 422]
   },
@@ -1242,8 +1242,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [423, 424]
   },
@@ -1255,8 +1255,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [425, 426]
   },
@@ -1268,8 +1268,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [427, 428]
   },
@@ -1281,8 +1281,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [429, 430]
   },
@@ -1294,8 +1294,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [431, 432]
   },
@@ -1307,8 +1307,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [433, 434]
   },
@@ -1320,8 +1320,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [435, 436]
   },
@@ -1333,8 +1333,8 @@ const products = [
     imageUrl: "",
     hideFromList: true,
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small"]
+      size: ["Mini", "Small"],
+      finish: ["Matte"]
     },
     skuIds: [437, 438]
   },
@@ -1345,8 +1345,8 @@ const products = [
     title: "Gravity Falls - Dipper as Link",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small", "Medium"]
+      size: ["Mini", "Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [120, 121, 122]
   },
@@ -1357,8 +1357,8 @@ const products = [
     title: "Gravity Falls - Mabel as Link",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Small", "Medium"]
+      size: ["Mini", "Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [123, 124, 125]
   },
@@ -1369,8 +1369,8 @@ const products = [
     title: "Gravity Falls - M'Geddon",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte", "Holographic"],
-      sizes: ["Small", "Medium", "Large"]
+      size: ["Small", "Medium", "Large"],
+      finish: ["Matte", "Holographic"]
     },
     skuIds: [126, 128, 130, 131]
   },
@@ -1381,8 +1381,8 @@ const products = [
     title: "Gravity Falls - M'Geddon (old version)",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte", "Thin"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte", "Thin"]
     },
     skuIds: [127, 129]
   },
@@ -1393,8 +1393,8 @@ const products = [
     title: "She-Ra - Hey Adora ;P",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini"]
+      size: ["Mini"],
+      finish: ["Matte"]
     },
     skuIds: [132]
   },
@@ -1405,8 +1405,8 @@ const products = [
     title: "She-Ra - Hey Catra. :)",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini"]
+      size: ["Mini"],
+      finish: ["Matte"]
     },
     skuIds: [133]
   },
@@ -1417,8 +1417,8 @@ const products = [
     title: "Sherlock - Sharing is Caring",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [134, 135]
   },
@@ -1429,8 +1429,8 @@ const products = [
     title: "Sherlock - Wedding",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [136, 137]
   },
@@ -1441,8 +1441,8 @@ const products = [
     title: "Steven Universe - Neko Atsume Fingers",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small"]
+      size: ["Small"],
+      finish: ["Matte"]
     },
     skuIds: [138]
   },
@@ -1453,8 +1453,8 @@ const products = [
     title: "Madoka Magica - Don't Lose Hope",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium", "Large"]
+      size: ["Small", "Medium", "Large"],
+      finish: ["Matte"]
     },
     skuIds: [139, 140, 141]
   },
@@ -1465,8 +1465,8 @@ const products = [
     title: "Inuyasha - Sesshoumaru's Party",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium", "Large"]
+      size: ["Small", "Medium", "Large"],
+      finish: ["Matte"]
     },
     skuIds: [142, 143, 144]
   },
@@ -1477,8 +1477,8 @@ const products = [
     title: "Dennou Coil - A Circle of skuIds",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte", "Holographic"],
-      sizes: ["Small", "Medium", "Large"]
+      size: ["Small", "Medium", "Large"],
+      finish: ["Matte", "Holographic"]
     },
     skuIds: [145, 146, 147, 148, 149]
   },
@@ -1489,8 +1489,8 @@ const products = [
     title: "Natsume Yuujinchou - Returning Your Name",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte", "Holographic"],
-      sizes: ["Medium", "Large"]
+      size: ["Medium", "Large"],
+      finish: ["Matte", "Holographic"]
     },
     skuIds: [150, 151, 152]
   },
@@ -1501,8 +1501,8 @@ const products = [
     title: "Ghibli Movies - Arrietty",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte", "Holographic"],
-      sizes: ["Medium", "Large"]
+      size: ["Medium", "Large"],
+      finish: ["Matte", "Holographic"]
     },
     skuIds: [153, 154, 155]
   },
@@ -1513,8 +1513,8 @@ const products = [
     title: "Ghibli Movies - The Cat Returns",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Large"]
+      size: ["Large"],
+      finish: ["Matte"]
     },
     skuIds: [156]
   },
@@ -1525,8 +1525,8 @@ const products = [
     title: "Nichijou - Zzz (Falling for You)",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte", "Holographic"],
-      sizes: ["Small", "Large"]
+      size: ["Small", "Large"],
+      finish: ["Matte", "Holographic"]
     },
     skuIds: [157, 158, 159]
   },
@@ -1537,8 +1537,8 @@ const products = [
     title: "Magical Girls - Amu Hinamori",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small"]
+      size: ["Small"],
+      finish: ["Matte"]
     },
     skuIds: [160]
   },
@@ -1549,8 +1549,8 @@ const products = [
     title: "Magical Girls - Sakura Kinomoto",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small"]
+      size: ["Small"],
+      finish: ["Matte"]
     },
     skuIds: [161]
   },
@@ -1561,8 +1561,8 @@ const products = [
     title: "Magical Girls - Ahiru",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small"]
+      size: ["Small"],
+      finish: ["Matte"]
     },
     skuIds: [162]
   },
@@ -1573,8 +1573,8 @@ const products = [
     title: "Magical Girls - Rue",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small"]
+      size: ["Small"],
+      finish: ["Matte"]
     },
     skuIds: [163]
   },
@@ -1585,8 +1585,8 @@ const products = [
     title: "Magical Girls - Maya Fey",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small"]
+      size: ["Small"],
+      finish: ["Matte"]
     },
     skuIds: [164]
   },
@@ -1597,8 +1597,8 @@ const products = [
     title: "Magical Girls - Akko Kagari",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small"]
+      size: ["Small"],
+      finish: ["Matte"]
     },
     skuIds: [165]
   },
@@ -1609,8 +1609,8 @@ const products = [
     title: "Magical Girls - Kagome Higurashi",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small"]
+      size: ["Small"],
+      finish: ["Matte"]
     },
     skuIds: [166]
   },
@@ -1621,8 +1621,8 @@ const products = [
     title: "Magical Girls - Mitsuki Koyama",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small"]
+      size: ["Small"],
+      finish: ["Matte"]
     },
     skuIds: [167]
   },
@@ -1633,8 +1633,8 @@ const products = [
     title: "Cardcaptor Sakura - Cashcaptors",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium", "Large"]
+      size: ["Small", "Medium", "Large"],
+      finish: ["Matte"]
     },
     skuIds: [168, 169, 170]
   },
@@ -1645,8 +1645,8 @@ const products = [
     title: "Hunter x Pokemon - Gon",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [171, 172]
   },
@@ -1657,8 +1657,8 @@ const products = [
     title: "Hunter x Pokemon - Killua",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [173, 174]
   },
@@ -1669,8 +1669,8 @@ const products = [
     title: "Hunter x Pokemon - Alluka",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [175, 176]
   },
@@ -1681,8 +1681,8 @@ const products = [
     title: "Hunter x Pokemon - Leorio",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [177, 178]
   },
@@ -1693,8 +1693,8 @@ const products = [
     title: "Hunter x Pokemon - Kurapika",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [179, 180]
   },
@@ -1705,8 +1705,8 @@ const products = [
     title: "Cats & Tea - Rainy Afternoon",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte", "Thin"],
-      sizes: ["Small", "Medium", "Large"]
+      size: ["Small", "Medium", "Large"],
+      finish: ["Matte", "Thin"]
     },
     skuIds: [181, 182, 183, 184, 185]
   },
@@ -1717,8 +1717,8 @@ const products = [
     title: "Cats & Tea - By the Fire",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium", "Large"]
+      size: ["Small", "Medium", "Large"],
+      finish: ["Matte"]
     },
     skuIds: [186, 188, 190]
   },
@@ -1729,8 +1729,8 @@ const products = [
     title: "Cats & Tea - By the Fire (dark version)",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium", "Large"]
+      size: ["Small", "Medium", "Large"],
+      finish: ["Matte"]
     },
     skuIds: [187, 189, 191]
   },
@@ -1741,8 +1741,8 @@ const products = [
     title: "Cats & Tea - Cafe",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium", "Large"]
+      size: ["Small", "Medium", "Large"],
+      finish: ["Matte"]
     },
     skuIds: [192, 193, 194]
   },
@@ -1753,8 +1753,8 @@ const products = [
     title: "Cats & Tea - It's Going to be Okay",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Large"]
+      size: ["Small", "Large"],
+      finish: ["Matte"]
     },
     skuIds: [195, 196]
   },
@@ -1765,8 +1765,8 @@ const products = [
     title: "Bees - Beelines",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small"]
+      size: ["Small"],
+      finish: ["Matte"]
     },
     skuIds: [197]
   },
@@ -1777,8 +1777,8 @@ const products = [
     title: "Bees - Dance",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Medium"]
+      size: ["Medium"],
+      finish: ["Matte"]
     },
     skuIds: [198]
   },
@@ -1789,8 +1789,8 @@ const products = [
     title: "Bees - Felt",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Medium"]
+      size: ["Medium"],
+      finish: ["Matte"]
     },
     skuIds: [199]
   },
@@ -1801,8 +1801,8 @@ const products = [
     title: "Bees - Fruit",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Medium"]
+      size: ["Medium"],
+      finish: ["Matte"]
     },
     skuIds: [200]
   },
@@ -1813,8 +1813,8 @@ const products = [
     title: "Bees - Ribbon",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Medium"]
+      size: ["Medium"],
+      finish: ["Matte"]
     },
     skuIds: [201]
   },
@@ -1825,8 +1825,8 @@ const products = [
     title: "Tea Makes Me Happy",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [202, 203]
   },
@@ -1837,8 +1837,8 @@ const products = [
     title: "All You Need is Cake",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Small", "Medium"]
+      size: ["Small", "Medium"],
+      finish: ["Matte"]
     },
     skuIds: [204, 205]
   },
@@ -1849,8 +1849,8 @@ const products = [
     title: "Mushishi - Light River",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Medium", "Large"]
+      size: ["Medium", "Large"],
+      finish: ["Matte"]
     },
     skuIds: [206, 207]
   },
@@ -1861,8 +1861,8 @@ const products = [
     title: "Princess Tutu - Healing Touch",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini", "Medium", "Large"]
+      size: ["Mini", "Medium", "Large"],
+      finish: ["Matte"]
     },
     skuIds: [208, 209, 210]
   },
@@ -1873,8 +1873,8 @@ const products = [
     title: "Heck! (Bird)",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte"],
-      sizes: ["Mini"]
+      size: ["Mini"],
+      finish: ["Matte"]
     },
     skuIds: [211]
   },
@@ -1885,8 +1885,8 @@ const products = [
     title: "Toasty Loaf (Cat)",
     imageUrl: "",
     productOptions: {
-      finishes: ["Matte", "Holographic"],
-      sizes: ["Mini"]
+      size: ["Mini"],
+      finish: ["Matte", "Holographic"]
     },
     skuIds: [212, 213]
   },
@@ -1897,7 +1897,7 @@ const products = [
     title: "Harvest Moon - Bountiful",
     imageUrl: "",
     productOptions: {
-      sides: ["Double-sided", "Front", "Back"]
+      side: ["Double-sided", "Front", "Back"]
     },
     skuIds: [214, 215, 216]
   },
@@ -1908,7 +1908,7 @@ const products = [
     title: "Bomberman 64",
     imageUrl: "",
     productOptions: {
-      sides: ["Double-sided"]
+      side: ["Double-sided"]
     },
     skuIds: [217]
   },
@@ -1919,7 +1919,7 @@ const products = [
     title: "Yoshi's Story",
     imageUrl: "",
     productOptions: {
-      sides: ["Double-sided", "Front"]
+      side: ["Double-sided", "Front"]
     },
     skuIds: [218, 219]
   },
@@ -1930,7 +1930,7 @@ const products = [
     title: "Kirby Crystal Shards",
     imageUrl: "",
     productOptions: {
-      sides: ["Double-sided"]
+      side: ["Double-sided"]
     },
     skuIds: [220]
   },
@@ -1941,7 +1941,7 @@ const products = [
     title: "The Curse of Monkey Island",
     imageUrl: "",
     productOptions: {
-      sides: ["Double-sided"]
+      side: ["Double-sided"]
     },
     skuIds: [221]
   },
@@ -2119,8 +2119,8 @@ const products = [
     title: "Bees - Stationery",
     imageUrl: "",
     productOptions: {
-      color: ["Blue", "Pink", "Yellow", "Combo"],
-      size: ["6 sheets", "12 sheets"]
+      size: ["6 sheets", "12 sheets"],
+      color: ["Blue", "Pink", "Yellow", "Combo"]
     },
     skuIds: [243, 244, 245, 246, 247]
   },
@@ -2872,8 +2872,8 @@ const products = [
     title: "Commission",
     imageUrl: "",
     productOptions: {
-      medium: ["Sketch", "Lines", "Lines & Crayon", "Marker"],
-      sizes: ["Small", "Medium", "Large"]
+      size: ["Small", "Medium", "Large"],
+      medium: ["Sketch", "Lines", "Lines & Crayon", "Marker"]
     },
     skuIds: [332]
   }

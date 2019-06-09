@@ -33,13 +33,21 @@ class Product extends Component {
   constructor(props) {
     super(props);
     let checkedItems = { all: false };
-    for (let sku of this.props.product.skuIds) {
+    const { skuIds, productOptions } = this.props.product;
+    for (let sku of skuIds) {
       checkedItems[sku] = false;
     }
+    let selectedOptions = {};
+    for (let option in productOptions) {
+      if (productOptions[option].length === 1) {
+        selectedOptions[option] = productOptions[option][0];
+      }
+    }
+
     this.state = {
       canAddToCart: true,
       checkedItems,
-      selectedOptions: {},
+      selectedOptions,
       selectedSkuIds: []
     };
   }
@@ -135,54 +143,14 @@ class Product extends Component {
   };
   renderProductOptions = () => {
     const { productOptions } = this.props.product;
-    let selectedOptions = { ...this.state.selectedOptions };
     let options = [];
     if (!productOptions) {
       return;
     }
-    if (productOptions.medium) {
-      if (productOptions.medium.length === 1) {
-        selectedOptions["medium"] = productOptions.medium[0];
-      } else {
-        options.push(
-          this.renderProductOption(productOptions["medium"], "medium")
-        );
+    for (let option in productOptions) {
+      if (productOptions[option].length > 1) {
+        options.push(this.renderProductOption(productOptions[option], option));
       }
-    }
-    if (productOptions.sizes) {
-      if (productOptions.sizes.length === 1) {
-        selectedOptions["size"] = productOptions.sizes[0];
-      } else {
-        options.push(this.renderProductOption(productOptions["sizes"], "size"));
-      }
-    }
-    if (productOptions.finishes) {
-      if (productOptions.finishes === 1) {
-        selectedOptions["finish"] = productOptions.finishes[0];
-      } else {
-        options.push(
-          this.renderProductOption(productOptions["finishes"], "finish")
-        );
-      }
-    }
-    if (productOptions.quality) {
-      if (productOptions.quality === 1) {
-        selectedOptions["quality"] = productOptions.quality[0];
-      } else {
-        options.push(
-          this.renderProductOption(productOptions["quality"], "quality")
-        );
-      }
-    }
-    if (productOptions.sides) {
-      if (productOptions.sides === 1) {
-        selectedOptions["side"] = productOptions.sides[0];
-      } else {
-        options.push(this.renderProductOption(productOptions["sides"], "side"));
-      }
-    }
-    if (!isEquivalent(selectedOptions, this.state.selectedOptions)) {
-      this.setState({ selectedOptions });
     }
     return <div className="options">{options}</div>;
   };
