@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { getProducts, getSets, getProduct } from "../services/inventoryService";
+import { getProducts, getSets } from "../services/inventoryService";
 import Products from "./products";
 
 class Search extends Component {

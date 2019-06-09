@@ -31,9 +31,11 @@ const Products = props => {
               }
               article {
                 display: flex;
+                // justify-content: space-between;
               }
               .text-container {
                 padding-left: 15px;
+                text-align: left;
               }
               .img-container {
                 width: 150px;

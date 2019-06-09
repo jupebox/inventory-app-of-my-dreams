@@ -1894,7 +1894,7 @@ const products = [
     id: "harvest_moon_bookmark",
     type: "design",
     medium: "bookmark",
-    title: "Harvest Moon - Bountiful (Bookmark)",
+    title: "Harvest Moon - Bountiful",
     imageUrl: "",
     productOptions: {
       sides: ["Double-sided", "Front", "Back"]
@@ -1905,7 +1905,7 @@ const products = [
     id: "bomberman_bookmark",
     type: "design",
     medium: "bookmark",
-    title: "Bomberman 64 (Bookmark)",
+    title: "Bomberman 64",
     imageUrl: "",
     productOptions: {
       sides: ["Double-sided"]
@@ -1916,7 +1916,7 @@ const products = [
     id: "yoshi_bookmark",
     type: "design",
     medium: "bookmark",
-    title: "Yoshi's Story (Bookmark)",
+    title: "Yoshi's Story",
     imageUrl: "",
     productOptions: {
       sides: ["Double-sided", "Front"]
@@ -1927,7 +1927,7 @@ const products = [
     id: "kirby_bookmark",
     type: "design",
     medium: "bookmark",
-    title: "Kirby Crystal Shards (Bookmark)",
+    title: "Kirby Crystal Shards",
     imageUrl: "",
     productOptions: {
       sides: ["Double-sided"]
@@ -1938,7 +1938,7 @@ const products = [
     id: "monkey_island_bookmark",
     type: "design",
     medium: "bookmark",
-    title: "The Curse of Monkey Island (Bookmark)",
+    title: "The Curse of Monkey Island",
     imageUrl: "",
     productOptions: {
       sides: ["Double-sided"]
@@ -1949,7 +1949,7 @@ const products = [
     id: "cat_cafe_stickers",
     type: "design",
     medium: "stickers",
-    title: "Cozy Cat Cafe (Stickers)",
+    title: "Cozy Cat Cafe",
     imageUrl: "",
     productOptions: {
       quality: ["Good", "Misprint"]
@@ -1960,7 +1960,7 @@ const products = [
     id: "pokemon_birds_stickers",
     type: "design",
     medium: "stickers",
-    title: "Pokemon - Birds & Beans (Stickers)",
+    title: "Pokemon - Birds & Beans",
     imageUrl: "",
     productOptions: {
       quality: ["Good"]
@@ -1971,7 +1971,7 @@ const products = [
     id: "zelda_emojis_stickers",
     type: "design",
     medium: "stickers",
-    title: "Zelda - Wind Waker Emojis (Stickers)",
+    title: "Zelda - Wind Waker Emojis",
     imageUrl: "",
     productOptions: {
       quality: ["Good"]
@@ -1982,7 +1982,7 @@ const products = [
     id: "zelda_phrases_stickers",
     type: "design",
     medium: "stickers",
-    title: "Zelda - Phrases (Stickers)",
+    title: "Zelda - Phrases",
     imageUrl: "",
     productOptions: {
       quality: ["Good"]
@@ -1993,7 +1993,7 @@ const products = [
     id: "bees_stickers",
     type: "design",
     medium: "stickers",
-    title: "Busy Bees (Stickers)",
+    title: "Busy Bees",
     imageUrl: "",
     productOptions: {
       quality: ["Good", "Misprint"]
@@ -2004,7 +2004,7 @@ const products = [
     id: "kirby_stickers",
     type: "design",
     medium: "stickers",
-    title: "Kirby (Stickers)",
+    title: "Kirby",
     imageUrl: "",
     productOptions: {
       quality: ["Good", "Misprint"]
@@ -2015,7 +2015,7 @@ const products = [
     id: "zelda_rupees_stickers",
     type: "design",
     medium: "stickers",
-    title: "Zelda - Rupees (Stickers)",
+    title: "Zelda - Rupees",
     imageUrl: "",
     productOptions: {
       quality: ["Good"]
@@ -2026,7 +2026,7 @@ const products = [
     id: "zelda_fairies_stickers",
     type: "design",
     medium: "stickers",
-    title: "Zelda - Fairies (Stickers)",
+    title: "Zelda - Fairies",
     imageUrl: "",
     productOptions: {
       quality: ["Good"]
@@ -2037,7 +2037,7 @@ const products = [
     id: "zelda_spirit_stones_stickers",
     type: "design",
     medium: "stickers",
-    title: "Zelda - Spiritual Stones (Stickers)",
+    title: "Zelda - Spiritual Stones",
     imageUrl: "",
     productOptions: {
       quality: ["Good"]
@@ -2048,7 +2048,7 @@ const products = [
     id: "zelda_items_stickers",
     type: "design",
     medium: "stickers",
-    title: "Zelda - Power Up! (Stickers)",
+    title: "Zelda - Power Up!",
     imageUrl: "",
     productOptions: {
       quality: ["Good"]
@@ -2059,7 +2059,7 @@ const products = [
     id: "bees_accessories_stickers",
     type: "design",
     medium: "stickers",
-    title: "Busy Bees - Accessories Only (Stickers)",
+    title: "Busy Bees - Accessories Only",
     imageUrl: "",
     productOptions: {
       quality: ["Good"]
@@ -2070,7 +2070,7 @@ const products = [
     id: "bees_stickers_v1",
     type: "design",
     medium: "stickers",
-    title: "Busy Bees - Bees Only (Stickers)",
+    title: "Busy Bees - Bees Only",
     imageUrl: "",
     productOptions: {
       quality: ["Good"]
@@ -5892,18 +5892,21 @@ const sets = [
   {
     id: "kirby_postcards",
     title: "Kirby's Adventure Postcard Set",
+    type: "set",
     skuIds: [1, 2, 3, 4, 5, 6, 7, 8],
     price: 30
   },
   {
     id: "kirby_postcards_holo",
     title: "Kirby's Adventure Postcard Set - Holographic",
+    type: "set",
     skuIds: [1, 2, 3, 4, 5, 6, 7, 9],
     price: 30
   },
   {
     id: "pokebet_gen1_mini",
     title: "Pokemon Alphabet Mini (Gen 1)",
+    type: "set",
     skuIds: [
       333,
       335,
@@ -5937,6 +5940,7 @@ const sets = [
   {
     id: "pokebet_gen1_small",
     title: "Pokemon Alphabet Small (Gen 1)",
+    type: "set",
     skuIds: [
       334,
       336,
@@ -5970,6 +5974,7 @@ const sets = [
   {
     id: "pokebet_gen2_mini",
     title: "Pokemon Alphabet Mini (Gen 2)",
+    type: "set",
     skuIds: [
       385,
       387,
@@ -6003,6 +6008,7 @@ const sets = [
   {
     id: "pokebet_gen2_small",
     title: "Pokemon Alphabet Small (Gen 2)",
+    type: "set",
     skuIds: [
       386,
       388,
@@ -6036,6 +6042,7 @@ const sets = [
   {
     id: "pokebet_mini",
     title: "Pokemon Alphabet Mini (All Letters)",
+    type: "set",
     skuIds: [
       333,
       335,
@@ -6095,6 +6102,7 @@ const sets = [
   {
     id: "pokebet_small",
     title: "Pokemon Alphabet Small (All Letters)",
+    type: "set",
     skuIds: [
       334,
       336,
@@ -6154,6 +6162,7 @@ const sets = [
   {
     id: "undertale_buttons",
     title: "Undertale Buttons",
+    type: "set",
     skuIds: [
       248,
       249,
@@ -6186,24 +6195,28 @@ const sets = [
   {
     id: "paper_mario_buttons",
     title: "Paper Mario Buttons",
+    type: "set",
     skuIds: [273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283],
     price: 15
   },
   {
     id: "mario_buttons",
     title: "Mario Baddies Buttons",
+    type: "set",
     skuIds: [284, 285, 286, 287, 288, 289, 290, 291, 292, 293],
     price: 10
   },
   {
     id: "kirby_buttons",
     title: "Kirby Buttons",
+    type: "set",
     skuIds: [294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305],
     price: 15
   },
   {
     id: "otgw_buttons",
     title: "Over the Garden Wall Buttons",
+    type: "set",
     skuIds: [312, 313, 314, 315, 316],
     price: 7
   }
