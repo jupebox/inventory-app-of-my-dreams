@@ -29,14 +29,40 @@ class Search extends Component {
       <section>
         <input
           type="search"
-          placeholder="Search for product"
+          placeholder="Search for a product..."
           value={this.state.query}
           onChange={this.handleChange}
         />
-        <Products
-          products={this.filterProducts()}
-          addToCart={this.props.addToCart}
-        />
+        <div className="scroll-container">
+          <Products
+            products={this.filterProducts()}
+            addToCart={this.props.addToCart}
+          />
+        </div>
+
+        <style jsx>{`
+          section {
+            position: relative;
+          }
+          input {
+            font-size: 16px;
+            padding: 10px;
+            display: block;
+            -webkit-appearance: none;
+            box-shadow: none;
+            border: solid 1px gray;
+            border-radius: 5px;
+            width: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 5;
+          }
+          .scroll-container {
+            padding-top: 30px;
+          }
+        `}</style>
       </section>
     );
   }

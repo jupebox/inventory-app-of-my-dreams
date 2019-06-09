@@ -18,6 +18,10 @@ class Products extends Component {
         <style jsx>{`
           article {
             display: flex;
+            font-family: Helvetica, Arial, Verdana, sans-serif;
+          }
+          h1 {
+            font-size: 16px;
           }
           .text-container {
             padding-left: 15px;
@@ -46,7 +50,43 @@ class Products extends Component {
               li {
                 list-style: none;
                 border-bottom: solid 2px gray;
+              }
+              li:nth-child(odd) {
+                background: #efefef;
+              }
+              a {
                 padding: 15px;
+                display: block;
+                color: dodgerblue;
+                position: relative;
+              }
+              a:hover,
+              a:focus,
+              a:active {
+                color: midnightblue;
+              }
+              a:after {
+                content: "\\00BB";
+                color: #fff;
+                background: midnightblue;
+                opacity: 0;
+                transition: opacity 0.2s, right 0.15s;
+                display: block;
+                position: absolute;
+                right: -60px;
+                top: 10px;
+                padding: 0;
+                font-size: 40px;
+                line-height: 45px;
+                width: 50px;
+                height: 50px;
+                font-weight: bold;
+                border-radius: 5px;
+                text-align: center;
+              }
+              a:hover:after {
+                opacity: 1;
+                right: 10px;
               }
             `}
           </style>
@@ -68,7 +108,44 @@ class Products extends Component {
             li {
               list-style: none;
               border-bottom: solid 2px gray;
+            }
+            li:nth-child(odd) {
+              background: #efefef;
+            }
+            a {
               padding: 15px;
+              display: block;
+              cursor: pointer;
+              text-decoration: underline;
+              position: relative;
+            }
+            a:hover,
+            a:focus,
+            a:active {
+              color: dodgerblue;
+            }
+            a:after {
+              content: "+";
+              color: #fff;
+              background: dodgerblue;
+              opacity: 0;
+              transition: opacity 0.2s, right 0.15s;
+              display: block;
+              position: absolute;
+              right: -60px;
+              top: 10px;
+              padding: 0;
+              font-size: 40px;
+              line-height: 45px;
+              width: 50px;
+              height: 50px;
+              font-weight: bold;
+              border-radius: 5px;
+              text-align: center;
+            }
+            a:hover:after {
+              opacity: 1;
+              right: 10px;
             }
           `}
         </style>
@@ -77,7 +154,16 @@ class Products extends Component {
   };
   render() {
     const { products } = this.props;
-    return <ul>{products && products.map(this.renderProduct)}</ul>;
+    return (
+      <ul>
+        {products && products.map(this.renderProduct)}
+        <style jsx>{`
+          ul {
+            padding: 0;
+          }
+        `}</style>
+      </ul>
+    );
   }
 }
 

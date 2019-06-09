@@ -5,6 +5,11 @@ function Home() {
   return (
     <AppContainer>
       <Search />
+      <style jsx>{`
+        body {
+          font-family: Helvetica, Arial, Verdana, sans-serif;
+        }
+      `}</style>
     </AppContainer>
   );
 }
