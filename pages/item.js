@@ -4,7 +4,7 @@ class Item extends React.Component {
       return {};
     }
     render() {
-      return <h1>An item in my inventory : {query.id}</h1>;
+      return <h1>An item in my inventory : {'query id'}</h1>;
     }
   }
   
