@@ -54,6 +54,7 @@ class Search extends Component {
             border: solid 1px gray;
             border-radius: 5px;
             width: 100%;
+            min-width: 200px;
             position: absolute;
             top: 0;
             left: 0;

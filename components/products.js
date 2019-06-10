@@ -59,6 +59,8 @@ class Products extends Component {
                 display: block;
                 color: dodgerblue;
                 position: relative;
+                overflow: hidden;
+                padding-right: 60px;
               }
               a:hover,
               a:focus,
@@ -118,6 +120,7 @@ class Products extends Component {
               cursor: pointer;
               text-decoration: underline;
               position: relative;
+              overflow: hidden;
             }
             a:hover,
             a:focus,

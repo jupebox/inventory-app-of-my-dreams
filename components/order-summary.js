@@ -9,27 +9,61 @@ class OrderSummary extends Component {
   state = {
     cartItems: [],
     customDiscount: null,
-    discountType: "dollar amount"
-    // appliedRules: []
+    discountType: "dollar amount",
+    paymentMethod: "cash",
+    location: "Anime Expo (Los Angeles)"
   };
+
   componentDidMount() {
     if (window.cartItems) {
       let cartItems = [];
       const keys = Object.keys(window.cartItems);
       for (let key of keys) {
-        cartItems.push({ sku: key, quantity: window.cartItems[key] });
+        cartItems.push({ sku: +key, quantity: window.cartItems[key] });
       }
       this.setState({ cartItems });
     }
   }
-  handleDiscountChange = event => {
-    this.setState({ customDiscount: event.target.value });
+  handleChange = event => {
+    this.setState({ [event.target.name]: event.target.value });
   };
   handleDiscountTypeClick = event => {
     this.setState({
       discountType:
         this.state.discountType === "percent" ? "dollar amount" : "percent"
     });
+  };
+  handleOptionChange = event => {
+    const { checked, value } = event.target;
+    let paymentMethod = "cash";
+    if (checked) {
+      paymentMethod = value;
+    }
+
+    this.setState({
+      paymentMethod
+    });
+  };
+  placeOrder = () => {
+    const explodedCart = this.explodeCart();
+    const { skus, products, totalQuantity, categoryQuantities } = explodedCart;
+    const { cartItems, location, paymentMethod, customDiscount } = this.state;
+    const { totalDiscount, appliedRules } = this.getDiscounts();
+    let orderInfo = {
+      cartItems,
+      productIds: products.map(product => product.id),
+      totalQuantity,
+      categoryQuantities,
+      location,
+      paymentMethod,
+      customDiscount,
+      discountsFromRules: totalDiscount - customDiscount,
+      totalDiscount,
+      appliedRules,
+      subtotal: this.getSubtotal(),
+      total: this.getTotal()
+    };
+    console.log(orderInfo);
   };
   explodeCart = () => {
     const { cartItems } = this.state;
@@ -44,7 +78,7 @@ class OrderSummary extends Component {
       }
     };
     for (let item of cartItems) {
-      const sku = getSku(+item.sku);
+      const sku = getSku(item.sku);
       const product = getProduct(sku.parentId);
       const { medium } = product;
       explodedCart.totalQuantity += item.quantity;
@@ -154,7 +188,7 @@ class OrderSummary extends Component {
     let subtotal = 0;
     const cartItems = this.state.cartItems;
     for (let item of cartItems) {
-      subtotal += this.getItemPrice(+item.sku, item.quantity);
+      subtotal += this.getItemPrice(item.sku, item.quantity);
     }
     return subtotal;
   };
@@ -190,7 +224,7 @@ class OrderSummary extends Component {
     return this.getSubtotal() - this.getDiscounts().totalDiscount;
   };
   renderTableRow = cartItem => {
-    const sku = getSku(+cartItem.sku);
+    const sku = getSku(cartItem.sku);
     const product = getProduct(sku.parentId);
     let productOptions = [];
 
@@ -276,16 +310,78 @@ class OrderSummary extends Component {
                     {this.state.discountType === "percent" ? "%" : "$"}
                   </button>
                   <input
+                    className="field custom-discount"
                     type="tel"
                     defaultValue={this.state.customDiscount}
-                    onChange={this.handleDiscountChange}
+                    name="customDiscount"
+                    onChange={this.handleChange}
                     placeholder="Custom Discount"
                   />
                 </td>
               </tr>
-              <tr>
+              <tr className="total">
                 <td colSpan="2">Total:</td>
                 <td>${this.getTotal()}</td>
+              </tr>
+              <tr>
+                <td>
+                  Payment <br />
+                  Method:
+                </td>
+                <td colSpan="2">
+                  <label
+                    className={
+                      this.state.paymentMethod === "cash"
+                        ? "selected option"
+                        : "option"
+                    }
+                  >
+                    <input
+                      type="radio"
+                      name="method"
+                      value="cash"
+                      checked={this.state.paymentMethod === "cash"}
+                      onChange={this.handleOptionChange}
+                    />
+                    Cash
+                  </label>
+                  <label
+                    className={
+                      this.state.paymentMethod === "square"
+                        ? "selected option"
+                        : "option"
+                    }
+                  >
+                    <input
+                      type="radio"
+                      name="method"
+                      value="square"
+                      checked={this.state.paymentMethod === "square"}
+                      onChange={this.handleOptionChange}
+                    />
+                    Square
+                  </label>
+                </td>
+              </tr>
+              <tr>
+                <td>Location:</td>
+                <td colSpan="2">
+                  <input
+                    className="field"
+                    type="text"
+                    defaultValue={this.state.location}
+                    name="location"
+                    onChange={this.handleChange}
+                    placeholder="Location"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td colSpan="3">
+                  <button className="place-order" onClick={this.placeOrder}>
+                    Place Order
+                  </button>
+                </td>
               </tr>
             </tfoot>
           </table>
@@ -322,16 +418,22 @@ class OrderSummary extends Component {
           }
           tr:last-child {
             border: 0;
+          }
+          .total {
             font-size: 20px;
           }
-
-          input {
+          .field {
             font-size: 14px;
             padding: 10px;
             display: block;
             -webkit-appearance: none;
             box-shadow: none;
             border: solid 1px gray;
+            border-radius: 5px;
+            width: 100%;
+          }
+          .custom-discount {
+            text-align: right;
             border-left: 0;
             border-radius: 0 5px 5px 0;
             width: calc(100% - 40px);
@@ -341,25 +443,50 @@ class OrderSummary extends Component {
           .discount {
             color: red;
           }
-          .discount-type {
+          button {
             font-size: 20px;
-            padding: 0;
             display: block;
             -webkit-appearance: none;
             box-shadow: none;
-            float: left;
-            width: 40px;
-            height: 40px;
-            border-radius: 5px 0 0 5px;
             background: dodgerblue;
             color: #fff;
             font-weight: bold;
             cursor: pointer;
+            border-radius: 5px;
+            padding: 10px;
           }
-          .discount-type:hover,
-          .discount-type:active,
-          .discount-type:focus {
+          .discount-type {
+            padding: 0;
+            float: left;
+            width: 40px;
+            height: 40px;
+            border-radius: 5px 0 0 5px;
+          }
+          button:hover,
+          button:active,
+          button:focus {
             background: midnightblue;
+          }
+          .option {
+            background: #fff;
+            display: inline-block;
+            padding: 10px;
+            overflow: hidden;
+            margin-right: 10px;
+            border: solid 2px rgba(0, 0, 0, 0.5);
+            border-radius: 5px;
+            transition: background 0.15s, color 0.15s;
+          }
+          .option input {
+            position: absolute;
+            left: -999px;
+          }
+          .selected.option {
+            background: dodgerblue;
+            color: #fff;
+          }
+          .place-order {
+            width: 100%;
           }
         `}</style>
       </aside>
