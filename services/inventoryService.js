@@ -1471,7 +1471,7 @@ const products = [
     skuIds: [142, 143, 144]
   },
   {
-    id: "dennou_coil_circle_of_skuIds",
+    id: "dennou_coil_circle_of_children",
     type: "design",
     medium: "print",
     title: "Dennou Coil - A Circle of Children",
@@ -4336,7 +4336,7 @@ const skus = [
   },
   {
     id: 145,
-    parentId: "dennou_coil_circle_of_skuIds",
+    parentId: "dennou_coil_circle_of_children",
     type: "sku",
     options: {
       size: "Small",
@@ -4346,7 +4346,7 @@ const skus = [
   },
   {
     id: 146,
-    parentId: "dennou_coil_circle_of_skuIds",
+    parentId: "dennou_coil_circle_of_children",
     type: "sku",
     options: {
       size: "Medium",
@@ -4356,7 +4356,7 @@ const skus = [
   },
   {
     id: 147,
-    parentId: "dennou_coil_circle_of_skuIds",
+    parentId: "dennou_coil_circle_of_children",
     type: "sku",
     options: {
       size: "Medium",
@@ -4366,7 +4366,7 @@ const skus = [
   },
   {
     id: 148,
-    parentId: "dennou_coil_circle_of_skuIds",
+    parentId: "dennou_coil_circle_of_children",
     type: "sku",
     options: {
       size: "Large",
@@ -4376,7 +4376,7 @@ const skus = [
   },
   {
     id: 149,
-    parentId: "dennou_coil_circle_of_skuIds",
+    parentId: "dennou_coil_circle_of_children",
     type: "sku",
     options: {
       size: "Large",
@@ -7251,6 +7251,56 @@ const sets = [
   }
 ];
 
+const discountRules = [
+  {
+    id: 1,
+    title: "3 Mini Prints for $5",
+    medium: "print",
+    quantity: 3,
+    size: "Mini",
+    discount: 1
+  },
+  {
+    id: 2,
+    title: "3 Small Prints for $12",
+    medium: "print",
+    quantity: 3,
+    size: "Small",
+    discount: 3
+  },
+  {
+    id: 3,
+    title: "4 Medium Prints for $30",
+    medium: "print",
+    quantity: 4,
+    size: "Medium",
+    discount: 10
+  },
+  {
+    id: 4,
+    title: "2 Large Prints for $25",
+    medium: "print",
+    quantity: 2,
+    size: "Large",
+    discount: 5
+  },
+  {
+    id: 5,
+    title: "3 Buttons for $5",
+    medium: "button",
+    quantity: 3,
+    discount: 1
+  },
+  {
+    id: 6,
+    title: "3 Sticker Sheets for $10",
+    medium: "stickers",
+    quantity: 3,
+    size: "Sheet",
+    discount: 5
+  }
+];
+
 export function getProducts() {
   return products;
 }
@@ -7273,4 +7323,8 @@ export function getSets() {
 
 export function getSet(id) {
   return sets.find(s => s.id === id);
+}
+
+export function getDiscountRules() {
+  return discountRules;
 }
