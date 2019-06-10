@@ -20,7 +20,17 @@ class AppContainer extends Component {
         }
       });
     });
-    return <main>{children}</main>;
+    return (
+      <main>
+        {children}
+        <style jsx>{`
+          main {
+            display: flex;
+            font-family: Helvetica, Arial, Verdana, sans-serif;
+          }
+        `}</style>
+      </main>
+    );
   }
 }
 

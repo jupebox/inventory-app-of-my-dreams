@@ -653,7 +653,7 @@ const products = [
     id: "pokemon_alphabet_gen1_a",
     type: "design",
     medium: "print",
-    title: "Pokebet - Arbok",
+    title: "A - Arbok",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -666,7 +666,7 @@ const products = [
     id: "pokemon_alphabet_gen1_b",
     type: "design",
     medium: "print",
-    title: "Pokebet - Beedrill",
+    title: "B - Beedrill",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -679,7 +679,7 @@ const products = [
     id: "pokemon_alphabet_gen1_c",
     type: "design",
     medium: "print",
-    title: "Pokebet - Charizard",
+    title: "C - Charizard",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -692,7 +692,7 @@ const products = [
     id: "pokemon_alphabet_gen1_d",
     type: "design",
     medium: "print",
-    title: "Pokebet - Doduo",
+    title: "D - Doduo",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -705,7 +705,7 @@ const products = [
     id: "pokemon_alphabet_gen1_e",
     type: "design",
     medium: "print",
-    title: "Pokebet - Eevee",
+    title: "E - Eevee",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -718,7 +718,7 @@ const products = [
     id: "pokemon_alphabet_gen1_f",
     type: "design",
     medium: "print",
-    title: "Pokebet - Farfetch'd",
+    title: "F - Farfetch'd",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -731,7 +731,7 @@ const products = [
     id: "pokemon_alphabet_gen1_g",
     type: "design",
     medium: "print",
-    title: "Pokebet - Geodude",
+    title: "G - Geodude",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -744,7 +744,7 @@ const products = [
     id: "pokemon_alphabet_gen1_h",
     type: "design",
     medium: "print",
-    title: "Pokebet - Haunter",
+    title: "H - Haunter",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -757,7 +757,7 @@ const products = [
     id: "pokemon_alphabet_gen1_i",
     type: "design",
     medium: "print",
-    title: "Pokebet - Ivysaur",
+    title: "I - Ivysaur",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -770,7 +770,7 @@ const products = [
     id: "pokemon_alphabet_gen1_j",
     type: "design",
     medium: "print",
-    title: "Pokebet - Jigglypuff",
+    title: "J - Jigglypuff",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -783,7 +783,7 @@ const products = [
     id: "pokemon_alphabet_gen1_k",
     type: "design",
     medium: "print",
-    title: "Pokebet - Krabby",
+    title: "K - Krabby",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -796,7 +796,7 @@ const products = [
     id: "pokemon_alphabet_gen1_l",
     type: "design",
     medium: "print",
-    title: "Pokebet - Lapras",
+    title: "L - Lapras",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -809,7 +809,7 @@ const products = [
     id: "pokemon_alphabet_gen1_m",
     type: "design",
     medium: "print",
-    title: "Pokebet - Meowth",
+    title: "M - Meowth",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -822,7 +822,7 @@ const products = [
     id: "pokemon_alphabet_gen1_n",
     type: "design",
     medium: "print",
-    title: "Pokebet - Nidoran",
+    title: "N - Nidoran",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -835,7 +835,7 @@ const products = [
     id: "pokemon_alphabet_gen1_o",
     type: "design",
     medium: "print",
-    title: "Pokebet - Oddish",
+    title: "O - Oddish",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -848,7 +848,7 @@ const products = [
     id: "pokemon_alphabet_gen1_p",
     type: "design",
     medium: "print",
-    title: "Pokebet - Pidgeot",
+    title: "P - Pidgeot",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -861,7 +861,7 @@ const products = [
     id: "pokemon_alphabet_gen1_q",
     type: "design",
     medium: "print",
-    title: "Pokebet - Quick Attack (Rattata)",
+    title: "Q - Quick Attack (Rattata)",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -874,7 +874,7 @@ const products = [
     id: "pokemon_alphabet_gen1_r",
     type: "design",
     medium: "print",
-    title: "Pokebet - Rapidash",
+    title: "R - Rapidash",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -887,7 +887,7 @@ const products = [
     id: "pokemon_alphabet_gen1_s",
     type: "design",
     medium: "print",
-    title: "Pokebet - Squirtle",
+    title: "S - Squirtle",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -900,7 +900,7 @@ const products = [
     id: "pokemon_alphabet_gen1_t",
     type: "design",
     medium: "print",
-    title: "Pokebet - Tentacruel",
+    title: "T - Tentacruel",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -913,7 +913,7 @@ const products = [
     id: "pokemon_alphabet_gen1_u",
     type: "design",
     medium: "print",
-    title: "Pokebet - Under the Truck (Mew)",
+    title: "U - Under the Truck (Mew)",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -926,7 +926,7 @@ const products = [
     id: "pokemon_alphabet_gen1_v",
     type: "design",
     medium: "print",
-    title: "Pokebet - Vulpix",
+    title: "V - Vulpix",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -939,7 +939,7 @@ const products = [
     id: "pokemon_alphabet_gen1_w",
     type: "design",
     medium: "print",
-    title: "Pokebet - Weezing",
+    title: "W - Weezing",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -952,7 +952,7 @@ const products = [
     id: "pokemon_alphabet_gen1_x",
     type: "design",
     medium: "print",
-    title: "Pokebet - ...Slowpoke (X)",
+    title: "X - ...Slowpoke (X)",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -965,7 +965,7 @@ const products = [
     id: "pokemon_alphabet_gen1_y",
     type: "design",
     medium: "print",
-    title: "Pokebet - Yellow Version (Pikachu)",
+    title: "Y - Yellow Version (Pikachu)",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -978,7 +978,7 @@ const products = [
     id: "pokemon_alphabet_gen1_z",
     type: "design",
     medium: "print",
-    title: "Pokebet - Zubat",
+    title: "Z - Zubat",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -991,7 +991,7 @@ const products = [
     id: "pokemon_alphabet_gen2_a",
     type: "design",
     medium: "print",
-    title: "Pokebet - Ampharos",
+    title: "A - Ampharos",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1004,7 +1004,7 @@ const products = [
     id: "pokemon_alphabet_gen2_b",
     type: "design",
     medium: "print",
-    title: "Pokebet - Bellossom",
+    title: "B - Bellossom",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1017,7 +1017,7 @@ const products = [
     id: "pokemon_alphabet_gen2_c",
     type: "design",
     medium: "print",
-    title: "Pokebet - Chikorita",
+    title: "C - Chikorita",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1030,7 +1030,7 @@ const products = [
     id: "pokemon_alphabet_gen2_d",
     type: "design",
     medium: "print",
-    title: "Pokebet - Delibird",
+    title: "D - Delibird",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1043,7 +1043,7 @@ const products = [
     id: "pokemon_alphabet_gen2_e",
     type: "design",
     medium: "print",
-    title: "Pokebet - Espeon",
+    title: "E - Espeon",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1056,7 +1056,7 @@ const products = [
     id: "pokemon_alphabet_gen2_f",
     type: "design",
     medium: "print",
-    title: "Pokebet - Feraligatr",
+    title: "F - Feraligatr",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1069,7 +1069,7 @@ const products = [
     id: "pokemon_alphabet_gen2_g",
     type: "design",
     medium: "print",
-    title: "Pokebet - Girafarig",
+    title: "G - Girafarig",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1082,7 +1082,7 @@ const products = [
     id: "pokemon_alphabet_gen2_h",
     type: "design",
     medium: "print",
-    title: "Pokebet - Houndoom",
+    title: "H - Houndoom",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1095,7 +1095,7 @@ const products = [
     id: "pokemon_alphabet_gen2_i",
     type: "design",
     medium: "print",
-    title: "Pokebet - Igglybuff",
+    title: "I - Igglybuff",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1108,7 +1108,7 @@ const products = [
     id: "pokemon_alphabet_gen2_j",
     type: "design",
     medium: "print",
-    title: "Pokebet - Jumpluff",
+    title: "J - Jumpluff",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1121,7 +1121,7 @@ const products = [
     id: "pokemon_alphabet_gen2_k",
     type: "design",
     medium: "print",
-    title: "Pokebet - Kingdra",
+    title: "K - Kingdra",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1134,7 +1134,7 @@ const products = [
     id: "pokemon_alphabet_gen2_l",
     type: "design",
     medium: "print",
-    title: "Pokebet - Larvitar",
+    title: "L - Larvitar",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1147,7 +1147,7 @@ const products = [
     id: "pokemon_alphabet_gen2_m",
     type: "design",
     medium: "print",
-    title: "Pokebet - Marill",
+    title: "M - Marill",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1160,7 +1160,7 @@ const products = [
     id: "pokemon_alphabet_gen2_n",
     type: "design",
     medium: "print",
-    title: "Pokebet - Noctowl",
+    title: "N - Noctowl",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1173,7 +1173,7 @@ const products = [
     id: "pokemon_alphabet_gen2_o",
     type: "design",
     medium: "print",
-    title: "Pokebet - Octillery",
+    title: "O - Octillery",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1186,7 +1186,7 @@ const products = [
     id: "pokemon_alphabet_gen2_p",
     type: "design",
     medium: "print",
-    title: "Pokebet - Phanpy",
+    title: "P - Phanpy",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1199,7 +1199,7 @@ const products = [
     id: "pokemon_alphabet_gen2_q",
     type: "design",
     medium: "print",
-    title: "Pokebet - Quilava",
+    title: "Q - Quilava",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1212,7 +1212,7 @@ const products = [
     id: "pokemon_alphabet_gen2_r",
     type: "design",
     medium: "print",
-    title: "Pokebet - Red Gyarados",
+    title: "R - Red Gyarados",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1225,7 +1225,7 @@ const products = [
     id: "pokemon_alphabet_gen2_s",
     type: "design",
     medium: "print",
-    title: "Pokebet - Sneasel",
+    title: "S - Sneasel",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1238,7 +1238,7 @@ const products = [
     id: "pokemon_alphabet_gen2_t",
     type: "design",
     medium: "print",
-    title: "Pokebet - Togetic",
+    title: "T - Togetic",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1251,7 +1251,7 @@ const products = [
     id: "pokemon_alphabet_gen2_u",
     type: "design",
     medium: "print",
-    title: "Pokebet - Umbreon",
+    title: "U - Umbreon",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1264,7 +1264,7 @@ const products = [
     id: "pokemon_alphabet_gen2_u_v1",
     type: "design",
     medium: "print",
-    title: "Pokebet - Umbreon",
+    title: "U - Umbreon",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1277,7 +1277,7 @@ const products = [
     id: "pokemon_alphabet_gen2_v",
     type: "design",
     medium: "print",
-    title: "Pokebet - Vegatation...? (Sudowoodo)",
+    title: "V - Vegatation...? (Sudowoodo)",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1290,7 +1290,7 @@ const products = [
     id: "pokemon_alphabet_gen2_w",
     type: "design",
     medium: "print",
-    title: "Pokebet - Wooper",
+    title: "W - Wooper",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1303,7 +1303,7 @@ const products = [
     id: "pokemon_alphabet_gen2_x",
     type: "design",
     medium: "print",
-    title: "Pokebet - Xatu",
+    title: "X - Xatu",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1316,7 +1316,7 @@ const products = [
     id: "pokemon_alphabet_gen2_y",
     type: "design",
     medium: "print",
-    title: "Pokebet - Yanma",
+    title: "Y - Yanma",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1329,7 +1329,7 @@ const products = [
     id: "pokemon_alphabet_gen2_z",
     type: "design",
     medium: "print",
-    title: "Pokebet - Zzz... (Baby Pokemon)",
+    title: "Z - Zzz... (Baby Pokemon)",
     imageUrl: "",
     hideFromList: true,
     productOptions: {
@@ -1474,7 +1474,7 @@ const products = [
     id: "dennou_coil_circle_of_skuIds",
     type: "design",
     medium: "print",
-    title: "Dennou Coil - A Circle of skuIds",
+    title: "Dennou Coil - A Circle of Children",
     imageUrl: "",
     productOptions: {
       size: ["Small", "Medium", "Large"],
@@ -1952,6 +1952,7 @@ const products = [
     title: "Cozy Cat Cafe",
     imageUrl: "",
     productOptions: {
+      size: ["Sheet"],
       quality: ["Good", "Misprint"]
     },
     skuIds: [222, 223]
@@ -1963,6 +1964,7 @@ const products = [
     title: "Pokemon - Birds & Beans",
     imageUrl: "",
     productOptions: {
+      size: ["Sheet"],
       quality: ["Good"]
     },
     skuIds: [224]
@@ -1974,6 +1976,7 @@ const products = [
     title: "Zelda - Wind Waker Emojis",
     imageUrl: "",
     productOptions: {
+      size: ["Sheet"],
       quality: ["Good"]
     },
     skuIds: [225]
@@ -1985,6 +1988,7 @@ const products = [
     title: "Zelda - Phrases",
     imageUrl: "",
     productOptions: {
+      size: ["Sheet"],
       quality: ["Good"]
     },
     skuIds: [226]
@@ -1996,6 +2000,7 @@ const products = [
     title: "Busy Bees",
     imageUrl: "",
     productOptions: {
+      size: ["Sheet"],
       quality: ["Good", "Misprint"]
     },
     skuIds: [227, 228]
@@ -2007,6 +2012,7 @@ const products = [
     title: "Kirby",
     imageUrl: "",
     productOptions: {
+      size: ["Sheet"],
       quality: ["Good", "Misprint"]
     },
     skuIds: [229, 230]
@@ -2018,6 +2024,7 @@ const products = [
     title: "Zelda - Rupees",
     imageUrl: "",
     productOptions: {
+      size: ["Small"],
       quality: ["Good"]
     },
     skuIds: [231]
@@ -2029,6 +2036,7 @@ const products = [
     title: "Zelda - Fairies",
     imageUrl: "",
     productOptions: {
+      size: ["Large"],
       quality: ["Good"]
     },
     skuIds: [232]
@@ -2040,6 +2048,7 @@ const products = [
     title: "Zelda - Spiritual Stones",
     imageUrl: "",
     productOptions: {
+      size: ["Large"],
       quality: ["Good"]
     },
     skuIds: [233]
@@ -2051,6 +2060,7 @@ const products = [
     title: "Zelda - Power Up!",
     imageUrl: "",
     productOptions: {
+      size: ["Large"],
       quality: ["Good"]
     },
     skuIds: [234]
@@ -2062,6 +2072,7 @@ const products = [
     title: "Busy Bees - Accessories Only",
     imageUrl: "",
     productOptions: {
+      size: ["Large"],
       quality: ["Good"]
     },
     skuIds: [235]
@@ -2073,6 +2084,7 @@ const products = [
     title: "Busy Bees - Bees Only",
     imageUrl: "",
     productOptions: {
+      size: ["Large"],
       quality: ["Good"]
     },
     skuIds: [236]
@@ -5089,6 +5101,7 @@ const skus = [
     parentId: "cat_cafe_stickers",
     type: "sku",
     options: {
+      size: "Sheet",
       quality: "Good"
     },
     inventory: 34
@@ -5098,6 +5111,7 @@ const skus = [
     parentId: "cat_cafe_stickers",
     type: "sku",
     options: {
+      size: "Sheet",
       quality: "Misprint"
     },
     inventory: 21
@@ -5107,6 +5121,7 @@ const skus = [
     parentId: "pokemon_birds_stickers",
     type: "sku",
     options: {
+      size: "Sheet",
       quality: "Good"
     },
     inventory: 12
@@ -5116,6 +5131,7 @@ const skus = [
     parentId: "zelda_emojis_stickers",
     type: "sku",
     options: {
+      size: "Sheet",
       quality: "Good"
     },
     inventory: 21
@@ -5125,6 +5141,7 @@ const skus = [
     parentId: "zelda_phrases_stickers",
     type: "sku",
     options: {
+      size: "Sheet",
       quality: "Good"
     },
     inventory: 7
@@ -5134,6 +5151,7 @@ const skus = [
     parentId: "bees_stickers",
     type: "sku",
     options: {
+      size: "Sheet",
       quality: "Good"
     },
     inventory: 23
@@ -5143,6 +5161,7 @@ const skus = [
     parentId: "bees_stickers",
     type: "sku",
     options: {
+      size: "Sheet",
       quality: "Misprint"
     },
     inventory: 16
@@ -5152,6 +5171,7 @@ const skus = [
     parentId: "kirby_stickers",
     type: "sku",
     options: {
+      size: "Sheet",
       quality: "Good"
     },
     inventory: 16
@@ -5161,6 +5181,7 @@ const skus = [
     parentId: "kirby_stickers",
     type: "sku",
     options: {
+      size: "Sheet",
       quality: "Misprint"
     },
     inventory: 8
@@ -5170,6 +5191,7 @@ const skus = [
     parentId: "zelda_rupees_stickers",
     type: "sku",
     options: {
+      size: "Small",
       quality: "Good"
     },
     inventory: 35
@@ -5179,6 +5201,7 @@ const skus = [
     parentId: "zelda_fairies_stickers",
     type: "sku",
     options: {
+      size: "Large",
       quality: "Good"
     },
     inventory: 8
@@ -5188,6 +5211,7 @@ const skus = [
     parentId: "zelda_spirit_stones_stickers",
     type: "sku",
     options: {
+      size: "Large",
       quality: "Good"
     },
     inventory: 0
@@ -5197,6 +5221,7 @@ const skus = [
     parentId: "zelda_items_stickers",
     type: "sku",
     options: {
+      size: "Large",
       quality: "Good"
     },
     inventory: 8
@@ -5206,6 +5231,7 @@ const skus = [
     parentId: "bees_accessories_stickers",
     type: "sku",
     options: {
+      size: "Large",
       quality: "Good"
     },
     inventory: 9
@@ -5215,6 +5241,7 @@ const skus = [
     parentId: "bees_stickers_v1",
     type: "sku",
     options: {
+      size: "Large",
       quality: "Good"
     },
     inventory: 8
@@ -5250,19 +5277,22 @@ const skus = [
     id: 240,
     parentId: "bee_lines_zine",
     type: "sku",
-    inventory: 46
+    inventory: 46,
+    price: 10
   },
   {
     id: 241,
     parentId: "sweets_zine",
     type: "sku",
-    inventory: 26
+    inventory: 26,
+    price: 8
   },
   {
     id: 242,
     parentId: "tayce_t_zine",
     type: "sku",
-    inventory: 13
+    inventory: 13,
+    price: 5
   },
   {
     id: 243,

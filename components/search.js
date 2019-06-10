@@ -43,6 +43,7 @@ class Search extends Component {
         <style jsx>{`
           section {
             position: relative;
+            box-sizing: border-box;
           }
           input {
             font-size: 16px;
@@ -53,7 +54,7 @@ class Search extends Component {
             border: solid 1px gray;
             border-radius: 5px;
             width: 100%;
-            position: fixed;
+            position: absolute;
             top: 0;
             left: 0;
             right: 0;
@@ -61,6 +62,9 @@ class Search extends Component {
           }
           .scroll-container {
             padding-top: 30px;
+            max-height: calc(100vh - 20px);
+            overflow: auto;
+            box-sizing: border-box;
           }
         `}</style>
       </section>
