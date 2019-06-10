@@ -9,15 +9,35 @@ const Item = product => (
       <Product product={product} />
     </AppContainer>
     <Link href="/">
-      <button>x</button>
+      <button>&times;</button>
     </Link>
     <style jsx>{`
+      section {
+        font-family: Helvetica, Arial, Verdana, sans-serif;
+      }
       button {
+        -webkit-appearance: none;
+        font-family: Helvetica, Arial, Verdana, sans-serif;
         position: absolute;
-        top: 0;
-        right: 0;
-        padding: 20px;
+        top: 15px;
+        right: 15px;
+        color: #fff;
+        background: dodgerblue;
+        transition: opacity 0.2s, right 0.15s;
+        display: block;
+        padding: 0;
+        font-size: 40px;
+        width: 50px;
+        height: 50px;
         font-weight: bold;
+        border-radius: 5px;
+        text-align: center;
+        transition: background 0.15s;
+      }
+      button:hover,
+      button:focus,
+      button:active {
+        background: midnightblue;
       }
     `}</style>
   </section>

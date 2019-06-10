@@ -45,7 +45,6 @@ class Product extends Component {
     }
 
     this.state = {
-      canAddToCart: true,
       checkedItems,
       selectedOptions,
       selectedSkuIds: []
@@ -59,8 +58,7 @@ class Product extends Component {
     }
 
     this.setState({
-      selectedOptions,
-      canAddToCart: this.getSkuFromOptions().length > -1
+      selectedOptions
     });
   };
   handleSelectAll = event => {
@@ -108,6 +106,13 @@ class Product extends Component {
     }
     return selectedSkuId;
   };
+  getCanAddToCart = () => {
+    const skuIds =
+      this.props.product.type === "design"
+        ? this.getSkuFromOptions()
+        : this.getSelectedSkuIds();
+    return skuIds.length > 0;
+  };
   handleClick = () => {
     const skuIds =
       this.props.product.type === "design"
@@ -125,17 +130,65 @@ class Product extends Component {
     return (
       <ul key={key}>
         {array.map(item => (
-          <li key={item}>
+          <li
+            key={item}
+            className={
+              this.state.selectedOptions[key] === item ? "selected" : ""
+            }
+          >
             <label>
               <input
                 type="radio"
                 name={key}
                 value={item}
-                checked={this.state.selectedOptions[key] == item}
+                checked={this.state.selectedOptions[key] === item}
                 onChange={this.handleOptionChange}
               />
               <h2>{item}</h2>
             </label>
+            <style jsx>{`
+              li {
+                list-style: none;
+                border: solid 2px rgba(0, 0, 0, 0.5);
+                border-top-width: 0;
+                background: #fff;
+                color: #000;
+                transition: background 0.15s, color 0.15s;
+                min-width: 200px;
+              }
+              li:nth-child(odd) {
+                background: #efefef;
+              }
+              li:last-child {
+                border-radius: 0 0 5px 5px;
+              }
+              li:first-child {
+                border-top-width: 2px;
+                border-radius: 5px 5px 0 0;
+              }
+              label {
+                display: block;
+                cursor: pointer;
+                position: relative;
+                overflow: hidden;
+                padding: 15px;
+              }
+              .selected {
+                background: dodgerblue;
+                color: #fff;
+              }
+              .selected:nth-child(odd) {
+                background: #157adc;
+              }
+              input {
+                position: absolute;
+                left: -999px;
+              }
+              h2 {
+                font-size: 14px;
+                margin: 0;
+              }
+            `}</style>
           </li>
         ))}
       </ul>
@@ -152,7 +205,16 @@ class Product extends Component {
         options.push(this.renderProductOption(productOptions[option], option));
       }
     }
-    return <div className="options">{options}</div>;
+    return (
+      <div className="options">
+        {options}
+        <style jsx>{`
+          .options {
+            display: flex;
+          }
+        `}</style>
+      </div>
+    );
   };
   renderSku = sku => {
     const product =
@@ -160,8 +222,8 @@ class Product extends Component {
         ? { title: "Select All" }
         : getProduct(getSku(sku).parentId);
     return (
-      <li key={sku}>
-        <label>
+      <li key={sku} className={this.state.checkedItems[sku] ? "selected" : ""}>
+        <label className={sku === "all" ? "select-all" : "option"}>
           <input
             type="checkbox"
             name="sku"
@@ -173,6 +235,84 @@ class Product extends Component {
           />
           <h2>{product.title}</h2>
         </label>
+        <style jsx>{`
+          li {
+            list-style: none;
+
+            border: solid 2px rgba(0, 0, 0, 0.5);
+            border-top-width: 0;
+            background: #fff;
+            color: #000;
+            transition: background 0.15s, color 0.15s;
+          }
+          li:nth-child(odd) {
+            background: #efefef;
+          }
+          li:last-child {
+            border-radius: 0 0 5px 5px;
+          }
+          li:first-child {
+            border-top-width: 2px;
+            border-radius: 5px 5px 0 0;
+          }
+          label {
+            display: block;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            padding: 15px 15px 15px 60px;
+          }
+          .select-all {
+            background: #fff;
+            color: #000;
+            padding-top: 20px;
+            padding-bottom: 20px;
+          }
+          .select-all:before {
+            position: absolute;
+            content: "";
+            width: 30px;
+            height: 30px;
+            border: solid 2px gray;
+            border-radius: 5px;
+            display: block;
+            left: 15px;
+            top: 10px;
+          }
+          .select-all:after {
+            position: absolute;
+            content: "\\2713";
+            display: block;
+            left: 18px;
+            top: 0;
+            opacity: 0;
+            transition: top 0.15s, opacity 0.2s;
+            font-size: 50px;
+            line-height: 0;
+          }
+          .selected .select-all:after {
+            top: 20px;
+            opacity: 1;
+          }
+          .select-all:hover {
+            color: dodgerblue;
+          }
+          .selected {
+            background: dodgerblue;
+            color: #fff;
+          }
+          .selected:nth-child(odd) {
+            background: #157adc;
+          }
+          input {
+            position: absolute;
+            left: -999px;
+          }
+          h2 {
+            font-size: 14px;
+            margin: 0;
+          }
+        `}</style>
       </li>
     );
   };
@@ -181,6 +321,13 @@ class Product extends Component {
       <ul>
         {this.renderSku("all")}
         {this.props.product.skuIds.map(this.renderSku)}
+        <style jsx>{`
+          ul {
+            display: block;
+            margin-bottom: 30px;
+            padding: 0;
+          }
+        `}</style>
       </ul>
     );
   };
@@ -202,7 +349,7 @@ class Product extends Component {
 
         <button
           className="add-to-cart"
-          disabled={!this.state.canAddToCart}
+          disabled={!this.getCanAddToCart()}
           onClick={() => {
             this.handleClick();
           }}
@@ -213,7 +360,7 @@ class Product extends Component {
         <style jsx>{`
           article {
             display: flex;
-            justify-content: space-between;
+            padding-bottom: 60px;
           }
           .text-container {
             padding-left: 15px;
@@ -227,7 +374,22 @@ class Product extends Component {
             align-self: flex-start;
           }
           .add-to-cart {
-            align-self: flex-end;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            -webkit-appearance: none;
+            display: block;
+            border: 0;
+            background: dodgerblue;
+            color: #fff;
+            font-size: 24px;
+            width: 100%;
+            padding: 15px;
+            cursor: pointer;
+          }
+          .add-to-cart[disabled] {
+            background: gray;
           }
         `}</style>
       </article>
