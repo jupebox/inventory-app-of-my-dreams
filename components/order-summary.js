@@ -2,28 +2,17 @@ import React, { Component } from "react";
 import {
   getSku,
   getProduct,
+  getSets,
   getDiscountRules
 } from "../services/inventoryService";
 
 class OrderSummary extends Component {
   state = {
-    cartItems: [],
     customDiscount: null,
     discountType: "dollar amount",
     paymentMethod: "cash",
     location: "Anime Expo (Los Angeles)"
   };
-
-  componentDidMount() {
-    if (window.cartItems) {
-      let cartItems = [];
-      const keys = Object.keys(window.cartItems);
-      for (let key of keys) {
-        cartItems.push({ sku: +key, quantity: window.cartItems[key] });
-      }
-      this.setState({ cartItems });
-    }
-  }
   handleChange = event => {
     this.setState({ [event.target.name]: event.target.value });
   };
@@ -44,10 +33,18 @@ class OrderSummary extends Component {
       paymentMethod
     });
   };
+  handleQuantityUpdate = event => {
+    const { value, name } = event.target;
+    if (typeof +value !== NaN) {
+      this.props.updateQuantity(name, value);
+    }
+  };
+  handleCommissionPriceChange = cartItem => {};
   placeOrder = () => {
     const explodedCart = this.explodeCart();
-    const { skus, products, totalQuantity, categoryQuantities } = explodedCart;
-    const { cartItems, location, paymentMethod, customDiscount } = this.state;
+    const { products, totalQuantity, categoryQuantities } = explodedCart;
+    const cartItems = this.getFormattedCartItems();
+    const { location, paymentMethod, customDiscount } = this.state;
     const { totalDiscount, appliedRules } = this.getDiscounts();
     let orderInfo = {
       cartItems,
@@ -57,7 +54,7 @@ class OrderSummary extends Component {
       location,
       paymentMethod,
       customDiscount,
-      discountsFromRules: totalDiscount - customDiscount,
+      discountsFromRules: +totalDiscount - +customDiscount,
       totalDiscount,
       appliedRules,
       subtotal: this.getSubtotal(),
@@ -65,8 +62,8 @@ class OrderSummary extends Component {
     };
     console.log(orderInfo);
   };
-  explodeCart = () => {
-    const { cartItems } = this.state;
+  explodeCart = passedCartItems => {
+    const cartItems = passedCartItems || this.getFormattedCartItems();
     let explodedCart = {
       skus: [],
       products: [],
@@ -81,19 +78,29 @@ class OrderSummary extends Component {
       const sku = getSku(item.sku);
       const product = getProduct(sku.parentId);
       const { medium } = product;
-      explodedCart.totalQuantity += item.quantity;
+      explodedCart.totalQuantity += +item.quantity;
       explodedCart.skus.push(sku);
       if (explodedCart.products.indexOf(product) < 0) {
         explodedCart.products.push(product);
       }
       if (medium === "print" || medium === "stickers") {
-        explodedCart.categoryQuantities[medium][sku.options.size] +=
-          item.quantity;
+        explodedCart.categoryQuantities[medium][
+          sku.options.size
+        ] += +item.quantity;
       } else if (medium === "button") {
-        explodedCart.categoryQuantities.button += item.quantity;
+        explodedCart.categoryQuantities.button += +item.quantity;
       }
     }
     return explodedCart;
+  };
+  getFormattedCartItems = () => {
+    let cartItems = [];
+    const initialCartItems = this.props.getCartItems();
+    const keys = Object.keys(initialCartItems);
+    for (let key of keys) {
+      cartItems.push({ sku: +key, quantity: initialCartItems[key] });
+    }
+    return cartItems;
   };
   getItemPrice = (skuId, quantity) => {
     const sku = getSku(skuId);
@@ -102,7 +109,7 @@ class OrderSummary extends Component {
     }
     if (sku.price) {
       // custom price set on sku, for damaged goods or other special cases
-      return sku.price;
+      return sku.price * quantity;
     }
     const product = getProduct(sku.parentId);
     let price = 0;
@@ -186,7 +193,7 @@ class OrderSummary extends Component {
   };
   getSubtotal = () => {
     let subtotal = 0;
-    const cartItems = this.state.cartItems;
+    const cartItems = this.getFormattedCartItems();
     for (let item of cartItems) {
       subtotal += this.getItemPrice(item.sku, item.quantity);
     }
@@ -195,20 +202,52 @@ class OrderSummary extends Component {
   getDiscounts = () => {
     const customDiscount = +this.state.customDiscount || 0;
     const discountRules = getDiscountRules();
-    const explodedCart = this.explodeCart();
+    let cartItems = JSON.parse(JSON.stringify(this.getFormattedCartItems()));
+    const sets = getSets();
     let discountsFromRules = 0;
     let appliedRules = [];
+
+    for (let set of sets) {
+      if (set.discount) {
+        let skusFound = [];
+        for (let sku of set.skuIds) {
+          let result = cartItems.find(item => {
+            return item.sku === sku && item.quantity > 0;
+          });
+          if (result) {
+            skusFound.push(result);
+          }
+        }
+        if (skusFound.length === set.skuIds.length) {
+          discountsFromRules += +set.discount;
+          appliedRules.push({
+            id: set.id,
+            title: set.title + " Set",
+            discount: set.discount
+          });
+          for (let item of cartItems) {
+            if (skusFound.includes(item)) {
+              item.quantity--;
+            }
+          }
+        }
+      }
+    }
+
+    const explodedCart = this.explodeCart(cartItems);
+
     for (let rule of discountRules) {
       const { categoryQuantities: cat } = explodedCart;
       const { medium, quantity, size, discount, title, id } = rule;
       let currentDiscount = 0;
       if (cat[medium]) {
-        if ([medium] === "button") {
+        if (medium === "button") {
+          // todo: this isn't working
           currentDiscount = Math.floor(cat[medium] / quantity) * discount;
         } else if (cat[medium][size]) {
           currentDiscount = Math.floor(cat[medium][size] / quantity) * discount;
         }
-        discountsFromRules += currentDiscount;
+        discountsFromRules += +currentDiscount;
         if (currentDiscount) {
           appliedRules.push({ id, title, discount: currentDiscount });
         }
@@ -238,12 +277,43 @@ class OrderSummary extends Component {
       <tr key={sku.id}>
         <td>
           <img src={product.imageUrl} />
+          <button
+            onClick={() => {
+              this.props.removeItem(sku.id);
+            }}
+          >
+            &times;
+          </button>
         </td>
         <td>
           {product.title}
           {productOptions.length ? ` (${productOptions})` : ""}
         </td>
-        <td>${this.getItemPrice(sku.id, cartItem.quantity)}</td>
+        <td>
+          <input
+            className="field"
+            type="number"
+            name={sku.id}
+            defaultValue={cartItem.quantity}
+            onChange={this.handleQuantityUpdate}
+          />
+        </td>
+        <td>
+          $
+          {product.id.indexOf("commission") > -1 ? (
+            <input
+              className="field"
+              type="number"
+              name="price"
+              defaultValue={cartItem.price}
+              onChange={() => {
+                this.handleCommissionPriceChange(cartItem);
+              }}
+            />
+          ) : (
+            this.getItemPrice(sku.id, cartItem.quantity)
+          )}
+        </td>
         <style jsx>{`
           img {
             width: 50px;
@@ -251,12 +321,12 @@ class OrderSummary extends Component {
           }
           td {
             padding: 10px;
+            position: relative;
           }
           td:last-child {
             font-weight: bold;
             text-align: right;
           }
-
           tr {
             border-bottom: solid 2px gray;
             background: #f7f7f7;
@@ -264,27 +334,60 @@ class OrderSummary extends Component {
           tr:nth-child(odd) {
             background: #fff;
           }
+          .field {
+            font-size: 14px;
+            padding: 10px;
+            display: block;
+            -webkit-appearance: none;
+            box-shadow: none;
+            border: solid 1px gray;
+            border-radius: 5px;
+            width: 30px;
+          }
+          button {
+            font-size: 25px;
+            font-weight: bold;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 40px;
+            height: 40px;
+            -webkit-appearance: none;
+            background: none;
+            color: rgba(0, 0, 0, 0.5);
+            border: 0;
+            text-shadow: 1px 1px rgba(255, 255, 255, 0.7);
+            cursor: pointer;
+            transition: color 0.15s, text-shadow 0.15s;
+          }
+          button:hover {
+            color: rgba(0, 0, 0, 1);
+            text-shadow: 2px 2px rgba(255, 255, 255, 1);
+          }
         `}</style>
       </tr>
     );
   };
   render() {
     return (
-      <aside>
+      <aside key="order-sum">
         <h1>Order Summary</h1>
         <div className="scroll-container">
           <table>
             <thead>
               <tr>
                 <th colSpan="2">Item</th>
+                <th>Quantity</th>
                 <th>Price</th>
               </tr>
             </thead>
-            <tbody>{this.state.cartItems.map(this.renderTableRow)}</tbody>
+            <tbody>
+              {this.getFormattedCartItems().map(this.renderTableRow)}
+            </tbody>
             <tfoot>
               <tr>
                 <td colSpan="2">Subtotal:</td>
-                <td>${this.getSubtotal()}</td>
+                <td colSpan="2">${this.getSubtotal()}</td>
               </tr>
               {this.getDiscounts().appliedRules.map(rule => (
                 <tr className="discount" key={rule.id}>
@@ -292,7 +395,7 @@ class OrderSummary extends Component {
                     Discount <br />
                     Rule:
                   </td>
-                  <td>{rule.title}</td>
+                  <td colSpan="2">{rule.title}</td>
                   <td>-${rule.discount}</td>
                 </tr>
               ))}
@@ -302,7 +405,7 @@ class OrderSummary extends Component {
                   <br />
                   Discount:
                 </td>
-                <td colSpan="2">
+                <td colSpan="3">
                   <button
                     className="discount-type"
                     onClick={this.handleDiscountTypeClick}
@@ -321,14 +424,14 @@ class OrderSummary extends Component {
               </tr>
               <tr className="total">
                 <td colSpan="2">Total:</td>
-                <td>${this.getTotal()}</td>
+                <td colSpan="2">${this.getTotal()}</td>
               </tr>
               <tr>
                 <td>
                   Payment <br />
                   Method:
                 </td>
-                <td colSpan="2">
+                <td colSpan="3">
                   <label
                     className={
                       this.state.paymentMethod === "cash"
@@ -365,7 +468,7 @@ class OrderSummary extends Component {
               </tr>
               <tr>
                 <td>Location:</td>
-                <td colSpan="2">
+                <td colSpan="3">
                   <input
                     className="field"
                     type="text"
@@ -377,7 +480,7 @@ class OrderSummary extends Component {
                 </td>
               </tr>
               <tr>
-                <td colSpan="3">
+                <td colSpan="4">
                   <button className="place-order" onClick={this.placeOrder}>
                     Place Order
                   </button>

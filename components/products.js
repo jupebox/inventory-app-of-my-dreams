@@ -39,7 +39,10 @@ class Products extends Component {
       </article>
     );
 
-    if (product.skuIds && product.skuIds.length > 1) {
+    if (
+      (product.skuIds && product.skuIds.length > 1) ||
+      product.id.indexOf("commission") > -1
+    ) {
       return (
         <li key={product.id}>
           <Link href={`/item?id=${product.id}`}>
@@ -60,7 +63,7 @@ class Products extends Component {
                 color: dodgerblue;
                 position: relative;
                 overflow: hidden;
-                padding-right: 60px;
+                padding-right: 70px;
               }
               a:hover,
               a:focus,
@@ -121,6 +124,7 @@ class Products extends Component {
               text-decoration: underline;
               position: relative;
               overflow: hidden;
+              padding-right: 70px;
             }
             a:hover,
             a:focus,

@@ -96,7 +96,10 @@ class Product extends Component {
   getSkuFromOptions = () => {
     let selectedSkuId = [];
     let options = this.state.selectedOptions;
-    const { skuIds } = this.props.product;
+    const { skuIds, id } = this.props.product;
+    if (id.indexOf("commission") > -1) {
+      return [skuIds[0]];
+    }
     for (let skuId of skuIds) {
       let sku = getSku(skuId);
       if (isEquivalent(sku.options, options)) {

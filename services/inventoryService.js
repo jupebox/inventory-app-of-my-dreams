@@ -2,6 +2,7 @@ const products = [
   {
     id: "kirby_adventure_vv",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Vegetable Valley",
     imageUrl:
@@ -15,6 +16,7 @@ const products = [
   {
     id: "kirby_adventure_ii",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Ice Cream Island",
     imageUrl:
@@ -28,6 +30,7 @@ const products = [
   {
     id: "kirby_adventure_bb",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Butter Building",
     imageUrl:
@@ -41,6 +44,7 @@ const products = [
   {
     id: "kirby_adventure_gg",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Grape Garden",
     imageUrl:
@@ -54,6 +58,7 @@ const products = [
   {
     id: "kirby_adventure_yy",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Yogurt Yard",
     imageUrl:
@@ -67,6 +72,7 @@ const products = [
   {
     id: "kirby_adventure_oo",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Orange Ocean",
     imageUrl:
@@ -80,6 +86,7 @@ const products = [
   {
     id: "kirby_adventure_rr",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Rainbow Resort",
     imageUrl:
@@ -93,6 +100,7 @@ const products = [
   {
     id: "kirby_adventure_fod",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Fountain of Dreams",
     imageUrl:
@@ -106,6 +114,7 @@ const products = [
   {
     id: "smash_ladies_villager",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Smash - Villager",
     imageUrl:
@@ -119,6 +128,7 @@ const products = [
   {
     id: "smash_ladies_wii_fit",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Smash - Wii Fit Trainer",
     imageUrl:
@@ -132,6 +142,7 @@ const products = [
   {
     id: "smash_ladies_zelda",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Smash - Princess Zelda",
     imageUrl:
@@ -145,6 +156,7 @@ const products = [
   {
     id: "smash_ladies_sheik",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Smash - Sheik",
     imageUrl:
@@ -158,6 +170,7 @@ const products = [
   {
     id: "smash_ladies_palutena",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Smash - Palutena",
     imageUrl:
@@ -171,6 +184,7 @@ const products = [
   {
     id: "smash_ladies_samus",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Smash - Samus",
     imageUrl:
@@ -184,6 +198,7 @@ const products = [
   {
     id: "smash_ladies_jigglypuff",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Smash - Jigglypuff",
     imageUrl:
@@ -197,6 +212,7 @@ const products = [
   {
     id: "smash_ladies_wendy",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Smash - Wendy Koopa",
     imageUrl:
@@ -210,6 +226,7 @@ const products = [
   {
     id: "smash_ladies_peach",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Smash - Princess Peach",
     imageUrl:
@@ -223,6 +240,7 @@ const products = [
   {
     id: "smash_ladies_rosalina",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Smash - Princess Rosalina",
     imageUrl:
@@ -236,6 +254,7 @@ const products = [
   {
     id: "smash_ladies_bayonetta",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Smash - Bayonetta",
     imageUrl:
@@ -249,6 +268,7 @@ const products = [
   {
     id: "smash_ladies_corrin",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Smash - Corrin",
     imageUrl:
@@ -262,6 +282,7 @@ const products = [
   {
     id: "smash_ladies_lucina",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Smash - Lucina",
     imageUrl:
@@ -275,6 +296,7 @@ const products = [
   {
     id: "smash_ladies_robin",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Smash - Robin",
     imageUrl:
@@ -288,6 +310,7 @@ const products = [
   {
     id: "kirby_parasol",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Kirby - Paraluna",
     imageUrl:
@@ -301,6 +324,7 @@ const products = [
   {
     id: "kirby_wispy_woods",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Kirby - Wispy Woods",
     imageUrl:
@@ -314,6 +338,7 @@ const products = [
   {
     id: "kirby_crystal_shards",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Kirby - Crystal Shards Powers",
     imageUrl:
@@ -327,6 +352,7 @@ const products = [
   {
     id: "mario_rosalina",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Mario - Casual Rosalina",
     imageUrl:
@@ -340,6 +366,7 @@ const products = [
   {
     id: "mario_geno",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Mario - Geno",
     imageUrl: "",
@@ -352,6 +379,7 @@ const products = [
   {
     id: "mario_birds",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Mario - Birdwatching",
     imageUrl: "",
@@ -364,6 +392,7 @@ const products = [
   {
     id: "mario_paper_battle",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Paper Mario - Boss Rush",
     imageUrl: "",
@@ -376,6 +405,7 @@ const products = [
   {
     id: "mario_paper_luigi",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Paper Mario - Luigi Parade",
     imageUrl: "",
@@ -388,6 +418,7 @@ const products = [
   {
     id: "mario_paper_peach",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Paper Mario - A Piece of Cake",
     imageUrl: "",
@@ -400,6 +431,7 @@ const products = [
   {
     id: "pokemon_sweets_cakepops",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Pokemon Sweets - Pokeball Cakepops",
     imageUrl: "",
@@ -412,6 +444,7 @@ const products = [
   {
     id: "pokemon_sweets_pumpkaboo",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Pokemon Sweets - Pumpkaboo Cupcakes",
     imageUrl: "",
@@ -424,6 +457,7 @@ const products = [
   {
     id: "pokemon_sweets_slurpuff",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Pokemon Sweets - Slurpuff Parfait",
     imageUrl: "",
@@ -436,6 +470,7 @@ const products = [
   {
     id: "pokemon_sweets_vulpix",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Pokemon Sweets - Vulpix Cake",
     imageUrl: "",
@@ -448,6 +483,7 @@ const products = [
   {
     id: "pokemon_sweets_raichu",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Pokemon Sweets - Alolan Raichu Pancakes",
     imageUrl: "",
@@ -460,6 +496,7 @@ const products = [
   {
     id: "pokemon_sweets_bellossom",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Pokemon Sweets - Bellossom Fruit Tart",
     imageUrl: "",
@@ -472,6 +509,7 @@ const products = [
   {
     id: "pokemon_sweets_macarons",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Pokemon Sweets - Macarons",
     imageUrl: "",
@@ -484,6 +522,7 @@ const products = [
   {
     id: "pokemon_lilly",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Pokemon - Lilly & Nebby",
     imageUrl: "",
@@ -496,6 +535,7 @@ const products = [
   {
     id: "pokemon_snap",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Pokemon Snap - Wonderful!",
     imageUrl: "",
@@ -508,6 +548,7 @@ const products = [
   {
     id: "banjo_kazooie",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Banjo-Kazooie",
     imageUrl: "",
@@ -520,6 +561,7 @@ const products = [
   {
     id: "zelda_malon",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Zelda Songs - Epona's Song",
     imageUrl: "",
@@ -532,6 +574,7 @@ const products = [
   {
     id: "zelda_saria",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Zelda Songs - Saria's Song",
     imageUrl: "",
@@ -544,6 +587,7 @@ const products = [
   {
     id: "ice_climbers",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Ice Climbers - Northern Lights",
     imageUrl: "",
@@ -556,6 +600,7 @@ const products = [
   {
     id: "harvest_moon",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Harvest Moon - Bountiful",
     imageUrl: "",
@@ -568,6 +613,7 @@ const products = [
   {
     id: "kingdom_hearts_beach",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Kingdom Hearts - Ice Cream",
     imageUrl: "",
@@ -580,6 +626,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Pokebet - Gen 1",
     imageUrl: "",
@@ -592,6 +639,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Pokebet - Gen 2",
     imageUrl: "",
@@ -604,6 +652,7 @@ const products = [
   {
     id: "deltarune_cake",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Deltarune - Never Enough Cake",
     imageUrl: "",
@@ -616,6 +665,7 @@ const products = [
   {
     id: "undertale_frisk_flowey",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Undertale - Frisk & Flowey",
     imageUrl: "",
@@ -628,6 +678,7 @@ const products = [
   {
     id: "undertale_cavestory",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Undertale & CaveStory - Let's Go Together",
     imageUrl: "",
@@ -640,6 +691,7 @@ const products = [
   {
     id: "cavestory_quote",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "CaveStory - Pipe Dreams",
     imageUrl: "",
@@ -652,6 +704,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_a",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "A - Arbok",
     imageUrl: "",
@@ -665,6 +718,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_b",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "B - Beedrill",
     imageUrl: "",
@@ -678,6 +732,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_c",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "C - Charizard",
     imageUrl: "",
@@ -691,6 +746,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_d",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "D - Doduo",
     imageUrl: "",
@@ -704,6 +760,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_e",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "E - Eevee",
     imageUrl: "",
@@ -717,6 +774,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_f",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "F - Farfetch'd",
     imageUrl: "",
@@ -730,6 +788,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_g",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "G - Geodude",
     imageUrl: "",
@@ -743,6 +802,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_h",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "H - Haunter",
     imageUrl: "",
@@ -756,6 +816,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_i",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "I - Ivysaur",
     imageUrl: "",
@@ -769,6 +830,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_j",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "J - Jigglypuff",
     imageUrl: "",
@@ -782,6 +844,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_k",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "K - Krabby",
     imageUrl: "",
@@ -795,6 +858,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_l",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "L - Lapras",
     imageUrl: "",
@@ -808,6 +872,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_m",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "M - Meowth",
     imageUrl: "",
@@ -821,6 +886,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_n",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "N - Nidoran",
     imageUrl: "",
@@ -834,6 +900,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_o",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "O - Oddish",
     imageUrl: "",
@@ -847,6 +914,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_p",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "P - Pidgeot",
     imageUrl: "",
@@ -860,6 +928,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_q",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Q - Quick Attack (Rattata)",
     imageUrl: "",
@@ -873,6 +942,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_r",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "R - Rapidash",
     imageUrl: "",
@@ -886,6 +956,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_s",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "S - Squirtle",
     imageUrl: "",
@@ -899,6 +970,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_t",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "T - Tentacruel",
     imageUrl: "",
@@ -912,6 +984,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_u",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "U - Under the Truck (Mew)",
     imageUrl: "",
@@ -925,6 +998,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_v",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "V - Vulpix",
     imageUrl: "",
@@ -938,6 +1012,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_w",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "W - Weezing",
     imageUrl: "",
@@ -951,6 +1026,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_x",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "X - ...Slowpoke (X)",
     imageUrl: "",
@@ -964,6 +1040,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_y",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Y - Yellow Version (Pikachu)",
     imageUrl: "",
@@ -977,6 +1054,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen1_z",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Z - Zubat",
     imageUrl: "",
@@ -990,6 +1068,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_a",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "A - Ampharos",
     imageUrl: "",
@@ -1003,6 +1082,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_b",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "B - Bellossom",
     imageUrl: "",
@@ -1016,6 +1096,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_c",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "C - Chikorita",
     imageUrl: "",
@@ -1029,6 +1110,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_d",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "D - Delibird",
     imageUrl: "",
@@ -1042,6 +1124,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_e",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "E - Espeon",
     imageUrl: "",
@@ -1055,6 +1138,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_f",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "F - Feraligatr",
     imageUrl: "",
@@ -1068,6 +1152,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_g",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "G - Girafarig",
     imageUrl: "",
@@ -1081,6 +1166,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_h",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "H - Houndoom",
     imageUrl: "",
@@ -1094,6 +1180,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_i",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "I - Igglybuff",
     imageUrl: "",
@@ -1107,6 +1194,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_j",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "J - Jumpluff",
     imageUrl: "",
@@ -1120,6 +1208,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_k",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "K - Kingdra",
     imageUrl: "",
@@ -1133,6 +1222,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_l",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "L - Larvitar",
     imageUrl: "",
@@ -1146,6 +1236,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_m",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "M - Marill",
     imageUrl: "",
@@ -1159,6 +1250,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_n",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "N - Noctowl",
     imageUrl: "",
@@ -1172,6 +1264,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_o",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "O - Octillery",
     imageUrl: "",
@@ -1185,6 +1278,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_p",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "P - Phanpy",
     imageUrl: "",
@@ -1198,6 +1292,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_q",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Q - Quilava",
     imageUrl: "",
@@ -1211,6 +1306,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_r",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "R - Red Gyarados",
     imageUrl: "",
@@ -1224,6 +1320,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_s",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "S - Sneasel",
     imageUrl: "",
@@ -1237,6 +1334,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_t",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "T - Togetic",
     imageUrl: "",
@@ -1250,6 +1348,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_u",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "U - Umbreon",
     imageUrl: "",
@@ -1263,6 +1362,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_u_v1",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "U - Umbreon",
     imageUrl: "",
@@ -1276,6 +1376,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_v",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "V - Vegatation...? (Sudowoodo)",
     imageUrl: "",
@@ -1289,6 +1390,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_w",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "W - Wooper",
     imageUrl: "",
@@ -1302,6 +1404,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_x",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "X - Xatu",
     imageUrl: "",
@@ -1315,6 +1418,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_y",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Y - Yanma",
     imageUrl: "",
@@ -1328,6 +1432,7 @@ const products = [
   {
     id: "pokemon_alphabet_gen2_z",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Z - Zzz... (Baby Pokemon)",
     imageUrl: "",
@@ -1341,6 +1446,7 @@ const products = [
   {
     id: "gravity_falls_dipper",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Gravity Falls - Dipper as Link",
     imageUrl: "",
@@ -1353,6 +1459,7 @@ const products = [
   {
     id: "gravity_falls_mabel",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Gravity Falls - Mabel as Link",
     imageUrl: "",
@@ -1365,6 +1472,7 @@ const products = [
   {
     id: "gravity_falls_bill",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Gravity Falls - M'Geddon",
     imageUrl: "",
@@ -1377,6 +1485,7 @@ const products = [
   {
     id: "gravity_falls_bill_v1",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Gravity Falls - M'Geddon (old version)",
     imageUrl: "",
@@ -1389,6 +1498,7 @@ const products = [
   {
     id: "shera_shitpost_catra",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "She-Ra - Hey Adora ;P",
     imageUrl: "",
@@ -1401,6 +1511,7 @@ const products = [
   {
     id: "shera_shitpost_adora",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "She-Ra - Hey Catra. :)",
     imageUrl: "",
@@ -1413,6 +1524,7 @@ const products = [
   {
     id: "sherlock_scarf",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Sherlock - Sharing is Caring",
     imageUrl: "",
@@ -1425,6 +1537,7 @@ const products = [
   {
     id: "sherlock_wedding",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Sherlock - Wedding",
     imageUrl: "",
@@ -1437,6 +1550,7 @@ const products = [
   {
     id: "steven_universe_catfingers",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Steven Universe - Neko Atsume Fingers",
     imageUrl: "",
@@ -1449,6 +1563,7 @@ const products = [
   {
     id: "madoka_magica_quote",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Madoka Magica - Don't Lose Hope",
     imageUrl: "",
@@ -1461,6 +1576,7 @@ const products = [
   {
     id: "inuyasha_sesshoumaru_group",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Inuyasha - Sesshoumaru's Party",
     imageUrl: "",
@@ -1473,6 +1589,7 @@ const products = [
   {
     id: "dennou_coil_circle_of_children",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Dennou Coil - A Circle of Children",
     imageUrl: "",
@@ -1485,6 +1602,7 @@ const products = [
   {
     id: "natsume_yuujinchou_return_name",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Natsume Yuujinchou - Returning Your Name",
     imageUrl: "",
@@ -1497,6 +1615,7 @@ const products = [
   {
     id: "ghibli_arrietty",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Ghibli Movies - Arrietty",
     imageUrl: "",
@@ -1509,6 +1628,7 @@ const products = [
   {
     id: "ghibli_cat_returns",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Ghibli Movies - The Cat Returns",
     imageUrl: "",
@@ -1521,6 +1641,7 @@ const products = [
   {
     id: "nichijou_skyfall",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Nichijou - Zzz (Falling for You)",
     imageUrl: "",
@@ -1533,6 +1654,7 @@ const products = [
   {
     id: "magical_girls_amu",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Magical Girls - Amu Hinamori",
     imageUrl: "",
@@ -1545,6 +1667,7 @@ const products = [
   {
     id: "magical_girls_sakura",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Magical Girls - Sakura Kinomoto",
     imageUrl: "",
@@ -1557,6 +1680,7 @@ const products = [
   {
     id: "magical_girls_ahiru",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Magical Girls - Ahiru",
     imageUrl: "",
@@ -1569,6 +1693,7 @@ const products = [
   {
     id: "magical_girls_rue",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Magical Girls - Rue",
     imageUrl: "",
@@ -1581,6 +1706,7 @@ const products = [
   {
     id: "magical_girls_maya",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Magical Girls - Maya Fey",
     imageUrl: "",
@@ -1593,6 +1719,7 @@ const products = [
   {
     id: "magical_girls_akko",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Magical Girls - Akko Kagari",
     imageUrl: "",
@@ -1605,6 +1732,7 @@ const products = [
   {
     id: "magical_girls_kagome",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Magical Girls - Kagome Higurashi",
     imageUrl: "",
@@ -1617,6 +1745,7 @@ const products = [
   {
     id: "magical_girls_full_moon",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Magical Girls - Mitsuki Koyama",
     imageUrl: "",
@@ -1629,6 +1758,7 @@ const products = [
   {
     id: "cardcaptor_sakura_cashcaptors",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Cardcaptor Sakura - Cashcaptors",
     imageUrl: "",
@@ -1641,6 +1771,7 @@ const products = [
   {
     id: "hunter_x_pokemon_gon",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Hunter x Pokemon - Gon",
     imageUrl: "",
@@ -1653,6 +1784,7 @@ const products = [
   {
     id: "hunter_x_pokemon_killua",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Hunter x Pokemon - Killua",
     imageUrl: "",
@@ -1665,6 +1797,7 @@ const products = [
   {
     id: "hunter_x_pokemon_alluka",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Hunter x Pokemon - Alluka",
     imageUrl: "",
@@ -1677,6 +1810,7 @@ const products = [
   {
     id: "hunter_x_pokemon_leorio",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Hunter x Pokemon - Leorio",
     imageUrl: "",
@@ -1689,6 +1823,7 @@ const products = [
   {
     id: "hunter_x_pokemon_kurapika",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Hunter x Pokemon - Kurapika",
     imageUrl: "",
@@ -1701,6 +1836,7 @@ const products = [
   {
     id: "cats_and_tea_rain",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Cats & Tea - Rainy Afternoon",
     imageUrl: "",
@@ -1713,6 +1849,7 @@ const products = [
   {
     id: "cats_and_tea_fire",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Cats & Tea - By the Fire",
     imageUrl: "",
@@ -1725,6 +1862,7 @@ const products = [
   {
     id: "cats_and_tea_fire_v1",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Cats & Tea - By the Fire (dark version)",
     imageUrl: "",
@@ -1737,6 +1875,7 @@ const products = [
   {
     id: "cats_and_tea_cafe",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Cats & Tea - Cafe",
     imageUrl: "",
@@ -1749,6 +1888,7 @@ const products = [
   {
     id: "cats_and_tea_sadness",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Cats & Tea - It's Going to be Okay",
     imageUrl: "",
@@ -1761,6 +1901,7 @@ const products = [
   {
     id: "bees_beelines",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Bees - Beelines",
     imageUrl: "",
@@ -1773,6 +1914,7 @@ const products = [
   {
     id: "bees_dance",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Bees - Dance",
     imageUrl: "",
@@ -1785,6 +1927,7 @@ const products = [
   {
     id: "bees_felt",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Bees - Felt",
     imageUrl: "",
@@ -1797,6 +1940,7 @@ const products = [
   {
     id: "bees_fruit",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Bees - Fruit",
     imageUrl: "",
@@ -1809,6 +1953,7 @@ const products = [
   {
     id: "bees_ribbon",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Bees - Ribbon",
     imageUrl: "",
@@ -1821,6 +1966,7 @@ const products = [
   {
     id: "tea_makes_me_happy",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Tea Makes Me Happy",
     imageUrl: "",
@@ -1833,6 +1979,7 @@ const products = [
   {
     id: "all_you_need_is_cake",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "All You Need is Cake",
     imageUrl: "",
@@ -1845,6 +1992,7 @@ const products = [
   {
     id: "mushishi_light_river",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Mushishi - Light River",
     imageUrl: "",
@@ -1857,6 +2005,7 @@ const products = [
   {
     id: "princess_tutu_healing_touch",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Princess Tutu - Healing Touch",
     imageUrl: "",
@@ -1869,6 +2018,7 @@ const products = [
   {
     id: "heck_bird",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Heck! (Bird)",
     imageUrl: "",
@@ -1881,6 +2031,7 @@ const products = [
   {
     id: "loaf_cat",
     type: "design",
+    artist: "Jupebox",
     medium: "print",
     title: "Toasty Loaf (Cat)",
     imageUrl: "",
@@ -1893,6 +2044,7 @@ const products = [
   {
     id: "harvest_moon_bookmark",
     type: "design",
+    artist: "Jupebox",
     medium: "bookmark",
     title: "Harvest Moon - Bountiful",
     imageUrl: "",
@@ -1904,6 +2056,7 @@ const products = [
   {
     id: "bomberman_bookmark",
     type: "design",
+    artist: "Jupebox",
     medium: "bookmark",
     title: "Bomberman 64",
     imageUrl: "",
@@ -1915,6 +2068,7 @@ const products = [
   {
     id: "yoshi_bookmark",
     type: "design",
+    artist: "Jupebox",
     medium: "bookmark",
     title: "Yoshi's Story",
     imageUrl: "",
@@ -1926,6 +2080,7 @@ const products = [
   {
     id: "kirby_bookmark",
     type: "design",
+    artist: "Jupebox",
     medium: "bookmark",
     title: "Kirby Crystal Shards",
     imageUrl: "",
@@ -1937,6 +2092,7 @@ const products = [
   {
     id: "monkey_island_bookmark",
     type: "design",
+    artist: "Jupebox",
     medium: "bookmark",
     title: "The Curse of Monkey Island",
     imageUrl: "",
@@ -1948,6 +2104,7 @@ const products = [
   {
     id: "cat_cafe_stickers",
     type: "design",
+    artist: "Jupebox",
     medium: "stickers",
     title: "Cozy Cat Cafe",
     imageUrl: "",
@@ -1960,6 +2117,7 @@ const products = [
   {
     id: "pokemon_birds_stickers",
     type: "design",
+    artist: "Jupebox",
     medium: "stickers",
     title: "Pokemon - Birds & Beans",
     imageUrl: "",
@@ -1972,6 +2130,7 @@ const products = [
   {
     id: "zelda_emojis_stickers",
     type: "design",
+    artist: "Jupebox",
     medium: "stickers",
     title: "Zelda - Wind Waker Emojis",
     imageUrl: "",
@@ -1984,6 +2143,7 @@ const products = [
   {
     id: "zelda_phrases_stickers",
     type: "design",
+    artist: "Jupebox",
     medium: "stickers",
     title: "Zelda - Phrases",
     imageUrl: "",
@@ -1996,6 +2156,7 @@ const products = [
   {
     id: "bees_stickers",
     type: "design",
+    artist: "Jupebox",
     medium: "stickers",
     title: "Busy Bees",
     imageUrl: "",
@@ -2008,6 +2169,7 @@ const products = [
   {
     id: "kirby_stickers",
     type: "design",
+    artist: "Jupebox",
     medium: "stickers",
     title: "Kirby",
     imageUrl: "",
@@ -2020,6 +2182,7 @@ const products = [
   {
     id: "zelda_rupees_stickers",
     type: "design",
+    artist: "Jupebox",
     medium: "stickers",
     title: "Zelda - Rupees",
     imageUrl: "",
@@ -2032,6 +2195,7 @@ const products = [
   {
     id: "zelda_fairies_stickers",
     type: "design",
+    artist: "Jupebox",
     medium: "stickers",
     title: "Zelda - Fairies",
     imageUrl: "",
@@ -2044,6 +2208,7 @@ const products = [
   {
     id: "zelda_spirit_stones_stickers",
     type: "design",
+    artist: "Jupebox",
     medium: "stickers",
     title: "Zelda - Spiritual Stones",
     imageUrl: "",
@@ -2056,6 +2221,7 @@ const products = [
   {
     id: "zelda_items_stickers",
     type: "design",
+    artist: "Jupebox",
     medium: "stickers",
     title: "Zelda - Power Up!",
     imageUrl: "",
@@ -2068,6 +2234,7 @@ const products = [
   {
     id: "bees_accessories_stickers",
     type: "design",
+    artist: "Jupebox",
     medium: "stickers",
     title: "Busy Bees - Accessories Only",
     imageUrl: "",
@@ -2080,6 +2247,7 @@ const products = [
   {
     id: "bees_stickers_v1",
     type: "design",
+    artist: "Jupebox",
     medium: "stickers",
     title: "Busy Bees - Bees Only",
     imageUrl: "",
@@ -2092,6 +2260,7 @@ const products = [
   {
     id: "single_sticker",
     type: "design",
+    artist: "Jupebox",
     medium: "stickers",
     title: "Single Sticker",
     imageUrl: "",
@@ -2103,6 +2272,7 @@ const products = [
   {
     id: "bee_lines_zine",
     type: "design",
+    artist: "Jupebox",
     medium: "booklet",
     title: "Bee Lines (Zine)",
     imageUrl: "",
@@ -2111,6 +2281,7 @@ const products = [
   {
     id: "sweets_zine",
     type: "design",
+    artist: "Jupebox",
     medium: "booklet",
     title: "Pokemon - Sweets (Zine)",
     imageUrl: "",
@@ -2119,6 +2290,7 @@ const products = [
   {
     id: "tayce_t_zine",
     type: "design",
+    artist: "Jupebox",
     medium: "booklet",
     title: "Paper Mario - Tayce T (Comic)",
     imageUrl: "",
@@ -2127,6 +2299,7 @@ const products = [
   {
     id: "bee_stationery",
     type: "design",
+    artist: "Jupebox",
     medium: "stationery",
     title: "Bees - Stationery",
     imageUrl: "",
@@ -2139,6 +2312,7 @@ const products = [
   {
     id: "undertale_button_frisk",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Undertale - Frisk",
     imageUrl: "",
@@ -2148,6 +2322,7 @@ const products = [
   {
     id: "undertale_button_chara",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Undertale - Chara",
     imageUrl: "",
@@ -2157,6 +2332,7 @@ const products = [
   {
     id: "undertale_button_flowey",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Undertale - Flowey",
     imageUrl: "",
@@ -2166,6 +2342,7 @@ const products = [
   {
     id: "undertale_button_asriel",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Undertale - Asriel",
     imageUrl: "",
@@ -2175,6 +2352,7 @@ const products = [
   {
     id: "undertale_button_toriel",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Undertale - Toriel",
     imageUrl: "",
@@ -2184,6 +2362,7 @@ const products = [
   {
     id: "undertale_button_asgore",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Undertale - Asgore",
     imageUrl: "",
@@ -2193,6 +2372,7 @@ const products = [
   {
     id: "undertale_button_papyrus",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Undertale - Papyrus",
     imageUrl: "",
@@ -2202,6 +2382,7 @@ const products = [
   {
     id: "undertale_button_sans",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Undertale - Sans",
     imageUrl: "",
@@ -2211,6 +2392,7 @@ const products = [
   {
     id: "undertale_button_undyne",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Undertale - Undyne",
     imageUrl: "",
@@ -2220,6 +2402,7 @@ const products = [
   {
     id: "undertale_button_alphys",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Undertale - Alphys",
     imageUrl: "",
@@ -2229,6 +2412,7 @@ const products = [
   {
     id: "undertale_button_mettaton_humanoid",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Undertale - Mettaton (Humanoid)",
     imageUrl: "",
@@ -2238,6 +2422,7 @@ const products = [
   {
     id: "undertale_button_mettaton_box",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Undertale - Mettaton (Box)",
     imageUrl: "",
@@ -2247,6 +2432,7 @@ const products = [
   {
     id: "undertale_button_muffet",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Undertale - Muffet",
     imageUrl: "",
@@ -2256,6 +2442,7 @@ const products = [
   {
     id: "undertale_button_bratty",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Undertale - Bratty",
     imageUrl: "",
@@ -2265,6 +2452,7 @@ const products = [
   {
     id: "undertale_button_catty",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Undertale - Catty",
     imageUrl: "",
@@ -2274,6 +2462,7 @@ const products = [
   {
     id: "undertale_button_nice_cream",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Undertale - Nice Cream Guy",
     imageUrl: "",
@@ -2283,6 +2472,7 @@ const products = [
   {
     id: "undertale_button_burgerpants",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Undertale - Burgerpants",
     imageUrl: "",
@@ -2292,6 +2482,7 @@ const products = [
   {
     id: "undertale_button_temmie",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Undertale - Temmie",
     imageUrl: "",
@@ -2301,6 +2492,7 @@ const products = [
   {
     id: "undertale_button_grillby",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Undertale - Grillby",
     imageUrl: "",
@@ -2310,6 +2502,7 @@ const products = [
   {
     id: "undertale_button_monster_kid",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Undertale - Monster Kid",
     imageUrl: "",
@@ -2319,6 +2512,7 @@ const products = [
   {
     id: "undertale_button_napstablook",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Undertale - Napstablook",
     imageUrl: "",
@@ -2328,6 +2522,7 @@ const products = [
   {
     id: "undertale_button_lesser_dog_head",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Undertale - Lesser Dog Head",
     imageUrl: "",
@@ -2337,6 +2532,7 @@ const products = [
   {
     id: "undertale_button_lesser_dog_bent_neck",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Undertale - Lesser Dog Bent Neck",
     imageUrl: "",
@@ -2346,6 +2542,7 @@ const products = [
   {
     id: "undertale_button_lesser_dog_straight_neck",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Undertale - Lesser Dog Straight Neck",
     imageUrl: "",
@@ -2355,6 +2552,7 @@ const products = [
   {
     id: "undertale_button_lesser_dog_body",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Undertale - Lesser Dog Body",
     imageUrl: "",
@@ -2364,6 +2562,7 @@ const products = [
   {
     id: "paper_mario_button_goombario",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Paper Mario - Goombario",
     imageUrl: "",
@@ -2373,6 +2572,7 @@ const products = [
   {
     id: "paper_mario_button_kooper",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Paper Mario - Kooper",
     imageUrl: "",
@@ -2382,6 +2582,7 @@ const products = [
   {
     id: "paper_mario_button_bombette",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Paper Mario - Bombette",
     imageUrl: "",
@@ -2391,6 +2592,7 @@ const products = [
   {
     id: "paper_mario_button_parakarry",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Paper Mario - Parakarry",
     imageUrl: "",
@@ -2400,6 +2602,7 @@ const products = [
   {
     id: "paper_mario_button_bow",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Paper Mario - Lady Bow",
     imageUrl: "",
@@ -2409,6 +2612,7 @@ const products = [
   {
     id: "paper_mario_button_watt",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Paper Mario - Watt",
     imageUrl: "",
@@ -2418,6 +2622,7 @@ const products = [
   {
     id: "paper_mario_button_sushie",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Paper Mario - Sushie",
     imageUrl: "",
@@ -2427,6 +2632,7 @@ const products = [
   {
     id: "paper_mario_button_lakilester",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Paper Mario - Lakilester",
     imageUrl: "",
@@ -2436,6 +2642,7 @@ const products = [
   {
     id: "paper_mario_button_peach",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Paper Mario - Peach & Twink",
     imageUrl: "",
@@ -2445,6 +2652,7 @@ const products = [
   {
     id: "paper_mario_button_luigi",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Paper Mario - Luigi",
     imageUrl: "",
@@ -2454,6 +2662,7 @@ const products = [
   {
     id: "paper_mario_button_mario",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Paper Mario - Mario",
     imageUrl: "",
@@ -2463,6 +2672,7 @@ const products = [
   {
     id: "mario_button_goomba",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Mario - Goomba",
     imageUrl: "",
@@ -2472,6 +2682,7 @@ const products = [
   {
     id: "mario_button_koopa",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Mario - Koopa",
     imageUrl: "",
@@ -2481,6 +2692,7 @@ const products = [
   {
     id: "mario_button_boo",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Mario - Boo",
     imageUrl: "",
@@ -2490,6 +2702,7 @@ const products = [
   {
     id: "mario_button_lakitu",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Mario - Lakitu",
     imageUrl: "",
@@ -2499,6 +2712,7 @@ const products = [
   {
     id: "mario_button_piranha",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Mario - Piranha Plant",
     imageUrl: "",
@@ -2508,6 +2722,7 @@ const products = [
   {
     id: "mario_button_shyguy",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Mario - Shy Guy",
     imageUrl: "",
@@ -2517,6 +2732,7 @@ const products = [
   {
     id: "mario_button_buzzy",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Mario - Buzzy Beetle",
     imageUrl: "",
@@ -2526,6 +2742,7 @@ const products = [
   {
     id: "mario_button_blooper",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Mario - Blooper",
     imageUrl: "",
@@ -2535,6 +2752,7 @@ const products = [
   {
     id: "mario_button_chomp",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Mario - Chain Chomp",
     imageUrl: "",
@@ -2544,6 +2762,7 @@ const products = [
   {
     id: "mario_button_bobomb",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Mario - Bobomb",
     imageUrl: "",
@@ -2553,6 +2772,7 @@ const products = [
   {
     id: "kirby_button_kirby",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Kirby - Kirby",
     imageUrl: "",
@@ -2562,6 +2782,7 @@ const products = [
   {
     id: "kirby_button_waddle_dee",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Kirby - Waddle Dee",
     imageUrl: "",
@@ -2571,6 +2792,7 @@ const products = [
   {
     id: "kirby_button_dedede",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Kirby - King Dedede",
     imageUrl: "",
@@ -2580,6 +2802,7 @@ const products = [
   {
     id: "kirby_button_metaknight",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Kirby - Metaknight",
     imageUrl: "",
@@ -2589,6 +2812,7 @@ const products = [
   {
     id: "kirby_button_magolor",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Kirby - Magolor",
     imageUrl: "",
@@ -2598,6 +2822,7 @@ const products = [
   {
     id: "kirby_button_waddle_doo",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Kirby - Waddle Doo",
     imageUrl: "",
@@ -2607,6 +2832,7 @@ const products = [
   {
     id: "kirby_button_bronto",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Kirby - Bronto Burt",
     imageUrl: "",
@@ -2616,6 +2842,7 @@ const products = [
   {
     id: "kirby_button_scarfy_cute",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Kirby - Scarfy (Cute)",
     imageUrl: "",
@@ -2625,6 +2852,7 @@ const products = [
   {
     id: "kirby_button_scarfy_terrifying",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Kirby - Scarfy (Terrifying)",
     imageUrl: "",
@@ -2634,6 +2862,7 @@ const products = [
   {
     id: "kirby_button_sparky",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Kirby - Sparky",
     imageUrl: "",
@@ -2643,6 +2872,7 @@ const products = [
   {
     id: "kirby_button_chilly",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Kirby - Chilly",
     imageUrl: "",
@@ -2652,6 +2882,7 @@ const products = [
   {
     id: "kirby_button_poppy",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Kirby - Poppy Bros Jr",
     imageUrl: "",
@@ -2661,6 +2892,7 @@ const products = [
   {
     id: "touhou_button_suika",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Touhou - Suika",
     imageUrl: "",
@@ -2670,6 +2902,7 @@ const products = [
   {
     id: "touhou_button_reimu",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Touhou - Reimu",
     imageUrl: "",
@@ -2679,6 +2912,7 @@ const products = [
   {
     id: "touhou_button_koishi",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Touhou - Koishi",
     imageUrl: "",
@@ -2688,6 +2922,7 @@ const products = [
   {
     id: "touhou_button_youmu",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Touhou - Youmu",
     imageUrl: "",
@@ -2697,6 +2932,7 @@ const products = [
   {
     id: "touhou_button_sakuya",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Touhou - Sakuya",
     imageUrl: "",
@@ -2706,6 +2942,7 @@ const products = [
   {
     id: "touhou_button_marisa",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Touhou - Marisa",
     imageUrl: "",
@@ -2715,6 +2952,7 @@ const products = [
   {
     id: "otgw_button_wirt",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Over the Garden Wall - Wirt",
     imageUrl: "",
@@ -2724,6 +2962,7 @@ const products = [
   {
     id: "otgw_button_greg",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Over the Garden Wall - Greg",
     imageUrl: "",
@@ -2733,6 +2972,7 @@ const products = [
   {
     id: "otgw_button_beatrice",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Over the Garden Wall - Beatrice",
     imageUrl: "",
@@ -2742,6 +2982,7 @@ const products = [
   {
     id: "otgw_button_frog",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Over the Garden Wall - Frog",
     imageUrl: "",
@@ -2751,6 +2992,7 @@ const products = [
   {
     id: "otgw_button_beast",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Over the Garden Wall - Beast",
     imageUrl: "",
@@ -2760,6 +3002,7 @@ const products = [
   {
     id: "sonic_silver_button",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Sonic - Silver",
     imageUrl: "",
@@ -2768,6 +3011,7 @@ const products = [
   {
     id: "cavestory_quote_button",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "CaveStory - Quote",
     imageUrl: "",
@@ -2776,6 +3020,7 @@ const products = [
   {
     id: "bastion_kid_button",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Bastion - The Kid",
     imageUrl: "",
@@ -2784,6 +3029,7 @@ const products = [
   {
     id: "pokemon_zubat_azumarill_button",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Pokemon - Zubat & Azumarill",
     imageUrl: "",
@@ -2792,6 +3038,7 @@ const products = [
   {
     id: "sailor_moon_luna_button",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Sailor Moon - Luna",
     imageUrl: "",
@@ -2800,6 +3047,7 @@ const products = [
   {
     id: "cardcaptor_sakura_kero_button",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Cardcaptor Sakura - Kero",
     imageUrl: "",
@@ -2808,6 +3056,7 @@ const products = [
   {
     id: "cat_yarn_button",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Cat with Yarn",
     imageUrl: "",
@@ -2816,6 +3065,7 @@ const products = [
   {
     id: "cat_loaf_button",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Toasy Loaf Cat",
     imageUrl: "",
@@ -2824,6 +3074,7 @@ const products = [
   {
     id: "succulent_cactus_button",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Fabulous Cactus",
     imageUrl: "",
@@ -2832,6 +3083,7 @@ const products = [
   {
     id: "succulent_aloe_button",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Aloen Time",
     imageUrl: "",
@@ -2840,6 +3092,7 @@ const products = [
   {
     id: "bird_branch_button",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Bird in a Tree",
     imageUrl: "",
@@ -2848,6 +3101,7 @@ const products = [
   {
     id: "penguin_button",
     type: "design",
+    artist: "Jupebox",
     medium: "button",
     title: "Penguins",
     imageUrl: "",
@@ -2856,6 +3110,7 @@ const products = [
   {
     id: "pokemon_go_charm",
     type: "design",
+    artist: "Jupebox",
     medium: "charm",
     title: "Pokemon Go!",
     imageUrl: "",
@@ -2864,6 +3119,7 @@ const products = [
   {
     id: "pokemon_vulpix_charm",
     type: "design",
+    artist: "Jupebox",
     medium: "charm",
     title: "Pokemon - Vulpix",
     imageUrl: "",
@@ -2872,6 +3128,7 @@ const products = [
   {
     id: "kirby_charm",
     type: "design",
+    artist: "Jupebox",
     medium: "charm",
     title: "Kirby",
     imageUrl: "",
@@ -2880,6 +3137,7 @@ const products = [
   {
     id: "commission",
     type: "design",
+    artist: "Jupebox",
     medium: "commission",
     title: "Commission",
     imageUrl: "",
@@ -2888,6 +3146,15 @@ const products = [
       medium: ["Sketch", "Lines", "Lines & Crayon", "Marker"]
     },
     skuIds: [332]
+  },
+  {
+    id: "holographic_sparkly_button",
+    type: "design",
+    artist: "Jupebox",
+    medium: "addon",
+    title: "Sparkly Button",
+    imageUrl: "",
+    skuIds: [439]
   }
 ];
 
@@ -6914,6 +7181,13 @@ const skus = [
       finish: "Matte"
     },
     inventory: 10
+  },
+  {
+    id: 439,
+    parentId: "holographic_sparkly_button",
+    type: "sku",
+    inventory: 100,
+    price: 1
   }
 ];
 
@@ -6923,14 +7197,16 @@ const sets = [
     title: "Kirby's Adventure Postcard Set",
     type: "set",
     skuIds: [1, 2, 3, 4, 5, 6, 7, 8],
-    price: 30
+    price: 30,
+    discount: 10
   },
   {
     id: "kirby_postcards_holo",
     title: "Kirby's Adventure Postcard Set - Holographic",
     type: "set",
     skuIds: [1, 2, 3, 4, 5, 6, 7, 9],
-    price: 30
+    price: 30,
+    discount: 11
   },
   {
     id: "pokebet_gen1_mini",
@@ -6964,7 +7240,8 @@ const sets = [
       381,
       383
     ],
-    price: 35
+    price: 35,
+    discount: 17
   },
   {
     id: "pokebet_gen1_small",
@@ -6998,7 +7275,8 @@ const sets = [
       382,
       384
     ],
-    price: 65
+    price: 65,
+    discount: 65
   },
   {
     id: "pokebet_gen2_mini",
@@ -7032,7 +7310,8 @@ const sets = [
       435,
       437
     ],
-    price: 35
+    price: 35,
+    discount: 17
   },
   {
     id: "pokebet_gen2_small",
@@ -7066,7 +7345,8 @@ const sets = [
       436,
       438
     ],
-    price: 65
+    price: 65,
+    discount: 65
   },
   {
     id: "pokebet_mini",
@@ -7219,35 +7499,40 @@ const sets = [
       271,
       272
     ],
-    price: 25
+    price: 25,
+    discount: 25
   },
   {
     id: "paper_mario_buttons",
     title: "Paper Mario Buttons",
     type: "set",
     skuIds: [273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283],
-    price: 15
+    price: 15,
+    discount: 7
   },
   {
     id: "mario_buttons",
     title: "Mario Baddies Buttons",
     type: "set",
     skuIds: [284, 285, 286, 287, 288, 289, 290, 291, 292, 293],
-    price: 10
+    price: 10,
+    discount: 10
   },
   {
     id: "kirby_buttons",
     title: "Kirby Buttons",
     type: "set",
     skuIds: [294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305],
-    price: 15
+    price: 15,
+    discount: 9
   },
   {
     id: "otgw_buttons",
     title: "Over the Garden Wall Buttons",
     type: "set",
     skuIds: [312, 313, 314, 315, 316],
-    price: 7
+    price: 7,
+    discount: 3
   }
 ];
 
