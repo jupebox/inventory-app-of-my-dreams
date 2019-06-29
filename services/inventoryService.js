@@ -7196,6 +7196,7 @@ const sets = [
     id: "kirby_postcards",
     title: "Kirby's Adventure Postcard Set",
     type: "set",
+    artist: "Jupebox",
     skuIds: [1, 2, 3, 4, 5, 6, 7, 8],
     price: 30,
     discount: 10
@@ -7204,6 +7205,7 @@ const sets = [
     id: "kirby_postcards_holo",
     title: "Kirby's Adventure Postcard Set - Holographic",
     type: "set",
+    artist: "Jupebox",
     skuIds: [1, 2, 3, 4, 5, 6, 7, 9],
     price: 30,
     discount: 11
@@ -7212,6 +7214,7 @@ const sets = [
     id: "pokebet_gen1_mini",
     title: "Pokemon Alphabet Mini (Gen 1)",
     type: "set",
+    artist: "Jupebox",
     skuIds: [
       333,
       335,
@@ -7247,6 +7250,7 @@ const sets = [
     id: "pokebet_gen1_small",
     title: "Pokemon Alphabet Small (Gen 1)",
     type: "set",
+    artist: "Jupebox",
     skuIds: [
       334,
       336,
@@ -7282,6 +7286,7 @@ const sets = [
     id: "pokebet_gen2_mini",
     title: "Pokemon Alphabet Mini (Gen 2)",
     type: "set",
+    artist: "Jupebox",
     skuIds: [
       385,
       387,
@@ -7317,6 +7322,7 @@ const sets = [
     id: "pokebet_gen2_small",
     title: "Pokemon Alphabet Small (Gen 2)",
     type: "set",
+    artist: "Jupebox",
     skuIds: [
       386,
       388,
@@ -7352,6 +7358,7 @@ const sets = [
     id: "pokebet_mini",
     title: "Pokemon Alphabet Mini (All Letters)",
     type: "set",
+    artist: "Jupebox",
     skuIds: [
       333,
       335,
@@ -7412,6 +7419,7 @@ const sets = [
     id: "pokebet_small",
     title: "Pokemon Alphabet Small (All Letters)",
     type: "set",
+    artist: "Jupebox",
     skuIds: [
       334,
       336,
@@ -7472,6 +7480,7 @@ const sets = [
     id: "undertale_buttons",
     title: "Undertale Buttons",
     type: "set",
+    artist: "Jupebox",
     skuIds: [
       248,
       249,
@@ -7506,6 +7515,7 @@ const sets = [
     id: "paper_mario_buttons",
     title: "Paper Mario Buttons",
     type: "set",
+    artist: "Jupebox",
     skuIds: [273, 274, 275, 276, 277, 278, 279, 280, 281, 282, 283],
     price: 15,
     discount: 7
@@ -7514,6 +7524,7 @@ const sets = [
     id: "mario_buttons",
     title: "Mario Baddies Buttons",
     type: "set",
+    artist: "Jupebox",
     skuIds: [284, 285, 286, 287, 288, 289, 290, 291, 292, 293],
     price: 10,
     discount: 10
@@ -7522,6 +7533,7 @@ const sets = [
     id: "kirby_buttons",
     title: "Kirby Buttons",
     type: "set",
+    artist: "Jupebox",
     skuIds: [294, 295, 296, 297, 298, 299, 300, 301, 302, 303, 304, 305],
     price: 15,
     discount: 9
@@ -7530,6 +7542,7 @@ const sets = [
     id: "otgw_buttons",
     title: "Over the Garden Wall Buttons",
     type: "set",
+    artist: "Jupebox",
     skuIds: [312, 313, 314, 315, 316],
     price: 7,
     discount: 3
