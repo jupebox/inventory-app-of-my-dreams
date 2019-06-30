@@ -13,6 +13,9 @@ var routes = require("./config/routes");
 const server = new Hapi.Server({
   host: "localhost",
   port: 3001,
+  routes: {
+    cors: true,
+  },
 });
 
 const start = async function() {

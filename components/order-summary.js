@@ -3,7 +3,7 @@ import {
   getSku,
   getProduct,
   getSets,
-  getDiscountRules
+  getDiscountRules,
 } from "../services/inventoryService";
 
 class OrderSummary extends Component {
@@ -11,7 +11,9 @@ class OrderSummary extends Component {
     customDiscount: null,
     discountType: "dollar amount",
     paymentMethod: "cash",
-    location: "Anime Expo (Los Angeles)"
+    chargeFee: false,
+    location: "Anime Expo (Los Angeles)",
+    notes: "",
   };
   handleChange = event => {
     this.setState({ [event.target.name]: event.target.value });
@@ -19,7 +21,7 @@ class OrderSummary extends Component {
   handleDiscountTypeClick = event => {
     this.setState({
       discountType:
-        this.state.discountType === "percent" ? "dollar amount" : "percent"
+        this.state.discountType === "percent" ? "dollar amount" : "percent",
     });
   };
   handleOptionChange = event => {
@@ -30,21 +32,43 @@ class OrderSummary extends Component {
     }
 
     this.setState({
-      paymentMethod
+      paymentMethod,
+    });
+  };
+  handleCheckboxChange = event => {
+    const { checked } = event.target;
+    let chargeFee = checked;
+    this.setState({
+      chargeFee,
     });
   };
   handleQuantityUpdate = event => {
     const { value, name } = event.target;
-    if (typeof +value !== NaN) {
-      this.props.updateQuantity(name, value);
+    if (typeof +value === NaN || value < 0) {
+      event.preventDefault();
+      return;
     }
+    this.props.updateQuantity(name, value);
   };
-  handleCommissionPriceChange = cartItem => {};
+  handleCommissionPriceChange = (cartItem, event) => {
+    const { value } = event.target;
+    if (typeof +value === NaN || value < 0) {
+      event.preventDefault();
+      return;
+    }
+    this.props.updatePrice(cartItem.sku, value);
+  };
   placeOrder = () => {
     const explodedCart = this.explodeCart();
     const { products, totalQuantity, categoryQuantities } = explodedCart;
     const cartItems = this.getFormattedCartItems();
-    const { location, paymentMethod, customDiscount } = this.state;
+    const {
+      location,
+      paymentMethod,
+      customDiscount,
+      chargeFee,
+      notes,
+    } = this.state;
     const { totalDiscount, appliedRules } = this.getDiscounts();
     let orderInfo = {
       cartItems,
@@ -57,8 +81,11 @@ class OrderSummary extends Component {
       discountsFromRules: +totalDiscount - +customDiscount,
       totalDiscount,
       appliedRules,
+      squareFee: this.getSquareFee(),
+      chargeFee,
       subtotal: this.getSubtotal(),
-      total: this.getTotal()
+      total: this.getTotal(),
+      notes,
     };
     console.log(orderInfo);
   };
@@ -71,8 +98,14 @@ class OrderSummary extends Component {
       categoryQuantities: {
         print: { Mini: 0, Small: 0, Smedium: 0, Medium: 0, Large: 0 },
         stickers: { Tiny: 0, Small: 0, Large: 0, Sheet: 0 },
-        button: 0
-      }
+        button: 0,
+        charm: 0,
+        stationery: 0,
+        commission: 0,
+        addon: 0,
+        bookmark: 0,
+        booklet: 0,
+      },
     };
     for (let item of cartItems) {
       const sku = getSku(item.sku);
@@ -87,8 +120,8 @@ class OrderSummary extends Component {
         explodedCart.categoryQuantities[medium][
           sku.options.size
         ] += +item.quantity;
-      } else if (medium === "button") {
-        explodedCart.categoryQuantities.button += +item.quantity;
+      } else {
+        explodedCart.categoryQuantities[medium] += +item.quantity;
       }
     }
     return explodedCart;
@@ -98,14 +131,27 @@ class OrderSummary extends Component {
     const initialCartItems = this.props.getCartItems();
     const keys = Object.keys(initialCartItems);
     for (let key of keys) {
-      cartItems.push({ sku: +key, quantity: initialCartItems[key] });
+      if (typeof initialCartItems[key] === "number") {
+        cartItems.push({ sku: +key, quantity: initialCartItems[key] });
+      } else {
+        cartItems.push({
+          sku: +key,
+          quantity: initialCartItems[key].quantity,
+          price: initialCartItems[key].price,
+        });
+      }
     }
     return cartItems;
   };
-  getItemPrice = (skuId, quantity) => {
+  getItemPrice = (skuId, cartItem) => {
     const sku = getSku(skuId);
+    const { quantity } = cartItem;
     if (!sku) {
       return 0;
+    }
+    if (cartItem.price) {
+      // custom price set on item, for commissions
+      return cartItem.price * quantity;
     }
     if (sku.price) {
       // custom price set on sku, for damaged goods or other special cases
@@ -195,7 +241,7 @@ class OrderSummary extends Component {
     let subtotal = 0;
     const cartItems = this.getFormattedCartItems();
     for (let item of cartItems) {
-      subtotal += this.getItemPrice(item.sku, item.quantity);
+      subtotal += this.getItemPrice(item.sku, item);
     }
     return subtotal;
   };
@@ -223,7 +269,7 @@ class OrderSummary extends Component {
           appliedRules.push({
             id: set.id,
             title: set.title + " Set",
-            discount: set.discount
+            discount: set.discount,
           });
           for (let item of cartItems) {
             if (skusFound.includes(item)) {
@@ -262,6 +308,11 @@ class OrderSummary extends Component {
   getTotal = () => {
     return this.getSubtotal() - this.getDiscounts().totalDiscount;
   };
+  getSquareFee = () => {
+    return this.getTotal()
+      ? `$${(this.getTotal() * 0.029 + 0.3).toFixed(2)}`
+      : 0;
+  };
   renderTableRow = cartItem => {
     const sku = getSku(cartItem.sku);
     const product = getProduct(sku.parentId);
@@ -294,24 +345,24 @@ class OrderSummary extends Component {
             className="field"
             type="number"
             name={sku.id}
-            defaultValue={cartItem.quantity}
+            value={cartItem.quantity}
             onChange={this.handleQuantityUpdate}
           />
         </td>
         <td>
-          $
+          <span className="dollar-sign">$</span>
           {product.id.indexOf("commission") > -1 ? (
             <input
-              className="field"
+              className="field price"
               type="number"
               name="price"
               defaultValue={cartItem.price}
-              onChange={() => {
-                this.handleCommissionPriceChange(cartItem);
+              onChange={event => {
+                this.handleCommissionPriceChange(cartItem, event);
               }}
             />
           ) : (
-            this.getItemPrice(sku.id, cartItem.quantity)
+            this.getItemPrice(sku.id, cartItem)
           )}
         </td>
         <style jsx>{`
@@ -343,6 +394,10 @@ class OrderSummary extends Component {
             border: solid 1px gray;
             border-radius: 5px;
             width: 30px;
+          }
+          .price {
+            max-width: calc(100% - 1.5em);
+            display: inline-block;
           }
           button {
             font-size: 25px;
@@ -466,6 +521,25 @@ class OrderSummary extends Component {
                   </label>
                 </td>
               </tr>
+              {this.state.paymentMethod === "square" && (
+                <tr>
+                  <td colSpan="2">
+                    Charge <br />
+                    Square Fee?
+                  </td>
+                  <td colSpan="2">
+                    Fee: {this.getSquareFee()}
+                    <label className="checkbox">
+                      <input
+                        type="checkbox"
+                        onChange={this.handleCheckboxChange}
+                        defaultValue={this.state.chargeFee}
+                      />
+                      <i className="checkbox-substitute">✔</i>
+                    </label>
+                  </td>
+                </tr>
+              )}
               <tr>
                 <td>Location:</td>
                 <td colSpan="3">
@@ -476,6 +550,19 @@ class OrderSummary extends Component {
                     name="location"
                     onChange={this.handleChange}
                     placeholder="Location"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>Notes:</td>
+                <td colSpan="3">
+                  <textarea
+                    className="field"
+                    type="text"
+                    defaultValue={this.state.notes}
+                    name="notes"
+                    onChange={this.handleChange}
+                    placeholder="Order notes"
                   />
                 </td>
               </tr>
@@ -590,6 +677,38 @@ class OrderSummary extends Component {
           }
           .place-order {
             width: 100%;
+          }
+          .checkbox {
+            position: relative;
+            width: 30px;
+            height: 30px;
+            border: solid 2px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+            background: #fff;
+            display: inline-block;
+            border-radius: 5px;
+            margin-left: 10px;
+            vertical-align: middle;
+          }
+          .checkbox input {
+            position: absolute;
+            left: -9999px;
+          }
+          .checkbox-substitute {
+            position: absolute;
+            display: block;
+            transition: top 0.2s, opacity 0.3s;
+            top: -10px;
+            left: 3px;
+            z-index: 1;
+            font-style: normal;
+            font-size: 25px;
+            color: #000;
+            opacity: 0;
+          }
+          input:checked + .checkbox-substitute {
+            top: -2px;
+            opacity: 1;
           }
         `}</style>
       </aside>

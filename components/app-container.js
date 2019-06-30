@@ -27,7 +27,26 @@ class AppContainer extends Component {
         updateQuantity: (skuId, quantity) => {
           if (typeof window !== "undefined") {
             let cartItems = { ...window.cartItems };
-            cartItems[skuId] = +quantity;
+            if (typeof cartItems[skuId] === "number") {
+              cartItems[skuId] = +quantity;
+            } else {
+              cartItems[skuId].quantity = +quantity;
+            }
+            window.cartItems = cartItems;
+            this.setState({ cartItems });
+          }
+        },
+        updatePrice: (skuId, price) => {
+          if (typeof window !== "undefined") {
+            let cartItems = { ...window.cartItems };
+            if (typeof cartItems[skuId] === "number") {
+              cartItems[skuId] = {
+                quantity: cartItems[skuId],
+                price: +price,
+              };
+            } else {
+              cartItems[skuId].price = +price;
+            }
             window.cartItems = cartItems;
             this.setState({ cartItems });
           }
@@ -39,7 +58,7 @@ class AppContainer extends Component {
             window.cartItems = cartItems;
             this.setState({ cartItems });
           }
-        }
+        },
       });
     });
     return (

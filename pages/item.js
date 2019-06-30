@@ -11,6 +11,9 @@ const Item = product => (
     <Link href="/">
       <button>&times;</button>
     </Link>
+    {/* <Link href={`/edit?id=${product.id}`}>
+      <a>Edit</a>
+    </Link> */}
     <style jsx>{`
       section {
         font-family: Helvetica, Arial, Verdana, sans-serif;
