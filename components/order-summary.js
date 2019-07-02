@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import axios from "axios";
+
 import {
   getSku,
   getProduct,
@@ -88,6 +90,14 @@ class OrderSummary extends Component {
       notes,
     };
     console.log(orderInfo);
+    axios
+      .post("http://localhost:3001/api/v1/order", orderInfo)
+      .then(function(response) {
+        console.log(response);
+      })
+      .catch(function(error) {
+        console.log(error);
+      });
   };
   explodeCart = passedCartItems => {
     const cartItems = passedCartItems || this.getFormattedCartItems();

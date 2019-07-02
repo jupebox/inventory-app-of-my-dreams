@@ -2,6 +2,7 @@ var product = require("./product");
 var set = require("./set");
 var discountRule = require("./discountRule");
 var sku = require("./sku");
+var order = require("./order");
 
 var defaultRoutes = [
   {
@@ -13,4 +14,11 @@ var defaultRoutes = [
   },
 ];
 
-module.exports = [].concat(product, set, discountRule, sku, defaultRoutes);
+module.exports = [].concat(
+  product,
+  set,
+  discountRule,
+  sku,
+  order,
+  defaultRoutes
+);
