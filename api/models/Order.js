@@ -4,6 +4,7 @@ const Schema = mongoose.Schema;
 const CartItemSchema = new Schema({
   sku: String,
   quantity: Number,
+  price: Number,
 });
 
 const RuleSchema = new Schema({
@@ -50,7 +51,7 @@ const OrderSchema = new Schema({
   notes: String,
   paymentMethod: String,
   productIds: [String],
-  squareFee: String,
+  squareFee: Number,
   subtotal: Number,
   total: Number,
   totalDiscount: Number,
