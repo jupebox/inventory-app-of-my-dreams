@@ -12,26 +12,7 @@ module.exports = [
     method: "POST",
     path: "/api/v1/product",
     handler: (request, reply) => {
-      const {
-        id,
-        artist,
-        imageUrl,
-        medium,
-        productOptions,
-        skuIds,
-        title,
-        type,
-      } = request.payload;
-      const product = new Product({
-        artist,
-        id,
-        imageUrl,
-        medium,
-        productOptions,
-        skuIds,
-        title,
-        type,
-      });
+      const product = new Product(request.payload);
       return product.save();
     },
   },

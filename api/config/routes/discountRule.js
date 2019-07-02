@@ -11,16 +11,7 @@ module.exports = [
     method: "POST",
     path: "/api/v1/discountRule",
     handler: (request, reply) => {
-      const { discount, id, medium, quantity, size, title } = request.payload;
-
-      const discountRule = new DiscountRule({
-        discount,
-        id,
-        medium,
-        quantity,
-        size,
-        title,
-      });
+      const discountRule = new DiscountRule(request.payload);
       return discountRule.save();
     },
   },

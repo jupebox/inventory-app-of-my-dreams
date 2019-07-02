@@ -12,15 +12,7 @@ module.exports = [
     method: "POST",
     path: "/api/v1/set",
     handler: (request, reply) => {
-      const { discount, id, price, skuIds, title, type } = request.payload;
-      const set = new Set({
-        discount,
-        id,
-        price,
-        skuIds,
-        title,
-        type,
-      });
+      const set = new Set(request.payload);
       return set.save();
     },
   },

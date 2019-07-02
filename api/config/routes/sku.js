@@ -12,15 +12,7 @@ module.exports = [
     method: "POST",
     path: "/api/v1/sku",
     handler: (request, reply) => {
-      const { id, inventory, options, parentId, type } = request.payload;
-
-      const sku = new Sku({
-        id,
-        inventory,
-        options,
-        parentId,
-        type,
-      });
+      const sku = new Sku(request.payload);
       return sku.save();
     },
   },
