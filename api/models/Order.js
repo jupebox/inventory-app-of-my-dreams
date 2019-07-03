@@ -40,22 +40,27 @@ const CategoryQuantitiesSchema = new Schema({
   stickers: StickerQuantitySchema,
 });
 
-const OrderSchema = new Schema({
-  appliedRules: [RuleSchema],
-  cartItems: [CartItemSchema],
-  categoryQuantities: CategoryQuantitiesSchema,
-  chargeFee: Boolean,
-  customDiscount: Number,
-  discountsFromRules: Number,
-  location: String,
-  notes: String,
-  paymentMethod: String,
-  productIds: [String],
-  squareFee: Number,
-  subtotal: Number,
-  total: Number,
-  totalDiscount: Number,
-  totalQuantity: Number,
-});
+const OrderSchema = new Schema(
+  {
+    appliedRules: [RuleSchema],
+    cartItems: [CartItemSchema],
+    categoryQuantities: CategoryQuantitiesSchema,
+    chargeFee: Boolean,
+    customDiscount: Number,
+    discountsFromRules: Number,
+    location: String,
+    notes: String,
+    paymentMethod: String,
+    productIds: [String],
+    squareFee: String,
+    subtotal: Number,
+    total: Number,
+    totalDiscount: Number,
+    totalQuantity: Number,
+  },
+  {
+    timestamps: { createdAt: true, updatedAt: false },
+  }
+);
 
 module.exports = mongoose.model("Order", OrderSchema);
