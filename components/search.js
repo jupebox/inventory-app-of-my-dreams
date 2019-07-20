@@ -9,6 +9,7 @@ class Search extends Component {
   };
   sets = getSets();
   initial_products = getProducts().filter(product => !product.hideFromList);
+
   filterProducts = () => {
     let filtered_products = [...this.sets, ...this.initial_products];
     const query = this.state.query ? this.state.query.toLowerCase() : false;

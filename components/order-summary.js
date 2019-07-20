@@ -83,17 +83,18 @@ class OrderSummary extends Component {
       discountsFromRules: +totalDiscount - +customDiscount,
       totalDiscount,
       appliedRules,
-      squareFee: this.getSquareFee(),
+      squareFee: this.getSquareFee().raw,
       chargeFee,
       subtotal: this.getSubtotal(),
       total: this.getTotal(),
       notes,
     };
-    console.log(orderInfo);
+    const clearCart = this.props.clearCart;
     axios
       .post("http://localhost:3001/api/v1/order", orderInfo)
       .then(function(response) {
         console.log(response);
+        clearCart();
       })
       .catch(function(error) {
         console.log(error);
@@ -153,105 +154,12 @@ class OrderSummary extends Component {
     }
     return cartItems;
   };
-  getItemPrice = (skuId, cartItem) => {
-    const sku = getSku(skuId);
-    const { quantity } = cartItem;
-    if (!sku) {
-      return 0;
-    }
-    if (cartItem.price) {
-      // custom price set on item, for commissions
-      return cartItem.price * quantity;
-    }
-    if (sku.price) {
-      // custom price set on sku, for damaged goods or other special cases
-      return sku.price * quantity;
-    }
-    const product = getProduct(sku.parentId);
-    let price = 0;
 
-    if (!sku.options) {
-      switch (product.medium) {
-        case "button":
-          price = 2;
-          break;
-        case "charm":
-          price = 10;
-          break;
-      }
-      return price * quantity;
-    }
-
-    const { size, finish, quality, side } = sku.options;
-
-    switch (product.medium) {
-      case "print":
-        if (size === "Mini") {
-          price = 2;
-          if (finish === "Holographic") {
-            price += 1;
-          }
-        } else if (size === "Small") {
-          price = 5;
-          if (finish === "Holographic") {
-            price += 1;
-          }
-        } else if (size === "Smedium") {
-          price = 7;
-          if (finish === "Holographic") {
-            price += 1;
-          }
-        } else if (size === "Medium") {
-          price = 10;
-          if (finish === "Holographic") {
-            price += 2;
-          }
-        } else if (size === "Large") {
-          price = 15;
-          if (finish === "Holographic") {
-            price += 3;
-          }
-        }
-        break;
-
-      case "stickers":
-        if (size) {
-          if (size === "Tiny") {
-            price = 0.5;
-          } else if (size === "Small") {
-            price = 1;
-          } else if (size === "Large") {
-            price = 2;
-          } else if (size === "Sheet") {
-            price = 5;
-          }
-        }
-        if (quality && quality === "Misprint") {
-          price = 2;
-        }
-        break;
-      case "bookmark":
-        if (side === "Double-sided") {
-          price = 5;
-        } else {
-          price = 2;
-        }
-        break;
-      case "grabbag":
-        if (size === "Small") {
-          price = 10;
-        } else if (size === "Medium") {
-          price = 25;
-        }
-        break;
-    }
-    return price * quantity;
-  };
   getSubtotal = () => {
     let subtotal = 0;
     const cartItems = this.getFormattedCartItems();
     for (let item of cartItems) {
-      subtotal += this.getItemPrice(item.sku, item);
+      subtotal += this.props.getItemPrice(item.sku, item);
     }
     return subtotal;
   };
@@ -319,9 +227,8 @@ class OrderSummary extends Component {
     return this.getSubtotal() - this.getDiscounts().totalDiscount;
   };
   getSquareFee = () => {
-    return this.getTotal()
-      ? `$${(this.getTotal() * 0.029 + 0.3).toFixed(2)}`
-      : 0;
+    let fee = this.getTotal() ? (this.getTotal() * 0.029 + 0.3).toFixed(2) : 0;
+    return { formatted: `$${fee}`, raw: fee };
   };
   renderTableRow = cartItem => {
     const sku = getSku(cartItem.sku);
@@ -372,7 +279,7 @@ class OrderSummary extends Component {
               }}
             />
           ) : (
-            this.getItemPrice(sku.id, cartItem)
+            this.props.getItemPrice(sku.id, cartItem)
           )}
         </td>
         <style jsx>{`
@@ -538,7 +445,7 @@ class OrderSummary extends Component {
                     Square Fee?
                   </td>
                   <td colSpan="2">
-                    Fee: {this.getSquareFee()}
+                    Fee: {this.getSquareFee().formatted}
                     <label className="checkbox">
                       <input
                         type="checkbox"

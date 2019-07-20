@@ -1,4 +1,10 @@
 import React, { Component } from "react";
+import {
+  getSku,
+  getProduct,
+  getSets,
+  getDiscountRules,
+} from "../services/inventoryService";
 
 class AppContainer extends Component {
   // currently have to work with window object because state doesn't persist between pages
@@ -58,6 +64,118 @@ class AppContainer extends Component {
             window.cartItems = cartItems;
             this.setState({ cartItems });
           }
+        },
+        clearCart: () => {
+          window.cartItems = {};
+          this.setState({ cartItems: {} });
+        },
+        getItemPrice: (skuId, cartItem) => {
+          const sku = getSku(skuId);
+          const { quantity } = cartItem;
+          if (!sku) {
+            return 0;
+          }
+          if (cartItem.price) {
+            // custom price set on item, for commissions
+            return cartItem.price * quantity;
+          }
+          if (sku.price) {
+            // custom price set on sku, for damaged goods or other special cases
+            return sku.price * quantity;
+          }
+          const product = getProduct(sku.parentId);
+          let price = 0;
+
+          if (!sku.options) {
+            switch (product.medium) {
+              case "button":
+                price = 2;
+                break;
+              case "charm":
+                price = 10;
+                break;
+            }
+            return price * quantity;
+          }
+
+          const { size, finish, quality, side } = sku.options;
+
+          switch (product.medium) {
+            case "print":
+              if (size === "Mini") {
+                price = 3;
+                if (finish === "Holographic") {
+                  price += 1;
+                }
+              } else if (size === "Small") {
+                price = 5;
+                if (finish === "Holographic") {
+                  price += 1;
+                }
+              } else if (size === "Smedium") {
+                price = 7;
+                if (finish === "Holographic") {
+                  price += 1;
+                }
+              } else if (size === "Medium") {
+                price = 10;
+                if (finish === "Holographic") {
+                  price += 2;
+                }
+              } else if (size === "Large") {
+                price = 15;
+                if (finish === "Holographic") {
+                  price += 3;
+                }
+              }
+              break;
+
+            case "stickers":
+              if (size) {
+                if (size === "Tiny") {
+                  price = 0.5;
+                } else if (size === "Small") {
+                  price = 1;
+                } else if (size === "Large") {
+                  price = 2;
+                } else if (size === "Sheet") {
+                  price = 5;
+                }
+              }
+              if (quality && quality === "Misprint") {
+                price = 2;
+              }
+              break;
+            case "bookmark":
+              if (side === "Double-sided") {
+                price = 3;
+              } else {
+                price = 2;
+              }
+              break;
+            case "letter":
+              if (size === "Small") {
+                price = 2;
+              } else {
+                price = 4;
+              }
+              break;
+            case "stationery":
+              if (size === "6 sheets") {
+                price = 5;
+              } else {
+                price = 10;
+              }
+              break;
+            case "grabbag":
+              if (size === "Small") {
+                price = 10;
+              } else if (size === "Medium") {
+                price = 25;
+              }
+              break;
+          }
+          return price * quantity;
         },
       });
     });
